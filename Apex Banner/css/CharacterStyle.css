@@ -1,0 +1,40 @@
+.regends{
+    background-color: rgb(48, 48, 48);
+    padding-left:80px;
+    padding-top:16px;
+    padding-bottom:16px;
+    margin-top: 45px;
+    width: 100%;
+    z-index: 10;
+}
+
+.regend{
+    padding-left:30px;
+    padding-top:16px;
+    float: left;
+    margin-right: 30px;
+}
+.info{
+    padding-top:16px;
+    margin-bottom: 600px;
+    font-size: 20px;
+}
+.skill{
+ background-color: rgb(224, 45, 0);
+ padding-left:30px;
+ padding-top:30px;
+ margin-top: 16px;
+}
+.video{
+margin-left: 100px;
+ padding-top: 200px;
+ padding-left: 200px;   
+ padding-bottom: 200px;
+ float: left;
+}
+.story{
+    padding-top: 200px;
+ padding-left: 100px;   
+ padding-bottom: 200px;
+ text-align: center;
+}

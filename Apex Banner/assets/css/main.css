@@ -1744,7 +1744,7 @@ ul.icons {
     ul.icons li .icon:before {
       font-size: 2rem; }
 
-      
+
 
 /* Image */
 .image {
@@ -2432,7 +2432,7 @@ body {
   z-index: 10001; }
   #header > .logo {
     color: #ffffff;
-    font-size: 1rem;
+    font-size: 2rem;
     font-weight: 600;
     height: inherit;
     line-height: inherit;

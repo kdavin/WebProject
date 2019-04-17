@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Intro_test_page</title>
+    <style>
+
+      body {
+  background: #1C1C1C;
+}
+
+#myDIV {
+  margin: auto;
+  margin-top: 18%;
+  width: 200px;
+  height: 100px;
+
+  animation: mymove 5s infinite;
+
+ /* test용 테두리
+  border: 1px solid white; */
+
+}
+
+
+.middle {
+  transition: .5s ease;
+  opacity: 0.0;
+  position: absolute;
+  top: 150%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#myDIV:hover .image {
+  opacity: 0;
+}
+
+#myDIV:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #424242;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+
+
+/* Standard syntax */
+@keyframes mymove {
+  50% {transform: rotateY(180deg);}
+}
+
+
+      </style>
+  </head>
+  <body>
+
+    <div id="myDIV">
+<img src="images/intro_image3.png" alt="introImage" width="200dp" height="100dp">
+<div class="middle">
+
+      <button id="demo" class="text" onclick="location.href='index.html' ">Click me</button>
+
+  </div>
+</div>
+<!--
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Hello World";
+
+}
+</script>
+-->
+
+  </body>
+</html>

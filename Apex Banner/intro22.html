@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="assets/css/main.css" />
     <title>Intro_test_page</title>
     <style>
 
@@ -11,10 +12,11 @@
 
 #myDIV {
   margin: auto;
-  margin-top: 18%;
+  margin-top: 0%;
   width: 200px;
-  height: 100px;
-
+  height: 150px;
+  z-index: 2;
+  position: relative;
   animation: mymove 5s infinite;
 
  /* test용 테두리
@@ -29,6 +31,7 @@
   position: absolute;
   top: 150%;
   left: 50%;
+
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
@@ -61,14 +64,21 @@
   </head>
   <body>
 
-    <div id="myDIV">
+    <div id="myDIV" >
+      <p style="margin: auto; color: white">마우스를 올려주세요.</p>
 <img src="images/intro_image3.png" alt="introImage" width="200dp" height="100dp">
 <div class="middle">
 
-      <button id="demo" class="text" onclick="location.href='index.html' ">Click me</button>
+      <button id="demo" class="text" onclick="location.href='index.html' " >Click me</button>
 
   </div>
 </div>
+
+<!-- Banner -->
+			<div id="banner" style="position: relative;">
+				<video autoplay loop muted playsinline src="images/banner.mp4"  ></video>
+			</div>
+
 <!--
 <script>
 function myFunction() {

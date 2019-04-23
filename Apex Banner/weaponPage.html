@@ -132,18 +132,18 @@
 						</header>
 						<div style="padding-left:30px; padding-Top:20px">
 								<div class="tab">
-										<button class="tablinks" onmouseover="openCity(event, 'item1')"><img src="images/weaponSample1.png" alt="weaponSample1" width="60px" height="40px" padding-right="12px"> weapon1</button>
-										<button class="tablinks" onmouseover="openCity(event, 'item2')"><img src="images/weaponSample2.png" alt="weaponSample2" width="60px" height="40px" padding-right="12px"> weapon2</button>
-										<button class="tablinks" onmouseover="openCity(event, 'item3')"><img src="images/weaponSample1.png" alt="weaponSample3" width="60px" height="40px" padding-right="12px"> weapon3</button>
-										<button class="tablinks" onmouseover="openCity(event, 'item4')"><img src="images/weaponSample1.png" alt="weaponSample4" width="60px" height="40px" padding-right="12px"> weapon4</button>
-										<button class="tablinks" onmouseover="openCity(event, 'item5')"><img src="images/weaponSample2.png" alt="weaponSample5" width="60px" height="40px" padding-right="12px"> weapon5</button>
-										<button class="tablinks" onmouseover="openCity(event, 'item6')"><img src="images/weaponSample2.png" alt="weaponSample6" width="60px" height="40px" padding-right="12px"> weapon6</button>
-										<button class="tablinks" onmouseover="openCity(event, 'item7')"><img src="images/weaponSample1.png" alt="weaponSample7" width="60px" height="40px" padding-right="12px"> weapon7</button>
-										<button class="tablinks" onmouseover="openCity(event, 'item8')"><img src="images/weaponSample2.png" alt="weaponSample8" width="60px" height="40px" padding-right="12px"> weapon8</button>
-										<button class="tablinks" onmouseover="openCity(event, 'item9')"><img src="images/weaponSample2.png" alt="weaponSample9" width="60px" height="40px" padding-right="12px"> weapon9</button>
-										<button class="tablinks" onmouseover="openCity(event, 'item10')"><img src="images/weaponSample2.png" alt="weaponSample10" width="60px" height="40px" padding-right="12px"> weapon10</button>
-										<button class="tablinks" onmouseover="openCity(event, 'item11')"><img src="images/weaponSample1.png" alt="weaponSample11" width="60px" height="40px" padding-right="12px"> weapon11</button>
-										<button class="tablinks" onmouseover="openCity(event, 'item12')"><img src="images/weaponSample2.png" alt="weaponSample12" width="60px" height="40px" padding-right="12px"> weapon12</button>
+										<button class="tablinks" onmouseover="openTab(event, 'item1')"><img src="images/weaponSample1.png" alt="weaponSample1" width="60px" height="40px" padding-right="12px"> weapon1</button>
+										<button class="tablinks" onmouseover="openTab(event, 'item2')"><img src="images/weaponSample2.png" alt="weaponSample2" width="60px" height="40px" padding-right="12px"> weapon2</button>
+										<button class="tablinks" onmouseover="openTab(event, 'item3')"><img src="images/weaponSample1.png" alt="weaponSample3" width="60px" height="40px" padding-right="12px"> weapon3</button>
+										<button class="tablinks" onmouseover="openTab(event, 'item4')"><img src="images/weaponSample1.png" alt="weaponSample4" width="60px" height="40px" padding-right="12px"> weapon4</button>
+										<button class="tablinks" onmouseover="openTab(event, 'item5')"><img src="images/weaponSample2.png" alt="weaponSample5" width="60px" height="40px" padding-right="12px"> weapon5</button>
+										<button class="tablinks" onmouseover="openTab(event, 'item6')"><img src="images/weaponSample2.png" alt="weaponSample6" width="60px" height="40px" padding-right="12px"> weapon6</button>
+										<button class="tablinks" onmouseover="openTab(event, 'item7')"><img src="images/weaponSample1.png" alt="weaponSample7" width="60px" height="40px" padding-right="12px"> weapon7</button>
+										<button class="tablinks" onmouseover="openTab(event, 'item8')"><img src="images/weaponSample2.png" alt="weaponSample8" width="60px" height="40px" padding-right="12px"> weapon8</button>
+										<button class="tablinks" onmouseover="openTab(event, 'item9')"><img src="images/weaponSample2.png" alt="weaponSample9" width="60px" height="40px" padding-right="12px"> weapon9</button>
+										<button class="tablinks" onmouseover="openTab(event, 'item10')"><img src="images/weaponSample2.png" alt="weaponSample10" width="60px" height="40px" padding-right="12px"> weapon10</button>
+										<button class="tablinks" onmouseover="openTab(event, 'item11')"><img src="images/weaponSample1.png" alt="weaponSample11" width="60px" height="40px" padding-right="12px"> weapon11</button>
+										<button class="tablinks" onmouseover="openTab(event, 'item12')"><img src="images/weaponSample2.png" alt="weaponSample12" width="60px" height="40px" padding-right="12px"> weapon12</button>
 									  </div>
 									  <div id="item1" class="tabcontent">
 										<h3>weapon1</h3>
@@ -207,7 +207,7 @@
 							<div class="clearfix"></div>
 
 							<script>
-							function openCity(evt, cityName) {
+							function openTab(evt, tabName) {
 							  var i, tabcontent, tablinks;
 							  tabcontent = document.getElementsByClassName("tabcontent");
 							  for (i = 0; i < tabcontent.length; i++) {
@@ -217,7 +217,7 @@
 							  for (i = 0; i < tablinks.length; i++) {
 								tablinks[i].className = tablinks[i].className.replace(" active", "");
 							  }
-							  document.getElementById(cityName).style.display = "block";
+							  document.getElementById(tabName).style.display = "block";
 							  evt.currentTarget.className += " active";
 							}
 							</script>

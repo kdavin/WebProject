@@ -42,4 +42,49 @@
 				side: 'right'
 			});
 
+	// Top move
+		$( window ).scroll( function() {
+			if ( $( this ).scrollTop() > 150 ) {
+				$( '.top' ).fadeIn();
+			} else {
+				$( '.top' ).fadeOut();
+			}
+		} );
+
+		$( '.top' ).click( function() {
+			$( 'html, body' ).animate( { scrollTop : 0 }, 400 );
+			return false;
+		} );
+	  
+	  
+
+	
+	$(function() {
+		$('#main_bn').ulslide({
+			statusbar: true,
+			width: 450,
+			height: 250,
+			affect: 'slide',
+			axis: 'x',
+			navigator: '#main_bn_bt a',
+			duration: 400,
+			autoslide: 3000
+		});
+	});
+	
+	$(function() {
+		$('#main_bn').ulslide({
+			statusbar: true,
+			width: 450,
+			height: 250,
+			affect: 'slide',
+			axis: 'x',
+			navigator: '#main_bn_bt a',
+			duration: 400,
+			autoslide: 3000
+		});
+	});		
+			
+			
+
 })(jQuery);

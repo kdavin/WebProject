@@ -3,34 +3,35 @@
     padding-left:80px;
     padding-top:16px;
     padding-bottom:16px;
-    margin-top: 45px;
+    margin:auto;
     width: 100%;
-    z-index: 10;
+    z-index: 2;
 }
 
 .regend{
-    padding-left:30px;
+    padding-left:50px;
     padding-top:16px;
     float: left;
-    margin-right: 30px;
+    margin-right: 70px;
+    
 }
 .info{
     padding-top:16px;
-    margin-bottom: 600px;
+    margin-bottom: 370px;
     font-size: 20px;
+    
 }
 .skill{
- background-color: rgb(224, 45, 0);
- padding-left:30px;
- padding-top:30px;
- margin-top: 16px;
+    background-color: #333;
+    padding: 30px;
+    margin-top: 16px;
 }
 .video{
-margin-left: 100px;
- padding-top: 200px;
- padding-left: 200px;   
- padding-bottom: 200px;
- float: left;
+    margin-left: 100px;
+    padding-top: 200px;
+    padding-left: 200px;   
+    padding-bottom: 200px;
+    float: left;
 }
 .story{
     padding-top: 200px;
@@ -38,3 +39,55 @@ margin-left: 100px;
  padding-bottom: 200px;
  text-align: center;
 }
+.body{
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-y: hidden;
+    transition: 0.5s;
+  }
+  .overlay-content {
+    position: relative;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  
+  @media screen and (max-height: 4500px) {
+    .overlay {overflow-y: auto;}
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+  }

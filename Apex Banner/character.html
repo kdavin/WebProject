@@ -14,15 +14,15 @@
       <link rel="stylesheet" href="assets/css/main.css" />
       <link href="css/CharacterStyle.css" rel="stylesheet" type="text/css">
       <style>
-         .menu_tab{width:100%; overflow:hidden;  border-bottom:2px ; padding:0px; margin:0px;}
+  .menu_tab{width:100%; overflow:hidden;  border-bottom:2px ; padding:0px; margin-left:10%;}
         .menu_tab ul{padding:0px; margin:0px; }
         .menu_tab li{list-style:none; position:relative; float:left; padding-right:15px; }
-        .menu_tab li a{display:block;padding:30px 50px 30px 50px;text-decoration:none; text-align:center;color:black;}
+        .menu_tab li a{display:block;padding:10px 60px;text-decoration:none; text-align:center;color:black;}
         .menu_tab li a:hover{text-decoration:none}
         .menu_tab li.active a{background:rgb(224, 45, 0); font-weight:bold; color:#333;}
         .menu_tab li.active a:hover{text-decoration:none}
-        #panels {margin:10px 20px 10px 0px; font-size:1.2em; line-height:1.5em;background-color: rgb(218, 84, 84);padding:100px 300px 100px 300px; text-align: center;}
-        
+        #panels {margin:0px 20px 10px 0px; font-size:1.2em; line-height:1.5em;background-color: rgb(224, 45, 0);padding:10px 10px;}
+            
         body {
           
            margin: 0;
@@ -42,10 +42,18 @@
    </head>
    
    <body class="is-preload">
-
+      <!--홈버튼 메뉴 호버-->
+      <div id="myNav" class="overlay">
+         <div class="overlay-content">
+           <a href="#">About</a>
+           <a href="#">Services</a>
+           <a href="#">Clients</a>
+           <a href="#">Contact</a>
+         </div>
+       </div>
       <!-- Header -->
          <header id="header">
-            <a class="logo" href="index.html" style="font-family:SLANT; color: rgb(224, 45, 0)">APEX BANNER</a>
+            <a id="p1" class="logo" href="index.html" style="font-family:SLANT; color: rgb(224, 45, 0); margin: auto;">APEX BANNER</a>
             <nav>
                <a href="#menu">Menu</a>
             </nav>
@@ -75,10 +83,10 @@
             <div class="inner">
                <div class="content">
                   
-                  
+    <!--캐릭터 설명-->              
                        <div class="character" >
                           
-                             <img src="images/Test3.png" width="290" height="700"  />
+                             <img src="images/wraith_r.png" width="290" height="700"  />
                            
                            
                              <p>프로필</p>
@@ -86,30 +94,29 @@
                            
                            
                        </div>
+  <!--스킬메뉴탭-->                     
                        <div class="skill">
                         <div class="menu_tab">
                            <ul>
-                           <li class="fst active"><a href="#;" onclick="tab_menu(0);">0번 메뉴</a></li>
-                           <li><a href="#;" onclick="tab_menu(1);">1번 메뉴</a></li>
-                           <li><a href="#;" onclick="tab_menu(2);">2번 메뉴</a></li>
-                           <li><a href="#;" onclick="tab_menu(3);">3번 메뉴</a></li>
-                           </ul>
+                              <li class="fst active"><a href="#;" onclick="tab_menu(0);"><img src="images/Wraith_skill01.png" width="200"height="100"></a></li>
+                              <li><a href="#;" onclick="tab_menu(1);"><img src="images/Wraith_skill02.png" width="200"height="100"></a></li>
+                              <li><a href="#;" onclick="tab_menu(2);"><img src="images/Wraith_skill03.png" width="200"height="100"></a></li>
+                                                 </ul>
                            </div>
+                           
                            <div class="menu_tab00 mTs" id="panels" >
-                           0
-                           
-                           
-                           </div>
-                           <div class="menu_tab01 mTs" id="panels" style="display: none;">
-                           1
-                           </div>
-                           <div class="menu_tab02 mTs" id="panels" style="display: none;">
-                           2
-                           </div>
-                           <div class="menu_tab03 mTs" id="panels" style="display: none;">
-                           3
-                           </div>
-                           
+                              <iframe width="560" height="315" src="https://www.youtube.com/embed/bglAJajZFx4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div class="menu_tab01 mTs" id="panels" style="display: none;">
+                            1
+                            </div>
+                            <div class="menu_tab02 mTs" id="panels" style="display: none;">
+                            2
+                            </div>
+                            <div class="menu_tab03 mTs" id="panels" style="display: none;">
+                            3
+                            </div>
+                                                 
                        </div>
                         
                           <div class="story" >
@@ -182,11 +189,18 @@
         $( window ).scroll( function() {
           if ( $( document ).scrollTop() > jbOffset.top ) {
             $( '.regends' ).addClass( 'jbFixed' );
+            
           }
           else {
             $( '.regends' ).removeClass( 'jbFixed' );
           }
         });
+        $("#p1").mouseenter(function(){
+        document.getElementById("myNav").style.height = "22%";
+      }); 
+      $("#myNav").mouseleave(function(){
+    document.getElementById("myNav").style.height = "0%";
+  });
       } );
 
   </script>

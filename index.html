@@ -12,6 +12,7 @@
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/slide.css" />
 
 		<style>
 			@import url(https://fonts.googleapis.com/css?family=Open+Sans);
@@ -40,10 +41,10 @@
 			  
 			  
 			  
-					  -webkit-box-pack: center;
+				-webkit-box-pack: center;
 			  -webkit-justify-content: center;
-				  -ms-flex-pack: center;
-					  justify-content: center;
+				-ms-flex-pack: center;
+				justify-content: center;
 			}
 			
 			.gallery-item{
@@ -76,7 +77,7 @@
 			}
 			
 			.gallery-item-description{
-			  color:white;
+			  color:white; 
 			  font-size: .8rem;
 			  width: 100%;
 			  height: 300px;
@@ -85,11 +86,11 @@
 			  position:absolute;
 			  bottom:0;
 			}
-			</style>
+			
+		</style>
 			
 	</head>
 	<body class="is-preload">
-
 		<!-- Header -->
 			<header id="header">
 				<a class="logo" href="index.html" style="font-family:SLANT; color: red">APEX BANNER</a>
@@ -110,13 +111,19 @@
 			</nav>
 
 		<!-- Banner -->
-			<section id="banner">
-				<div class="inner">
-					<h1 style="font-family:SLANT;">APEX BANNER</h1>
-					<p>Apex legends usefull information<br />
-					</p>
-				</div>
-				<video autoplay loop muted playsinline src="images/banner.mp4"></video>
+			<section id="banners">
+				<div class='parent'>
+					<div class='slider'>
+					 <button type="button" id='right' class='right' name="button">
+							 </button>
+					 <button type="button" id='left' class='left' name="button">
+							 </button>
+					 <div id='slide1' class='slide1 up1'>이미지1</div>
+					 <div id='slide2' class='slide2'>이미지2</div>
+					 <div id='slide3' class='slide3'>이미지3</div>
+					 <div id='slide4' class='slide4'>이미지4</div>
+					</div>
+				 </div>
 			</section>
 
 		<!-- Highlights -->
@@ -125,75 +132,75 @@
 					<div class="gallery">
 					  <div class="gallery-item">
 						<div class="gallery-item-image" style="height: 1000px;">
-						  <img src="images/wraith.png "></div>
+						  <img src="images/bloodhound.png "></div>
 						<div class="gallery-item-description">
-						  <h3 style="font-family:SLANT; color: red">Warith</h3>
-						  <h5 style="color: white">“There’s a thin line between life and death. You’ll find me there.”</h5>
+						  <h3 style="font-family:SLANT; color: red">BLOODHOUND</h3>
+						  <h5 style="color: white">“I am the hunter the Gods have sent.”</h5>
 						</div>
 					  </div>
 				  
 					  <div class="gallery-item">
 						<div class="gallery-item-image" style="height: 1000px;">
-						  <img src="images/wraith.png "></div>
+						  <img src="images/gibraltar.png "></div>
 						<div class="gallery-item-description">
-						  <h3 style="font-family:SLANT; color: red">Warith</h3>
-						  <h5 style="color: white">“There’s a thin line between life and death. You’ll find me there.”</h5>
+						  <h3 style="font-family:SLANT; color: red">GIBRALTAR</h3>
+						  <h5 style="color: white">“Try to move me; it'll be fun.”</h5>
+						</div>
+					  </div>
+					  <div class="gallery-item">
+						<div class="gallery-item-image" style="height: 1000px;">
+						  <img src="images/lifeline.png "></div>
+						<div class="gallery-item-description">
+						  <h3 style="font-family:SLANT; color: red">LIFELINE</h3>
+						  <h5 style="color: white">“Never quit. That's how you win.”</h5>
+						</div>
+					  </div>
+					  <div class="gallery-item">
+						<div class="gallery-item-image" style="height: 1000px;">
+						  <img src="images/pathfinder.png "></div>
+						<div class="gallery-item-description">
+						  <h3 style="font-family:SLANT; color: red">PATHFINDER</h3>
+						  <h5 style="color: white">“Losing isn't fun. That's why I don't do it.”</h5>
 						</div>
 					  </div>
 					  <div class="gallery-item">
 						<div class="gallery-item-image" style="height: 1000px;">
 						  <img src="images/wraith.png "></div>
 						<div class="gallery-item-description">
-						  <h3 style="font-family:SLANT; color: red">Warith</h3>
+						  <h3 style="font-family:SLANT; color: red">WRAITH</h3>
 						  <h5 style="color: white">“There’s a thin line between life and death. You’ll find me there.”</h5>
 						</div>
 					  </div>
 					  <div class="gallery-item">
 						<div class="gallery-item-image" style="height: 1000px;">
-						  <img src="images/wraith.png "></div>
+						  <img src="images/bangalore.png "></div>
 						<div class="gallery-item-description">
-						  <h3 style="font-family:SLANT; color: red">Warith</h3>
-						  <h5 style="color: white">“There’s a thin line between life and death. You’ll find me there.”</h5>
+						  <h3 style="font-family:SLANT; color: red">BANGALORE</h3>
+						  <h5 style="color: white">“Name the weapon--I'll still beat you.”</h5>
 						</div>
 					  </div>
 					  <div class="gallery-item">
 						<div class="gallery-item-image" style="height: 1000px;">
-						  <img src="images/wraith.png "></div>
+						  <img src="images/coustic.png "></div>
 						<div class="gallery-item-description">
-						  <h3 style="font-family:SLANT; color: red">Warith</h3>
-						  <h5 style="color: white">“There’s a thin line between life and death. You’ll find me there.”</h5>
+						  <h3 style="font-family:SLANT; color: red">COUSTIC</h3>
+						  <h5 style="color: white">“I don't concern myself with the ambitions of insects.”</h5>
 						</div>
 					  </div>
 					  <div class="gallery-item">
 						<div class="gallery-item-image" style="height: 1000px;">
-						  <img src="images/wraith.png "></div>
+						  <img src="images/mirage.png "></div>
 						<div class="gallery-item-description">
-						  <h3 style="font-family:SLANT; color: red">Warith</h3>
-						  <h5 style="color: white">“There’s a thin line between life and death. You’ll find me there.”</h5>
+						  <h3 style="font-family:SLANT; color: red">MIRAGE</h3>
+						  <h5 style="color: white">“I don't take myself too seriously. I don't take myself anywhere. I need to get out more.”</h5>
 						</div>
 					  </div>
 					  <div class="gallery-item">
 						<div class="gallery-item-image" style="height: 1000px;">
-						  <img src="images/wraith.png "></div>
+						  <img src="images/octain.png "></div>
 						<div class="gallery-item-description">
-						  <h3 style="font-family:SLANT; color: red">Warith</h3>
-						  <h5 style="color: white">“There’s a thin line between life and death. You’ll find me there.”</h5>
-						</div>
-					  </div>
-					  <div class="gallery-item">
-						<div class="gallery-item-image" style="height: 1000px;">
-						  <img src="images/wraith.png "></div>
-						<div class="gallery-item-description">
-						  <h3 style="font-family:SLANT; color: red">Warith</h3>
-						  <h5 style="color: white">“There’s a thin line between life and death. You’ll find me there.”</h5>
-						</div>
-					  </div>
-					  <div class="gallery-item">
-						<div class="gallery-item-image" style="height: 1000px;">
-						  <img src="images/wraith.png "></div>
-						<div class="gallery-item-description">
-						  <h3 style="font-family:SLANT; color: red">Warith</h3>
-						  <h5 style="color: white">“There’s a thin line between life and death. You’ll find me there.”</h5>
+						  <h3 style="font-family:SLANT; color: red">OCTAIN</h3>
+						  <h5 style="color: white">“Whoa . . . what a rush!”</h5>
 						</div>
 					  </div>
 					</div>
@@ -277,12 +284,18 @@
 				
 			</footer>
 
+		<!-- Top -->
+			<div class="top">
+				<a href="#">맨 위로	</a>
+			</div>
+
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/slider.js"></script>
 
 	</body>
 </html>

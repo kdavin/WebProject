@@ -1,0 +1,134 @@
+!<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>test</title>
+    <style media="screen">
+      @import url(https://fonts.googleapis.com/css?family=Lato:100);
+      body {
+        background-color: #333;
+      }
+      #container{
+        text-align: center;
+      }
+/*
+      @-webkit-keyframes down{
+        0%{
+          opacity:0;
+        }
+        100%{
+          opacity:1;
+          transform: translateY(2.3em);
+        }
+      }
+      @-webkit-keyframes down2{
+        40%{
+          opacity:0;
+        }
+        100%{
+          opacity:0.5;
+          transform: translateY(2.3em);
+        }
+      }
+      @-webkit-keyframes down3{
+        60%{
+          opacity:0;
+        }
+        100%{
+          opacity:0.2;
+          transform: translateY(2.3em);
+        }
+      }
+      @keyframes down{
+        0%{
+          opacity:0;
+        }
+        100%{
+          opacity:1;
+          transform: translateY(2.3em);
+        }
+      }
+      @keyframes down2{
+        40%{
+          opacity:0;
+        }
+        100%{
+          opacity:0.5;
+          transform: translateY(2.3em);
+        }
+      }
+      @keyframes down3{
+        60%{
+          opacity:0;
+        }
+        100%{
+          opacity:0.2;
+          transform: translateY(2.3em);
+        }
+      }
+      #text{
+        font-family:"Lato";
+        font-size:1em;
+        text-align:center;
+        margin-top:0.5em;
+        color:white;
+      } */
+      #circle{
+        display: inline-block;
+      /*  margin-left: 30em;
+        margin-bottom: 1.2em; */
+        width:3em;
+        height:3em;
+        border-radius:50%;
+        background-color:rgba(255,255,255,0);
+        border: 0.185em solid rgba(255,255,255,1);
+        -webkit-animation: pulse 2s linear infinite;
+      }
+      #center{
+        margin-top:0.2em;
+        margin-left:auto;
+        margin-right:auto;
+        width:2.5em;
+        height:2.5em;
+        background-color:rgba(255,255,255,0);
+        border: 0.1em solid rgba(255,255,255,1);
+        border-radius:50%;
+        -webkit-animation: pulse 2s linear infinite;
+      }
+
+      @-webkit-keyframes pulse{
+        0%{
+          transform:scale(1,1);
+          opacity:0.1;
+      }
+        20%{
+          transform:scale(1.10,1.10);
+          opacity:1;
+        }
+        90%{
+          transform:scale(1.5,1.5);
+          opacity:0;
+        }
+        100%{
+          opacity:0;
+        }
+      }
+      #text{
+        font-family:"Lato";
+        font-size:1em;
+        text-align:center;
+        margin-top:2em;
+        color:white;
+      }
+
+    </style>
+
+  </head>
+  <body>
+
+  <div id="circle">
+    <div id="center"></div>
+  </div>
+
+  </body>
+</html>

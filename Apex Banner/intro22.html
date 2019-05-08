@@ -37,6 +37,12 @@
   text-align: center;
 }
 
+.last {
+  opacity: 0.0;
+  z-index: -1;
+}
+
+
 #myDIV:hover .image {
   opacity: 0;
 }
@@ -45,20 +51,93 @@
   opacity: 1;
 }
 
-.text {
-  background-color: #424242;
-  color: white;
-  font-size: 16px;
-  padding: 16px 32px;
+#myDIV:hover .last {
+  opacity: 1;
 }
 
+
+
+/* 물결치는 듯한 버튼 */
+
+#circle{
+  display: inline-block;
+  width:6.5em;
+  height:6.5em;
+  border-radius:50%;
+  background-color:rgba(255,255,255,0);
+  border: 0.185em solid rgba(255,255,255,1);
+  -webkit-animation: pulse 2s linear infinite;
+}
+#center{
+  margin-top:0.2em;
+  margin-left:auto;
+  margin-right:auto;
+  width:6em;
+  height:6em;
+  background-color:rgba(255,255,255,0);
+  border: 0.1em solid rgba(255,255,255,1);
+  border-radius:50%;
+  -webkit-animation: pulse 2s linear infinite;
+}
+
+@-webkit-keyframes pulse{
+  0%{
+    transform:scale(1,1);
+    opacity:0.1;
+}
+  20%{
+    transform:scale(1.10,1.10);
+    opacity:1;
+  }
+  90%{
+    transform:scale(1.5,1.5);
+    opacity:0;
+  }
+  100%{
+    opacity:0;
+  }
+}
+
+
+/* 움직이는 화살표 넣기 */
+.arrow img {
+  position: relative;
+  margin: 0 auto;
+  display: block;
+  top: 100px;
+  -webkit-animation: arrow 1s both infinite;
+  animation: arrow 1s both infinite;
+}
+
+@-webkit-keyframes arrow {
+    0%, 20%, 50%, 80%, 100% {
+      -webkit-transform: translateY(0);
+    }
+    40% {
+      -webkit-transform: translateY(-30px);
+    }
+    60% {
+      -webkit-transform: translateY(-15px);
+    }
+}
+
+@keyframes arrow {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-30px);
+    }
+    80% {
+      transform: translateY(-15px);
+    }
+}
 
 
 /* Standard syntax */
 @keyframes mymove {
   50% {transform: rotateY(180deg);}
 }
-
 
       </style>
   </head>
@@ -68,27 +147,33 @@
 			<div id="banner" style="position: relative;">
         <video autoplay loop muted playsinline src="images/banner.mp4"  ></video>
 
+        <div class="container"  style="position: relative; top: -250px; left: 48%; z-index:2;" >
+      <div class="arrow">
+        <img src="http://marcelklacan.com/images/icon.png" alt="화살표" />
+      </div>
+    </div>
 
 
-        <div id="myDIV" >
+        <div id="myDIV" style="position: relative; left: 20.5%;">
+          <!-- TEST용 메세지-->
+          <!--
           <center><p style="margin: auto; color: white">마우스를 올려주세요.</p></center>
-          <img src="images/intro_image3.png" alt="introImage" width="150dp" height="150dp" >
-          <div class="middle"> <!-- 로고 이미지 수정방향 >>  onmouseover="this.style.opacity='0'"onmouseout="this.style.opacity='1'"  -->
-          <button id="demo" class="text" onclick="location.href='index.html' " >Click me</button>
+        -->
+          <img src="images/intro_image3.png" alt="introImage" width="150dp" height="150dp" onmouseover="this.style.opacity='0'"onmouseout="this.style.opacity='1'"  onclick="location.href='index.html'" >
 
-          </div>
         </div>
+
+        <!-- 물결치는 버튼 삽입 -->
+      <!--  <button class="text" onclick="location.href='index.html'"> -->
+
+      <div id="circle" style="position: relative; top: -40px; left:-28%; margin: auto; z-index:1;">
+        <div id="center" ></div>
+      </div>
+
 
 			</div>
 
-<!--
-<script>
-function myFunction() {
-  document.getElementById("demo").innerHTML = "Hello World";
 
-}
-</script>
--->
 
   </body>
 </html>

@@ -25,6 +25,8 @@
     background-color: #333;
     padding: 30px;
     margin-top: 16px;
+    width: 100%;
+    height: 60%;
 }
 .video{
     margin-left: 100px;
@@ -34,9 +36,7 @@
     float: left;
 }
 .story{
-    padding-top: 200px;
- padding-left: 100px;   
- padding-bottom: 200px;
+    padding:auto;
  text-align: center;
 }
 .body{
@@ -83,7 +83,7 @@
   }
   
   @media screen and (max-height: 4500px) {
-    .overlay {overflow-y: auto;}
+    /*.overlay {overflow-y: auto;}*/
     .overlay a {font-size: 20px}
     .overlay .closebtn {
     font-size: 40px;

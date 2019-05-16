@@ -74,6 +74,19 @@
     background-color: #ccc;
   }
 
+	/* tap안의 img */
+	.tab img {
+		width:140px;
+		height:80px;
+
+	}
+
+	/* tap안의 text */
+	.tab p {
+		padding: 0px 0px;
+		margin: 0px 0px;
+	}
+
   /* Style the tab content */
   .tabcontent {
     float: left;
@@ -83,6 +96,7 @@
     border-left: none;
     height: 500px;
     display: none;
+		overflow-y: auto;
   }
 
   /* Clear floats after the tab */
@@ -91,6 +105,31 @@
     clear: both;
     display: table;
   }
+
+
+	/* 무기 상세페이지 CSS */
+	#customers {
+	  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	  border-collapse: collapse;
+	  width: 80%;
+	}
+
+	#customers td, #customers th {
+	  border: 1px solid #ddd;
+	  padding: 8px;
+	}
+
+	#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+	#customers tr:hover {background-color: #ddd;}
+
+	#customers th {
+	  padding-top: 12px;
+	  padding-bottom: 12px;
+	  text-align: left;
+	  background-color: #4CAF50;
+	  color: white;
+	}
 
 
 
@@ -132,22 +171,94 @@
 						</header>
 						<div style="padding-left:30px; padding-Top:20px">
 								<div class="tab">
-										<button class="tablinks" onmouseover="openTab(event, 'item1')"><img src="images/weaponSample1.png" alt="weaponSample1" width="60px" height="40px" padding-right="12px"> weapon1</button>
-										<button class="tablinks" onmouseover="openTab(event, 'item2')"><img src="images/weaponSample2.png" alt="weaponSample2" width="60px" height="40px" padding-right="12px"> weapon2</button>
-										<button class="tablinks" onmouseover="openTab(event, 'item3')"><img src="images/weaponSample1.png" alt="weaponSample3" width="60px" height="40px" padding-right="12px"> weapon3</button>
-										<button class="tablinks" onmouseover="openTab(event, 'item4')"><img src="images/weaponSample1.png" alt="weaponSample4" width="60px" height="40px" padding-right="12px"> weapon4</button>
-										<button class="tablinks" onmouseover="openTab(event, 'item5')"><img src="images/weaponSample2.png" alt="weaponSample5" width="60px" height="40px" padding-right="12px"> weapon5</button>
-										<button class="tablinks" onmouseover="openTab(event, 'item6')"><img src="images/weaponSample2.png" alt="weaponSample6" width="60px" height="40px" padding-right="12px"> weapon6</button>
-										<button class="tablinks" onmouseover="openTab(event, 'item7')"><img src="images/weaponSample1.png" alt="weaponSample7" width="60px" height="40px" padding-right="12px"> weapon7</button>
-										<button class="tablinks" onmouseover="openTab(event, 'item8')"><img src="images/weaponSample2.png" alt="weaponSample8" width="60px" height="40px" padding-right="12px"> weapon8</button>
-										<button class="tablinks" onmouseover="openTab(event, 'item9')"><img src="images/weaponSample2.png" alt="weaponSample9" width="60px" height="40px" padding-right="12px"> weapon9</button>
-										<button class="tablinks" onmouseover="openTab(event, 'item10')"><img src="images/weaponSample2.png" alt="weaponSample10" width="60px" height="40px" padding-right="12px"> weapon10</button>
-										<button class="tablinks" onmouseover="openTab(event, 'item11')"><img src="images/weaponSample1.png" alt="weaponSample11" width="60px" height="40px" padding-right="12px"> weapon11</button>
-										<button class="tablinks" onmouseover="openTab(event, 'item12')"><img src="images/weaponSample2.png" alt="weaponSample12" width="60px" height="40px" padding-right="12px"> weapon12</button>
+									<center>어설트 라이플</center>
+										<button class="tablinks" onmouseover="openTab(event, 'item1')"><img src="http://www.apex-legends.co.kr/images/weapon/R-301.jpg" alt="weaponSample1" > <p>R-301 카빈</p></button>
+										<button class="tablinks" onmouseover="openTab(event, 'item2')"><img src="images/weaponSample2.png" alt="weaponSample2" > <p>ddd</p></button>
+										<button class="tablinks" onmouseover="openTab(event, 'item3')"><img src="images/weaponSample1.png" alt="weaponSample3" > <p>ddd</p></button>
+										<button class="tablinks" onmouseover="openTab(event, 'item4')"><img src="images/weaponSample1.png" alt="weaponSample4" > <p>ddd</p></button>
+										<button class="tablinks" onmouseover="openTab(event, 'item5')"><img src="images/weaponSample2.png" alt="weaponSample5" > <p>ddd</p></button>
+										<button class="tablinks" onmouseover="openTab(event, 'item6')"><img src="images/weaponSample2.png" alt="weaponSample6" > <p>ddd</p></button>
+										<button class="tablinks" onmouseover="openTab(event, 'item7')"><img src="images/weaponSample1.png" alt="weaponSample7" > <p>ddd</p></button>
+										<button class="tablinks" onmouseover="openTab(event, 'item8')"><img src="images/weaponSample2.png" alt="weaponSample8" > <p>ddd</p></button>
+										<button class="tablinks" onmouseover="openTab(event, 'item9')"><img src="images/weaponSample2.png" alt="weaponSample9" > <p>ddd</p></button>
+										<button class="tablinks" onmouseover="openTab(event, 'item10')"><img src="images/weaponSample2.png" alt="weaponSample10" > <p>ddd</p></button>
+										<button class="tablinks" onmouseover="openTab(event, 'item11')"><img src="images/weaponSample1.png" alt="weaponSample11" > <p>ddd</p></button>
+										<button class="tablinks" onmouseover="openTab(event, 'item12')"><img src="images/weaponSample2.png" alt="weaponSample12" > <p>ddd</p></button>
+										<button class="tablinks" onmouseover="openTab(event, 'item13')"><img src="images/weaponSample2.png" alt="weaponSample12" > <p>ddd</p></button>
+										<button class="tablinks" onmouseover="openTab(event, 'item14')"><img src="images/weaponSample2.png" alt="weaponSample12" > <p>ddd</p></button>
+										<button class="tablinks" onmouseover="openTab(event, 'item15')"><img src="images/weaponSample2.png" alt="weaponSample12" > <p>ddd</p></button>
+										<button class="tablinks" onmouseover="openTab(event, 'item16')"><img src="images/weaponSample2.png" alt="weaponSample12" > <p>ddd</p></button>
+										<button class="tablinks" onmouseover="openTab(event, 'item17')"><img src="images/weaponSample2.png" alt="weaponSample12" > <p>ddd</p></button>
+										<button class="tablinks" onmouseover="openTab(event, 'item18')"><img src="images/weaponSample2.png" alt="weaponSample12" > <p>ddd</p></button>
+										<button class="tablinks" onmouseover="openTab(event, 'item19')"><img src="images/weaponSample2.png" alt="weaponSample12" > <p>ddd</p></button>
+										<button class="tablinks" onmouseover="openTab(event, 'item20')"><img src="images/weaponSample2.png" alt="weaponSample12" > <p>ddd</p></button>
+										<button class="tablinks" onmouseover="openTab(event, 'item21')"><img src="images/weaponSample2.png" alt="weaponSample12" > <p>ddd</p></button>
+
 									  </div>
 									  <div id="item1" class="tabcontent">
-										<h3>weapon1</h3>
-										<p>weapon1 설명</p>
+										<h3>R-301 카빈</h3>
+										<p>
+											<table data-v-6c2cbffb="" class="tb-desc"><tr data-v-6c2cbffb=""><td data-v-6c2cbffb=""><img data-v-6c2cbffb="" class="charImg" src="http://www.apex-legends.co.kr/images/weapon/R-301.jpg"></td></tr> <tr data-v-6c2cbffb=""><td data-v-6c2cbffb="" class="charName">
+									                    R-301 카빈
+									                </td></tr> <tr data-v-6c2cbffb=""><td data-v-6c2cbffb="" class="charNameSub">
+
+									                </td></tr> <tr data-v-6c2cbffb=""><td data-v-6c2cbffb="" class="charQutoe">
+
+									                </td></tr> <tr data-v-6c2cbffb=""><td data-v-6c2cbffb="" class="Desc"><pre data-v-6c2cbffb="" style="white-space: pre-wrap;">기본적인 돌격소총. 경량 탄약을 써서 발당 대미지가 조금 낮으나 연사력이 높다. 반동이 낮고 탄착점이 균일하며 무난한 화력을 가져 사용 난이도가 낮기에 초보자에게 추천된다.
+
+단점은 낮은 발당 대미지와, 빠른 연사속도에 비해 낮은 탄창 용량 및 빠른 탄 소모 속도.</pre></td></tr></table>
+
+
+									    <table id="customers"><tr data-v-6c2cbffb=""><td data-v-6c2cbffb="">
+									                        기본 데미지
+									                    </td> <td data-v-6c2cbffb="">
+									                        14
+									                    </td></tr><tr data-v-6c2cbffb=""><td data-v-6c2cbffb="">
+									                        헤드샷 데미지
+									                    </td> <td data-v-6c2cbffb="">
+									                        28
+									                    </td></tr><tr data-v-6c2cbffb=""><td data-v-6c2cbffb="">
+									                        다리 데미지
+									                    </td> <td data-v-6c2cbffb="">
+									                        10.5
+									                    </td></tr><tr data-v-6c2cbffb=""><td data-v-6c2cbffb="">
+									                        RPM
+									                    </td> <td data-v-6c2cbffb="">
+									                        720
+									                    </td></tr><tr data-v-6c2cbffb=""><td data-v-6c2cbffb="">
+									                        탄창용량
+									                    </td> <td data-v-6c2cbffb="">
+									                        18
+									                    </td></tr><tr data-v-6c2cbffb=""><td data-v-6c2cbffb="">
+									                        재장전 속도(부착물 장착)
+									                    </td> <td data-v-6c2cbffb="">
+									                        2.4초
+									                    </td></tr><tr data-v-6c2cbffb=""><td data-v-6c2cbffb="">
+									                        재장전 속도(일반)
+									                    </td> <td data-v-6c2cbffb="">
+									                        3.2초
+									                    </td></tr><tr data-v-6c2cbffb=""><td data-v-6c2cbffb="">
+									                        탄종
+									                    </td> <td data-v-6c2cbffb="">
+									                        경량
+									                    </td></tr><tr data-v-6c2cbffb=""><td data-v-6c2cbffb="">
+									                        투사체속도
+									                    </td> <td data-v-6c2cbffb="">
+									                        29000
+									                    </td></tr><tr data-v-6c2cbffb=""><td data-v-6c2cbffb="">
+									                        무기꺼내기 속도
+									                    </td> <td data-v-6c2cbffb="">
+									                        0.6초
+									                    </td></tr><tr data-v-6c2cbffb=""><td data-v-6c2cbffb="">
+									                        무기넣기 속도
+									                    </td> <td data-v-6c2cbffb="">
+									                        0.55초
+									                    </td></tr><tr data-v-6c2cbffb=""><td data-v-6c2cbffb="">
+									                        총기부착물
+									                    </td> <td data-v-6c2cbffb="">
+									                        조준경/배럴/스톡/탄창
+									                    </td></tr></table>
+										</p>
 									  </div>
 
 									  <div id="item2" class="tabcontent">
@@ -204,6 +315,54 @@
 										<h3>weapon12</h3>
 										<p>weapon12 설명</p>
 									  </div>
+
+
+										<div id="item13" class="tabcontent">
+										<h3>weapon12</h3>
+										<p>weapon12 설명</p>
+									  </div>
+
+										<div id="item14" class="tabcontent">
+										<h3>weapon12</h3>
+										<p>weapon12 설명</p>
+									  </div>
+
+										<div id="item15" class="tabcontent">
+										<h3>weapon12</h3>
+										<p>weapon12 설명</p>
+									  </div>
+
+										<div id="item16" class="tabcontent">
+										<h3>weapon12</h3>
+										<p>weapon12 설명</p>
+									  </div>
+
+										<div id="item17" class="tabcontent">
+										<h3>weapon12</h3>
+										<p>weapon12 설명</p>
+									  </div>
+
+										<div id="item18" class="tabcontent">
+										<h3>weapon12</h3>
+										<p>weapon12 설명</p>
+									  </div>
+
+										<div id="item19" class="tabcontent">
+										<h3>weapon12</h3>
+										<p>weapon12 설명</p>
+									  </div>
+
+										<div id="item20" class="tabcontent">
+										<h3>weapon12</h3>
+										<p>weapon12 설명</p>
+									  </div>
+
+										<div id="item21" class="tabcontent">
+										<h3>weapon12</h3>
+										<p>weapon12 설명</p>
+									  </div>
+
+
 							<div class="clearfix"></div>
 
 							<script>
@@ -230,30 +389,14 @@
 				<div class="inner">
 					<div class="content">
 						<section>
-							<h3>Accumsan montes viverra</h3>
-							<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing. Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing sed feugiat eu faucibus. Integer ac sed amet praesent. Nunc lacinia ante nunc ac gravida.</p>
 						</section>
 						<section>
-							<h4>Sem turpis amet semper</h4>
-							<ul class="alt">
-								<li><a href="#">Dolor pulvinar sed etiam.</a></li>
-								<li><a href="#">Etiam vel lorem sed amet.</a></li>
-								<li><a href="#">Felis enim feugiat viverra.</a></li>
-								<li><a href="#">Dolor pulvinar magna etiam.</a></li>
-							</ul>
 						</section>
 						<section>
-							<h4>Magna sed ipsum</h4>
-							<ul class="plain">
-								<li><a href="#"><i class="icon fa-twitter">&nbsp;</i>Twitter</a></li>
-								<li><a href="#"><i class="icon fa-facebook">&nbsp;</i>Facebook</a></li>
-								<li><a href="#"><i class="icon fa-instagram">&nbsp;</i>Instagram</a></li>
-								<li><a href="#"><i class="icon fa-github">&nbsp;</i>Github</a></li>
-							</ul>
+
 						</section>
 					</div>
-					<div class="copyright">
-						&copy; Untitled. Photos <a href="https://unsplash.co">Unsplash</a>, Video <a href="https://coverr.co">Coverr</a>.
+
 					</div>
 				</div>
 			</footer>

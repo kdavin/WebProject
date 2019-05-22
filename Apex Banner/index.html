@@ -20,37 +20,37 @@
 				src:url("assets/fonts/SLANT.ttf")
 			}
 			@import url(https://fonts.googleapis.com/css?family=Open+Sans);
-			
+
 			*{
 			  margin:0;
 			  padding:0;
 			  box-sizing: border-box;
 			  font-family: 'Open Sans', sans-serif;
 			}
-			
+
 			.container{
 			  padding: 2rem;
-			  
+
 			}
 			.gallery{
 			  width: 100%;
 			  max-width: 2000px;
 			  min-height: 50vh;
 			  margin: 2rem auto;
-			  
+
 			  display: -webkit-box;
 			  display: -webkit-flex;
 			  display: -ms-flexbox;
 			  display: flex;
-			  
-			  
-			  
+
+
+
 				-webkit-box-pack: center;
 			  -webkit-justify-content: center;
 				-ms-flex-pack: center;
 				justify-content: center;
 			}
-			
+
 			.gallery-item{
 			  box-shadow: 2px 2px 8px -1px rgb(228, 13, 13);
 			  width: 300px;
@@ -61,7 +61,7 @@
 			  cursor: pointer;
 			  overflow: hidden;
 			}
-			
+
 			.gallery-item-image{
 			  position: absolute;
 			  width: 1000px;
@@ -72,16 +72,16 @@
 			  transition: all .5s ease;
 			  bottom:0;
 			  overflow: hidden;
-			
+
 			}
-			
+
 			.gallery-item:hover .gallery-item-image{
 			  bottom: 300px;
-			  
+
 			}
-			
+
 			.gallery-item-description{
-			  color:white; 
+			  color:white;
 			  font-size: .8rem;
 			  width: 100%;
 			  height: 300px;
@@ -90,9 +90,59 @@
 			  position:absolute;
 			  bottom:0;
 			}
-			
+
+			/* TopButton 스타일 */
+			a {
+			padding:15px;
+			display:block;
+		}
+
+		.diamond {
+			width: 0;
+			height: 0;
+			border: 15px solid transparent;
+			border-bottom-color: #D4CEAC;
+			position: relative;
+			top: -15px;
+			display: block;
+			text-indent: -9999px;
+			margin: 35px auto 45px;
+			clear: both;
+			transition: all 0.4s ease;
+		}
+
+		.diamond:hover {
+			border-bottom-color: #806868;
+			top:-20px;
+		}
+
+		.diamond:after {
+			content: '';
+			position: absolute;
+			left: -15px;
+			top: 15px;
+			width: 0;
+			height: 0;
+			border: 15px solid transparent;
+			border-top-color: #D4CEAC;
+			transition: all 0.1s linear;
+		}
+
+		.diamond:hover:after {
+			content: '';
+			position: absolute;
+			left: -15px;
+			top: 0;
+			width: 0;
+			height: 0;
+			border: 15px solid transparent;
+			border-bottom-color: #806868;
+		}
+
+
+
 		</style>
-			
+
 	</head>
 	<body class="is-preload">
 		<!-- Header -->
@@ -142,7 +192,7 @@
 						  <h5 style="color: white">“I am the hunter the Gods have sent.”</h5>
 						</div>
 					  </div>
-				  
+
 					  <div class="gallery-item">
 						<div class="gallery-item-image" style="height: 1000px;">
 						  <img src="images/gibraltar.png "></div>
@@ -285,12 +335,12 @@
 
 		<!-- Footer -->
 			<footer id="footer">
-				
+
 			</footer>
 
 		<!-- Top -->
 			<div class="top">
-				<a href="#">맨 위로	</a>
+				<a href="#">  <a href="#top"><span class="diamond">back to top</span></a>	</a>
 			</div>
 
 		<!-- Scripts -->

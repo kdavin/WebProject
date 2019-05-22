@@ -13,51 +13,12 @@
       <meta name="keywords" content="" />
       <link rel="stylesheet" href="assets/css/main.css" />
       <link href="css/CharacterStyle.css" rel="stylesheet" type="text/css">
-      <style>
-  .menu_tab{width:100%; overflow:hidden;  border-bottom:2px ; padding:0px;}
-        .menu_tab ul{padding:0px; margin:0px; }
-        .menu_tab li{list-style:none; position:relative; float:left; }
-        .menu_tab li a{display:block;padding:10px 86px;text-decoration:none; text-align:center;color:black;}
-        .menu_tab li a:hover{text-decoration:none}
-        .menu_tab li.active a{background:rgb(224, 45, 0); font-weight:bold; color:#333;}
-        .menu_tab li.active a:hover{text-decoration:none}
-        #panels {margin:0px 20px 10px 0px; font-size:1.2em; line-height:1.5em;background-color: rgb(224, 45, 0);padding:10px 10px;}
-            
-        body {
-          
-           margin: 0;
-           font-family: Arial, Helvetica, sans-serif;
-         }
-         .jbFixed {
-              position: fixed;
-              top: 55px;
-            }
-         .padding{
-           padding-left: 60px;
-           padding-right: 60px;
-         }
-         
-         
-         </style>
+      
    </head>
    
    <body class="is-preload">
-      <!--홈버튼 메뉴 호버-->
-      <div id="myNav" class="overlay">
-         <div class="overlay-content">
-            <a href="index.html">Main</a>
-            <a href="character.html">Character</a>
-            <a href="itemPage.html">Item</a>
-            <a href="weaponPage.html">Weapon</a>
-         </div>
-       </div>
-      <!-- Header -->
-         <header id="header">
-            <a id="p1" class="logo" href="index.html" style="font-family:SLANT; color: rgb(224, 45, 0); margin: auto;">APEX BANNER</a>
-            <!--<nav>
-               <a href="#menu">Menu</a>
-            </nav>-->
-         </header>
+      <!--top메뉴 포함-->
+    <? include("menu.html"); ?>
 
       <!-- Nav -->
          <!--<nav id="menu">
@@ -69,13 +30,14 @@
             </ul>
          </nav>-->
 
-      <!-- Heading -->
+      <!-- Heading --> 
+   
          
 
       <!-- Main -->
       <div class="regends">
-            <img src="images/Test1.png" width="100" height="100" onmouseover="this.style.opacity='0.7'"onmouseout="this.style.opacity='1'"/>
-            <img src="images/Test2.png" width="100" height="100" onmouseover="this.style.opacity='0.7'"onmouseout="this.style.opacity='1'"/>
+            <a href="character.html"><img src="images/Test1.png" width="100" height="100" onmouseover="this.style.opacity='0.7'"onmouseout="this.style.opacity='1'"/></a>
+            <a href="Bangalore.html"><img src="images/Test2.png" width="100" height="100" onmouseover="this.style.opacity='0.7'"onmouseout="this.style.opacity='1'"/></a>
          
             </div>
          <section id="main" class="wrapper">
@@ -86,7 +48,7 @@
     <!--캐릭터 설명-->              
                        <div class="character" >
                           
-                             <img src="images/wraith_r.png" width="400" height="700"  />
+                             <img src="images/charater/wraith_r.png" width="400" height="700"  />
                            
                            
                        </div>

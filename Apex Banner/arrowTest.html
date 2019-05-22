@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>ArrowTest</title>
+    <style media="screen">
+
+
+/* https://codepen.io/minustalent/pen/Frhaw */
+
+
+      @import "compass/css3";
+
+// Colors
+$border-color: lighten(#000, 75%);
+$border-active-color: lighten(#000, 50%);
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  padding-top: 100px;
+  width: 600px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.arrow {
+  display: inline-block;
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background: transparent;
+  text-indent: -9999px;
+  border: {
+    top: 2px solid $border-color;
+    left: 2px solid $border-color;
+  }
+  transition: all .3s ease-in-out;
+  text-decoration: none;
+  color: transparent;
+
+  &:hover {
+    border: {
+      color:  $border-active-color;
+      width: 6px;
+    }
+  }
+
+  &:before {
+    display: block;
+    height: 200%;
+    width: 200%;
+    margin: {
+      left: -50%;
+      top: -50%;
+    }
+    content: "";
+    transform: rotate(45deg);
+  }
+
+  &.prev {
+    transform: rotate(-45deg);
+    left: 0;
+  }
+
+  &.next {
+    transform: rotate(135deg);
+    right: 0;
+  }
+
+}
+    </style>
+  </head>
+  <body>
+
+
+    <a href="#" title="Previous" class="arrow prev">&laquo; previous</a>
+    <a href="#" title="Next" class="arrow next">next &raquo; </a>
+
+  </body>
+</html>

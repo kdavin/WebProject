@@ -17,22 +17,12 @@
    </head>
    
    <body class="is-preload">
-      <!--홈버튼 메뉴 호버-->
-      <div id="myNav" class="overlay">
-         <div class="overlay-content">
-            <a href="index.html">Main</a>
-            <a href="character.html">Character</a>
-            <a href="itemPage.html">Item</a>
-            <a href="weaponPage.html">Weapon</a>
-         </div>
-       </div>
-      <!-- Header -->
-         <header id="header">
-            <a id="p1" class="logo" href="index.html" style="font-family:SLANT; color: rgb(224, 45, 0); margin: auto;">APEX BANNER</a>
-            <!--<nav>
-               <a href="#menu">Menu</a>
-            </nav>-->
-         </header>
+      <!--top메뉴 포함-->
+      <div>
+         <?php
+          require 'menu.php' 
+         ?>
+      </div>
 
       <!-- Nav -->
          <!--<nav id="menu">
@@ -44,15 +34,14 @@
             </ul>
          </nav>-->
 
-      <!-- Heading -->
+      <!-- Heading --> 
+   
          
 
       <!-- Main -->
-      <div class="regends">
-        <a href="character.html"><img src="images/Test1.png" width="100" height="100" onmouseover="this.style.opacity='0.7'"onmouseout="this.style.opacity='1'"/></a>
-        <a href="Bangalore.html"><img src="images/Test2.png" width="100" height="100" onmouseover="this.style.opacity='0.7'"onmouseout="this.style.opacity='1'"/></a>
-     
-            </div>
+      <?php
+          require 'Regends.php' 
+         ?>
          <section id="main" class="wrapper">
                
             <div class="inner">
@@ -61,7 +50,7 @@
     <!--캐릭터 설명-->              
                        <div class="character" >
                           
-                             <img src="images/charater/Bangalore.png" width="400" height="700"  />
+                             <img src="images/charater/mirage.png" width="400" height="700"  />
                            
                            
                        </div>
@@ -100,35 +89,7 @@
 
       <!-- Footer -->
          <footer id="footer">
-            <div class="inner">
-               <div class="content">
-                  <section>
-                     <h3>Accumsan montes viverra</h3>
-                     <p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing. Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing sed feugiat eu faucibus. Integer ac sed amet praesent. Nunc lacinia ante nunc ac gravida.</p>
-                  </section>
-                  <section>
-                     <h4>Sem turpis amet semper</h4>
-                     <ul class="alt">
-                        <li><a href="#">Dolor pulvinar sed etiam.</a></li>
-                        <li><a href="#">Etiam vel lorem sed amet.</a></li>
-                        <li><a href="#">Felis enim feugiat viverra.</a></li>
-                        <li><a href="#">Dolor pulvinar magna etiam.</a></li>
-                     </ul>
-                  </section>
-                  <section>
-                     <h4>Magna sed ipsum</h4>
-                     <ul class="plain">
-                        <li><a href="#"><i class="icon fa-twitter">&nbsp;</i>Twitter</a></li>
-                        <li><a href="#"><i class="icon fa-facebook">&nbsp;</i>Facebook</a></li>
-                        <li><a href="#"><i class="icon fa-instagram">&nbsp;</i>Instagram</a></li>
-                        <li><a href="#"><i class="icon fa-github">&nbsp;</i>Github</a></li>
-                     </ul>
-                  </section>
-               </div>
-               <div class="copyright">
-                  &copy; Untitled. Photos <a href="https://unsplash.co">Unsplash</a>, Video <a href="https://coverr.co">Coverr</a>.
-               </div>
-            </div>
+            
          </footer>
 
       <!-- Scripts -->

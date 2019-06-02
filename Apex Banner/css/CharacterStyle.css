@@ -1,5 +1,5 @@
 .regends{
-    background-color: rgb(48, 48, 48);
+    background-color: rgba(0,0,0,0.6);
     padding-left:80px;
     padding-top:16px;
     padding-bottom:16px;
@@ -57,7 +57,7 @@
   }
   .overlay-content {
     position: relative;
-    top: 40%;
+    top: 45%;
     width: 100%;
     text-align: center;
     margin-top: 30px;

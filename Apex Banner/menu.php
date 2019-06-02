@@ -11,8 +11,8 @@
       <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
       <meta name="description" content="" />
       <meta name="keywords" content="" />
-      <link rel="stylesheet" href="../assets/css/main.css" />
-      <link href="../css/CharacterStyle.css" rel="stylesheet" type="text/css">
+      <link rel="stylesheet" href="assets/css/main.css" />
+      <link href="css/CharacterStyle.css" rel="stylesheet" type="text/css">
       <style>
           
          </style>
@@ -21,7 +21,7 @@
  <div id="myNav" class="overlay">
     <div class="overlay-content">
        <a href="index.html">Main</a>
-       <a href="character.html">Character</a>
+       <a href="character.php">Character</a>
        <a href="itemPage.html">Item</a>
        <a href="weaponPage.html">Weapon</a>
     </div>
@@ -45,3 +45,4 @@
     </nav>-->
 
  <!-- Heading -->
+ </html>

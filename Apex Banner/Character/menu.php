@@ -20,11 +20,11 @@
  <!--홈버튼 메뉴 호버-->
  <div id="myNav" class="overlay">
     <div class="overlay-content">
-       <a href="../index.html">Main</a>
-       <a href="Wraith.php">Character</a>
-       <a href="../itemPage.html">Item</a>
-       <a href="../weaponPage.html">Weapon</a>
-       <a href="../mapPage.html">Map</a>
+       <a href="index.html">Main</a>
+       <a href="character.php">Character</a>
+       <a href="itemPage.html">Item</a>
+       <a href="weaponPage.html">Weapon</a>
+       <a href="mapPage.html">Map</a>
     </div>
   </div>
  <!-- Header -->

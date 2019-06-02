@@ -11,8 +11,8 @@
       <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
       <meta name="description" content="" />
       <meta name="keywords" content="" />
-      <link rel="stylesheet" href="assets/css/main.css" />
-      <link href="css/CharacterStyle.css" rel="stylesheet" type="text/css">
+      <link rel="stylesheet" href="../assets/css/main.css" />
+      <link href="../css/CharacterStyle.css" rel="stylesheet" type="text/css">
       
    </head>
    
@@ -20,7 +20,7 @@
       <!--top메뉴 포함-->
       <div>
          <?php
-          require 'menu.php' 
+          include '../menu.php' 
          ?>
       </div>
 
@@ -40,7 +40,7 @@
 
       <!-- Main -->
       <?php
-          require 'Regends.php' 
+          include '../Regends.php' 
          ?>
          <section id="main" class="wrapper">
                
@@ -48,10 +48,9 @@
                <div class="content">
                   
     <!--캐릭터 설명-->              
-                       <div class="character" >
+                       <div>
                           
-                             <img src="images/charater/mirage.png" width="400" height="700"  />
-                           
+                             <img class="character" src="../images/character/tall/Pathfinder-tall.png"/>
                            
                        </div>
                        <hr />
@@ -59,14 +58,13 @@
                        <div class="skill">
                         <div class="menu_tab">
                            <ul>
-                              <li class="fst active"><a href="#;" onclick="tab_menu(0);"><img src="images/Wraith_skill01.png" width="200"height="100"></a></li>
-                              <li><a href="#;" onclick="tab_menu(1);"><img src="images/Wraith_skill02.png" width="200"height="100"></a></li>
-                              <li><a href="#;" onclick="tab_menu(2);"><img src="images/Wraith_skill03.png" width="200"height="100"></a></li>
+                              <li class="fst active"><a href="#;" onclick="tab_menu(0);"><img src="../images/Wraith_skill01.png" width="200"height="100"></a></li>
+                              <li><a href="#;" onclick="tab_menu(1);"><img src="../images/Wraith_skill02.png" width="200"height="100"></a></li>
+                              <li><a href="#;" onclick="tab_menu(2);"><img src="../images/Wraith_skill03.png" width="200"height="100"></a></li>
                                                  </ul>
                            </div>
                            
                            <div class="menu_tab00 mTs" id="panels" >
-                              <iframe width="560" height="315" src="https://www.youtube.com/embed/bglAJajZFx4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             </div>
                             <div class="menu_tab01 mTs" id="panels" style="display: none;">
                             1
@@ -80,6 +78,8 @@
                                                  
                        </div>
                        <hr />
+                       <iframe width="100%" height="600px" src="https://www.youtube.com/embed/bglAJajZFx4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <hr />
                           <div class="story" >
                            스토리 설명
                           </div><hr />
@@ -88,51 +88,19 @@
          </section>
 
       <!-- Footer -->
-         <footer id="footer">
-            
-         </footer>
+      <?php
+          require '../footer.php' 
+         ?>
 
       <!-- Scripts -->
-         <script src="assets/js/jquery.min.js"></script>
-         <script src="assets/js/browser.min.js"></script>
-         <script src="assets/js/breakpoints.min.js"></script>
-         <script src="assets/js/util.js"></script>
-         <script src="assets/js/main.js"></script>
+         <script src="../assets/js/jquery.min.js"></script>
+         <script src="../assets/js/browser.min.js"></script>
+         <script src="../assets/js/breakpoints.min.js"></script>
+         <script src="../assets/js/util.js"></script>
+         <script src="../assets/js/main.js"></script>
          <script src="http://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
+         <script src="../js/js.js"></script>
+
   
-  <script type="text/javascript">
-  function tab_menu(num){
-   var f = $('.menu_tab').find('li');
-   for ( var i = 0; i < f.length; i++ ) { 
-    if ( i == num) { 
-     f.eq(i).addClass('active');
-     $('.menu_tab0' + i ).show();
-    } else {
-     f.eq(i).removeClass('active');   
-     $('.menu_tab0' + i ).hide();
-    }
-   }
-  }
-
-  $( document ).ready( function() {
-        var jbOffset = $( '.regends' ).offset();
-        $( window ).scroll( function() {
-          if ( $( document ).scrollTop() > jbOffset.top ) {
-            $( '.regends' ).addClass( 'jbFixed' );
-            
-          }
-          else {
-            $( '.regends' ).removeClass( 'jbFixed' );
-          }
-        });
-        $("#p1").mouseenter(function(){
-        document.getElementById("myNav").style.height = "196px";
-      }); 
-      $("#myNav").mouseleave(function(){
-    document.getElementById("myNav").style.height = "0%";
-  });
-      } );
-
-  </script>
    </body>
 </html>

@@ -5,80 +5,36 @@
     <title>ArrowTest</title>
     <style media="screen">
 
-
-/* https://codepen.io/minustalent/pen/Frhaw */
-
-
-      @import "compass/css3";
-
-// Colors
-$border-color: lighten(#000, 75%);
-$border-active-color: lighten(#000, 50%);
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  text-align: center;
-  padding-top: 100px;
-  width: 600px;
-  position: relative;
-  margin: 0 auto;
-}
-
-.arrow {
-  display: inline-block;
-  position: absolute;
-  width: 60px;
-  height: 60px;
-  background: transparent;
-  text-indent: -9999px;
-  border: {
-    top: 2px solid $border-color;
-    left: 2px solid $border-color;
+    .next {
+         position: absolute;
+         border: solid transparent;
+         border-width: 10px 10px 0 0;
+         padding: 25px; /* Arrow Size */
+         box-shadow: -10px 10px 0 0 #808080  inset;
+         -webkit-box-shadow: -10px 10px 0 0 #808080 inset;
+         -webkit-transform: rotate(45deg);
+         margin-left: 20%; margin-top: 50px;
   }
-  transition: all .3s ease-in-out;
-  text-decoration: none;
-  color: transparent;
-
-  &:hover {
-    border: {
-      color:  $border-active-color;
-      width: 6px;
-    }
+  .prev {
+  	    position: absolute;
+  	    border: solid transparent;
+  	    border-width: 0px 0px 10px 10px;
+  	    padding: 25px; /* Arrow Size */
+        box-shadow: 1px -1px 0 0 #808080 inset;
+        -webkit-box-shadow: -10px 10px 0 0 #808080 inset;
+  	    -webkit-transform: rotate(225deg);
+        margin: 50px;
   }
 
-  &:before {
-    display: block;
-    height: 200%;
-    width: 200%;
-    margin: {
-      left: -50%;
-      top: -50%;
-    }
-    content: "";
-    transform: rotate(45deg);
-  }
 
-  &.prev {
-    transform: rotate(-45deg);
-    left: 0;
-  }
-
-  &.next {
-    transform: rotate(135deg);
-    right: 0;
-  }
-
-}
     </style>
   </head>
   <body>
 
+    <a class="next" href="#" title="next"></a>
+<a class="prev" href="#" title="previous"></a>
 
-    <a href="#" title="Previous" class="arrow prev">&laquo; previous</a>
-    <a href="#" title="Next" class="arrow next">next &raquo; </a>
+<img src="//w.namu.la/s/9b7f1e40754de0f2951bad26ac08474e68db06e4042fd3435e06d9ea8cda42d51abd410d644c028515ca54d86442ab7844fab806c14083435bba064d8218f57af98558f947d3966256fa7afd2a88a4d4b003eadf810acf482046744cbc139c08">
 
   </body>
 </html>

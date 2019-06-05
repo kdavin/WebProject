@@ -139,6 +139,29 @@
 			border-bottom-color: #806868;
 		}
 
+		/* 화살표 style */
+
+		.next {
+         position: absolute;
+         border: solid transparent;
+         border-width: 10px 10px 0 0;
+         padding: 25px; /* Arrow Size */
+         box-shadow: -10px 10px 0 0 #808080  inset;
+         -webkit-box-shadow: -10px 10px 0 0 #808080 inset;
+         -webkit-transform: rotate(45deg);
+        /* margin-left: 20%; margin-top: 50px; */
+  }
+  .prev {
+  	    position: absolute;
+  	    border: solid transparent;
+  	    border-width: 0px 0px 10px 10px;
+  	    padding: 25px; /* Arrow Size */
+        box-shadow: 1px -1px 0 0 #808080 inset;
+        -webkit-box-shadow: -10px 10px 0 0 #808080 inset;
+  	    -webkit-transform: rotate(225deg);
+      /*  margin: 50px; */
+  }
+
 
 
 		</style>
@@ -168,10 +191,20 @@
 			<section id="banners">
 				<div class='parent'>
 					<div class='slider'>
+
 					 <button type="button" id='right' class='right' name="button">
-							 </button>
+						 <!-- 만든 오른쪽버튼
+						  <a id="right"class="next" href="#" title="next"></a> -->
+					 </button>
+
+
+
 					 <button type="button" id='left' class='left' name="button">
-							 </button>
+						 <!-- 만든 왼쪽버튼
+						 	 <a id="left" class="prev" href="#" title="previous"></a> -->
+					 </button>
+
+
 					 <div id='slide1' class='slide1 up1'>이미지1</div>
 					 <div id='slide2' class='slide2'>이미지2</div>
 					 <div id='slide3' class='slide3'>이미지3</div>

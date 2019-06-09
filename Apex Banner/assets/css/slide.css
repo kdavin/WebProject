@@ -32,21 +32,18 @@ button {
   z-index: 50;
   width: 40px;
   overflow: hidden;
-  height: 40px;
+  height: 60px;
   border: none;
   border-radius: 50%;
-  background: #fff;
+  background: #646464;
   cursor: pointer;
-  -webkit-box-shadow: 0 0 88px 5px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 0 0 88px 5px rgba(0, 0, 0, 0.75);
-  box-shadow: 0 0 88px 5px rgba(0, 0, 0, 0.75);
 }
 button:focus {
   outline-width: 0;
 }
 
 circle {
-  stroke: #fff;
+  stroke: rgb(110, 110, 110);
   fill: none;
   transition: 0.3s;
 }
@@ -168,19 +165,19 @@ circle {
 }
 
 .slide1 {
-  background-image: url("../../images/banner.jpg");
+  background-image: url("../../images/Banner.PNG");
 }
 
 .slide2 {
-  background-image: url("../../images/imageSample1.PNG");
+  background-image: url("../../images/Banner1.PNG");
 }
 
 .slide3 {
-  background-image: url("../../images/bg.jpg");
+  background-image: url("../../images/Banner2.PNG");
 }
 
 .slide4 {
-  background-image: url("../../images/bloodhound.png");
+  background-image: url("../../images/Banner3.PNG");
 }
 
 .slider {

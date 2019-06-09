@@ -74,12 +74,6 @@
     background-color: #ccc;
   }
 
-	/* tap안의 img */
-	.tab img {
-		width:140px;
-		height:80px;
-
-	}
 
 	/* tap안의 text */
 	.tab p {
@@ -98,6 +92,11 @@
     display: none;
 		overflow-y: auto;
   }
+
+	.tapcontent img {
+		width: 20%;
+		height: 20%;
+	}
 
   /* Clear floats after the tab */
   .clearfix::after {
@@ -131,6 +130,13 @@
 	  color: white;
 	}
 
+
+/* tap안의 img */
+.tapImg {
+	width: 60%;
+	height: 50%;
+	margin: auto;
+}
 
 
 </style>
@@ -172,7 +178,7 @@
 						<div style="padding-left:30px; padding-Top:20px">
 								<div class="tab">
 									<center>어설트 라이플</center>
-										<button class="tablinks" onmouseover="openTab(event, 'item1')"><img src="http://www.apex-legends.co.kr/images/weapon/R-301.jpg" alt="weaponSample1" > <p>R-301 카빈</p></button>
+										<button class="tablinks" onmouseover="openTab(event, 'item1')"><img src="images/vk-47.png" alt="weaponSample1" > <p>R-301 카빈</p></button> <!-- 이런식으로 넣기 -->
 										<button class="tablinks" onmouseover="openTab(event, 'item2')"><img src="http://www.apex-legends.co.kr/images/weapon/Hemlok.jpg" alt="weaponSample2" > <p>헴록 버스트 AR</p></button>
 										<button class="tablinks" onmouseover="openTab(event, 'item3')"><img src="http://www.apex-legends.co.kr/images/weapon/Flatline.jpg" alt="weaponSample3" > <p>VK-47 플랫라인</p></button>
 										<button class="tablinks" onmouseover="openTab(event, 'item4')"><img src="http://www.apex-legends.co.kr/images/weapon/havoc.jpg" alt="weaponSample4" > <p>HAVOC 라이플</p></button>
@@ -207,7 +213,7 @@
 									  <div id="item1" class="tabcontent">
 										<h3>R-301 카빈</h3>
 										<p>
-											<table data-v-6c2cbffb="" class="tb-desc"><tr data-v-6c2cbffb=""><td data-v-6c2cbffb=""><img data-v-6c2cbffb="" class="charImg" src="http://www.apex-legends.co.kr/images/weapon/R-301.jpg"></td></tr> <tr data-v-6c2cbffb=""><td data-v-6c2cbffb="" class="charName">
+											<table data-v-6c2cbffb="" class="tb-desc"><tr data-v-6c2cbffb=""><td data-v-6c2cbffb=""><img class="tapImg" src="images/vk-47.png" ></td></tr> <tr data-v-6c2cbffb=""><td data-v-6c2cbffb="" class="charName">
 									                    R-301 카빈
 									                </td></tr> <tr data-v-6c2cbffb=""><td data-v-6c2cbffb="" class="charNameSub">
 
@@ -273,7 +279,7 @@
 									  <div id="item2" class="tabcontent">
 										<h3>헴록 버스트 AR</h3>
 										<p>
-											<table ><tr data-v-6c2cbffb=""><td data-v-6c2cbffb=""><img data-v-6c2cbffb="" class="charImg" src="http://www.apex-legends.co.kr/images/weapon/Hemlok.jpg"></td></tr> <tr data-v-6c2cbffb=""><td data-v-6c2cbffb="" class="charName">
+											<table ><tr data-v-6c2cbffb=""><td data-v-6c2cbffb=""><img data-v-6c2cbffb="" class="tapImg" src="http://www.apex-legends.co.kr/images/weapon/Hemlok.jpg"></td></tr> <tr data-v-6c2cbffb=""><td data-v-6c2cbffb="" class="charName">
 											                헴록 버스트 AR
 											            </td></tr> <tr data-v-6c2cbffb=""><td data-v-6c2cbffb="" class="charNameSub">
 
@@ -336,7 +342,7 @@
 									  <div id="item3" class="tabcontent">
 										<h3>VK-47 플랫라인</h3>
 										<p>
-											<table data-v-6c2cbffb="" class="tb-desc"><tr data-v-6c2cbffb=""><td data-v-6c2cbffb=""><img data-v-6c2cbffb="" class="charImg" src="http://www.apex-legends.co.kr/images/weapon/Flatline.jpg"></td></tr> <tr data-v-6c2cbffb=""><td data-v-6c2cbffb="" class="charName">
+											<table data-v-6c2cbffb="" class="tb-desc"><tr data-v-6c2cbffb=""><td data-v-6c2cbffb=""><img data-v-6c2cbffb="" class="tapImg" src="http://www.apex-legends.co.kr/images/weapon/Flatline.jpg"></td></tr> <tr data-v-6c2cbffb=""><td data-v-6c2cbffb="" class="charName">
 											                VK-47 플랫라인
 											            </td></tr> <tr data-v-6c2cbffb=""><td data-v-6c2cbffb="" class="charNameSub">
 
@@ -400,7 +406,7 @@
 									  <div id="item4" class="tabcontent">
 										<h3>HAVOC 라이플</h3>
 										<p>
-											<table data-v-6c2cbffb="" class="tb-desc"><tr data-v-6c2cbffb=""><td data-v-6c2cbffb=""><img data-v-6c2cbffb="" class="charImg" src="http://www.apex-legends.co.kr/images/weapon/havoc.jpg"></td></tr> <tr data-v-6c2cbffb=""><td data-v-6c2cbffb="" class="charName">
+											<table data-v-6c2cbffb="" class="tb-desc"><tr data-v-6c2cbffb=""><td data-v-6c2cbffb=""><img data-v-6c2cbffb="" class="tapImg" src="http://www.apex-legends.co.kr/images/weapon/havoc.jpg"></td></tr> <tr data-v-6c2cbffb=""><td data-v-6c2cbffb="" class="charName">
 											                HAVOC 라이플
 											            </td></tr> <tr data-v-6c2cbffb=""><td data-v-6c2cbffb="" class="charNameSub">
 
@@ -466,7 +472,7 @@
 									  <div id="item5" class="tabcontent">
 											<h3>M600 스핏파이어</h3>
 											<p>
-												<table data-v-6c2cbffb="" class="tb-desc"><tr data-v-6c2cbffb=""><td data-v-6c2cbffb=""><img data-v-6c2cbffb="" class="charImg" src="http://www.apex-legends.co.kr/images/weapon/Spitfire.jpg"></td></tr> <tr data-v-6c2cbffb=""><td data-v-6c2cbffb="" class="charName">
+												<table data-v-6c2cbffb="" class="tb-desc"><tr data-v-6c2cbffb=""><td data-v-6c2cbffb=""><img data-v-6c2cbffb="" class="tapImg" src="http://www.apex-legends.co.kr/images/weapon/Spitfire.jpg"></td></tr> <tr data-v-6c2cbffb=""><td data-v-6c2cbffb="" class="charName">
 												                M600 스핏파이어
 												            </td></tr> <tr data-v-6c2cbffb=""><td data-v-6c2cbffb="" class="charNameSub">
 
@@ -529,7 +535,7 @@
 										  <div id="item6" class="tabcontent">
 											<h3>디보션 LMG</h3>
 											<p>
-												<table data-v-6c2cbffb="" class="tb-desc"><tr data-v-6c2cbffb=""><td data-v-6c2cbffb=""><img data-v-6c2cbffb="" class="charImg" src="http://www.apex-legends.co.kr/images/weapon/Devotion.jpg"></td></tr> <tr data-v-6c2cbffb=""><td data-v-6c2cbffb="" class="charName">
+												<table data-v-6c2cbffb="" class="tb-desc"><tr data-v-6c2cbffb=""><td data-v-6c2cbffb=""><img data-v-6c2cbffb="" class="tapImg" src="http://www.apex-legends.co.kr/images/weapon/Devotion.jpg"></td></tr> <tr data-v-6c2cbffb=""><td data-v-6c2cbffb="" class="charName">
 												                디보션 LMG
 												            </td></tr> <tr data-v-6c2cbffb=""><td data-v-6c2cbffb="" class="charNameSub">
 
@@ -598,7 +604,7 @@
 										  <div id="item7" class="tabcontent">
 											<h3>RE-45 자동</h3>
 											<p>
-												<table data-v-6c2cbffb="" class="tb-desc"><tr data-v-6c2cbffb=""><td data-v-6c2cbffb=""><img data-v-6c2cbffb="" class="charImg" src="http://www.apex-legends.co.kr/images/weapon/RE-45.jpg"></td></tr> <tr data-v-6c2cbffb=""><td data-v-6c2cbffb="" class="charName">
+												<table data-v-6c2cbffb="" class="tb-desc"><tr data-v-6c2cbffb=""><td data-v-6c2cbffb=""><img data-v-6c2cbffb="" class="tapImg" src="http://www.apex-legends.co.kr/images/weapon/RE-45.jpg"></td></tr> <tr data-v-6c2cbffb=""><td data-v-6c2cbffb="" class="charName">
 												                RE-45 자동
 												            </td></tr> <tr data-v-6c2cbffb=""><td data-v-6c2cbffb="" class="charNameSub">
 
@@ -662,7 +668,7 @@
 										  <div id="item8" class="tabcontent">
 											<h3>weapon8</h3>
 											<p>
-												<table data-v-6c2cbffb="" class="tb-desc"><tr data-v-6c2cbffb=""><td data-v-6c2cbffb=""><img data-v-6c2cbffb="" class="charImg" src="http://www.apex-legends.co.kr/images/weapon/P2020.jpg"></td></tr> <tr data-v-6c2cbffb=""><td data-v-6c2cbffb="" class="charName">
+												<table data-v-6c2cbffb="" class="tb-desc"><tr data-v-6c2cbffb=""><td data-v-6c2cbffb=""><img data-v-6c2cbffb="" class="tapImg" src="http://www.apex-legends.co.kr/images/weapon/P2020.jpg"></td></tr> <tr data-v-6c2cbffb=""><td data-v-6c2cbffb="" class="charName">
 												                P2020
 												            </td></tr> <tr data-v-6c2cbffb=""><td data-v-6c2cbffb="" class="charNameSub">
 
@@ -728,7 +734,7 @@
 										<h3>윙맨</h3>
 										<p>
 
-											<table data-v-6c2cbffb="" class="tb-desc"><tr data-v-6c2cbffb=""><td data-v-6c2cbffb=""><img data-v-6c2cbffb="" class="charImg" src="http://www.apex-legends.co.kr/images/weapon/Wingman.jpg"></td></tr> <tr data-v-6c2cbffb=""><td data-v-6c2cbffb="" class="charName">
+											<table data-v-6c2cbffb="" class="tb-desc"><tr data-v-6c2cbffb=""><td data-v-6c2cbffb=""><img data-v-6c2cbffb="" class="tapImg" src="http://www.apex-legends.co.kr/images/weapon/Wingman.jpg"></td></tr> <tr data-v-6c2cbffb=""><td data-v-6c2cbffb="" class="charName">
 											                윙맨
 											            </td></tr> <tr data-v-6c2cbffb=""><td data-v-6c2cbffb="" class="charNameSub">
 
@@ -793,7 +799,7 @@
 										<h3>모잠비크 샷건</h3>
 										<p>
 
-											<table data-v-6c2cbffb="" class="tb-desc"><tr data-v-6c2cbffb=""><td data-v-6c2cbffb=""><img data-v-6c2cbffb="" class="charImg" src="http://www.apex-legends.co.kr/images/weapon/Mozambique.jpg"></td></tr> <tr data-v-6c2cbffb=""><td data-v-6c2cbffb="" class="charName">
+											<table data-v-6c2cbffb="" class="tb-desc"><tr data-v-6c2cbffb=""><td data-v-6c2cbffb=""><img data-v-6c2cbffb="" class="tapImg" src="http://www.apex-legends.co.kr/images/weapon/Mozambique.jpg"></td></tr> <tr data-v-6c2cbffb=""><td data-v-6c2cbffb="" class="charName">
 											                모잠비크 샷건
 											            </td></tr> <tr data-v-6c2cbffb=""><td data-v-6c2cbffb="" class="charNameSub">
 
@@ -857,7 +863,7 @@
 										<h3>피스키퍼</h3>
 										<p>
 
-											<table data-v-6c2cbffb="" class="tb-desc"><tr data-v-6c2cbffb=""><td data-v-6c2cbffb=""><img data-v-6c2cbffb="" class="charImg" src="http://www.apex-legends.co.kr/images/weapon/Peacekeeper.jpg"></td></tr> <tr data-v-6c2cbffb=""><td data-v-6c2cbffb="" class="charName">
+											<table data-v-6c2cbffb="" class="tb-desc"><tr data-v-6c2cbffb=""><td data-v-6c2cbffb=""><img data-v-6c2cbffb="" class="tapImg" src="http://www.apex-legends.co.kr/images/weapon/Peacekeeper.jpg"></td></tr> <tr data-v-6c2cbffb=""><td data-v-6c2cbffb="" class="charName">
                 피스키퍼
             </td></tr> <tr data-v-6c2cbffb=""><td data-v-6c2cbffb="" class="charNameSub">
 
@@ -933,7 +939,7 @@
 										<h3>EVA-8 자동</h3>
 										<p>
 
-											<table data-v-6c2cbffb="" class="tb-desc"><tr data-v-6c2cbffb=""><td data-v-6c2cbffb=""><img data-v-6c2cbffb="" class="charImg" src="http://www.apex-legends.co.kr/images/weapon/EVA-8%20Auto.jpg"></td></tr> <tr data-v-6c2cbffb=""><td data-v-6c2cbffb="" class="charName">
+											<table data-v-6c2cbffb="" class="tb-desc"><tr data-v-6c2cbffb=""><td data-v-6c2cbffb=""><img data-v-6c2cbffb="" class="tapImg" src="http://www.apex-legends.co.kr/images/weapon/EVA-8%20Auto.jpg"></td></tr> <tr data-v-6c2cbffb=""><td data-v-6c2cbffb="" class="charName">
 											                EVA-8 자동
 											            </td></tr> <tr data-v-6c2cbffb=""><td data-v-6c2cbffb="" class="charNameSub">
 
@@ -1002,7 +1008,7 @@
 										<div id="item13" class="tabcontent">
 										<h3>마스티프 샷건</h3>
 										<p>
-											<table data-v-6c2cbffb="" class="tb-desc"><tr data-v-6c2cbffb=""><td data-v-6c2cbffb=""><img data-v-6c2cbffb="" class="charImg" src="http://www.apex-legends.co.kr/images/weapon/Mastiff.jpg"></td></tr> <tr data-v-6c2cbffb=""><td data-v-6c2cbffb="" class="charName">
+											<table data-v-6c2cbffb="" class="tb-desc"><tr data-v-6c2cbffb=""><td data-v-6c2cbffb=""><img data-v-6c2cbffb="" class="tapImg" src="http://www.apex-legends.co.kr/images/weapon/Mastiff.jpg"></td></tr> <tr data-v-6c2cbffb=""><td data-v-6c2cbffb="" class="charName">
 											                마스티프 샷건
 											            </td></tr> <tr data-v-6c2cbffb=""><td data-v-6c2cbffb="" class="charNameSub">
 
@@ -1067,7 +1073,7 @@
 										<h3>G7 스카우트</h3>
 										<p>
 
-											<table data-v-6c2cbffb="" class="tb-desc"><tr data-v-6c2cbffb=""><td data-v-6c2cbffb=""><img data-v-6c2cbffb="" class="charImg" src="http://www.apex-legends.co.kr/images/weapon/G7%20Scout.jpg"></td></tr> <tr data-v-6c2cbffb=""><td data-v-6c2cbffb="" class="charName">
+											<table data-v-6c2cbffb="" class="tb-desc"><tr data-v-6c2cbffb=""><td data-v-6c2cbffb=""><img data-v-6c2cbffb="" class="tapImg" src="http://www.apex-legends.co.kr/images/weapon/G7%20Scout.jpg"></td></tr> <tr data-v-6c2cbffb=""><td data-v-6c2cbffb="" class="charName">
 											                G7 스카우트
 											            </td></tr> <tr data-v-6c2cbffb=""><td data-v-6c2cbffb="" class="charNameSub">
 
@@ -1132,7 +1138,7 @@
 										<h3>롱보우 DMR</h3>
 										<p>
 
-											<table data-v-6c2cbffb="" class="tb-desc"><tr data-v-6c2cbffb=""><td data-v-6c2cbffb=""><img data-v-6c2cbffb="" class="charImg" src="http://www.apex-legends.co.kr/images/weapon/Longbow.jpg"></td></tr> <tr data-v-6c2cbffb=""><td data-v-6c2cbffb="" class="charName">
+											<table data-v-6c2cbffb="" class="tb-desc"><tr data-v-6c2cbffb=""><td data-v-6c2cbffb=""><img data-v-6c2cbffb="" class="tapImg" src="http://www.apex-legends.co.kr/images/weapon/Longbow.jpg"></td></tr> <tr data-v-6c2cbffb=""><td data-v-6c2cbffb="" class="charName">
                 롱보우 DMR
             </td></tr> <tr data-v-6c2cbffb=""><td data-v-6c2cbffb="" class="charNameSub">
 
@@ -1195,7 +1201,7 @@
 										<div id="item16" class="tabcontent">
 										<h3>트리플 테이크</h3>
 										<p>
-											<table data-v-6c2cbffb="" class="tb-desc"><tr data-v-6c2cbffb=""><td data-v-6c2cbffb=""><img data-v-6c2cbffb="" class="charImg" src="http://www.apex-legends.co.kr/images/weapon/Triple%20Take.jpg"></td></tr> <tr data-v-6c2cbffb=""><td data-v-6c2cbffb="" class="charName">
+											<table data-v-6c2cbffb="" class="tb-desc"><tr data-v-6c2cbffb=""><td data-v-6c2cbffb=""><img data-v-6c2cbffb="" class="tapImg" src="http://www.apex-legends.co.kr/images/weapon/Triple%20Take.jpg"></td></tr> <tr data-v-6c2cbffb=""><td data-v-6c2cbffb="" class="charName">
 											                트리플 테이크
 											            </td></tr> <tr data-v-6c2cbffb=""><td data-v-6c2cbffb="" class="charNameSub">
 
@@ -1263,7 +1269,7 @@
 										<div id="item17" class="tabcontent">
 										<h3>크레이버 .50구경 저격총</h3>
 										<p>
-											<table data-v-6c2cbffb="" class="tb-desc"><tr data-v-6c2cbffb=""><td data-v-6c2cbffb=""><img data-v-6c2cbffb="" class="charImg" src="http://www.apex-legends.co.kr/images/weapon/Kraber.jpg"></td></tr> <tr data-v-6c2cbffb=""><td data-v-6c2cbffb="" class="charName">
+											<table data-v-6c2cbffb="" class="tb-desc"><tr data-v-6c2cbffb=""><td data-v-6c2cbffb=""><img data-v-6c2cbffb="" class="tapImg" src="http://www.apex-legends.co.kr/images/weapon/Kraber.jpg"></td></tr> <tr data-v-6c2cbffb=""><td data-v-6c2cbffb="" class="charName">
 											                크레이버 .50구경 저격총
 											            </td></tr> <tr data-v-6c2cbffb=""><td data-v-6c2cbffb="" class="charNameSub">
 
@@ -1329,7 +1335,7 @@
 										<h3>R-99 SMG</h3>
 										<p>
 
-											<table data-v-6c2cbffb="" class="tb-desc"><tr data-v-6c2cbffb=""><td data-v-6c2cbffb=""><img data-v-6c2cbffb="" class="charImg" src="http://www.apex-legends.co.kr/images/weapon/R-99.jpg"></td></tr> <tr data-v-6c2cbffb=""><td data-v-6c2cbffb="" class="charName">
+											<table data-v-6c2cbffb="" class="tb-desc"><tr data-v-6c2cbffb=""><td data-v-6c2cbffb=""><img data-v-6c2cbffb="" class="tapImg" src="http://www.apex-legends.co.kr/images/weapon/R-99.jpg"></td></tr> <tr data-v-6c2cbffb=""><td data-v-6c2cbffb="" class="charName">
 											                R-99 SMG
 											            </td></tr> <tr data-v-6c2cbffb=""><td data-v-6c2cbffb="" class="charNameSub">
 
@@ -1398,7 +1404,7 @@
 										<div id="item19" class="tabcontent">
 										<h3>얼터네이터 SMG</h3>
 										<p>
-											<table data-v-6c2cbffb="" class="tb-desc"><tr data-v-6c2cbffb=""><td data-v-6c2cbffb=""><img data-v-6c2cbffb="" class="charImg" src="http://www.apex-legends.co.kr/images/weapon/Alternator.jpg"></td></tr> <tr data-v-6c2cbffb=""><td data-v-6c2cbffb="" class="charName">
+											<table data-v-6c2cbffb="" class="tb-desc"><tr data-v-6c2cbffb=""><td data-v-6c2cbffb=""><img data-v-6c2cbffb="" class="tapImg" src="http://www.apex-legends.co.kr/images/weapon/Alternator.jpg"></td></tr> <tr data-v-6c2cbffb=""><td data-v-6c2cbffb="" class="charName">
 											                얼터네이터 SMG
 											            </td></tr> <tr data-v-6c2cbffb=""><td data-v-6c2cbffb="" class="charNameSub">
 
@@ -1466,7 +1472,7 @@
 										<div id="item20" class="tabcontent">
 										<h3>프라울러 점사 PDW</h3>
 										<p>
-											<table data-v-6c2cbffb="" class="tb-desc"><tr data-v-6c2cbffb=""><td data-v-6c2cbffb=""><img data-v-6c2cbffb="" class="charImg" src="http://www.apex-legends.co.kr/images/weapon/Prowler.jpg"></td></tr> <tr data-v-6c2cbffb=""><td data-v-6c2cbffb="" class="charName">
+											<table data-v-6c2cbffb="" class="tb-desc"><tr data-v-6c2cbffb=""><td data-v-6c2cbffb=""><img data-v-6c2cbffb="" class="tapImg" src="http://www.apex-legends.co.kr/images/weapon/Prowler.jpg"></td></tr> <tr data-v-6c2cbffb=""><td data-v-6c2cbffb="" class="charName">
 											                프라울러 점사 PDW
 											            </td></tr> <tr data-v-6c2cbffb=""><td data-v-6c2cbffb="" class="charNameSub">
 

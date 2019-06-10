@@ -44,7 +44,7 @@
     float: left;
     border: 1px solid #ccc;
     background-color: #f1f1f1;
-    width: 20%;
+    width: 25%;
     height: 500px;
     overflow-y: auto;
   }
@@ -80,6 +80,7 @@
 		padding: 0px 0px;
 		margin: 0px 0px;
 	}
+
 
   /* Style the tab content */
   .tabcontent {
@@ -131,10 +132,17 @@
 	}
 
 
-/* tap안의 img */
+/* tapcontent안의 img */
 .tapImg {
 	width: 60%;
 	height: 50%;
+	margin: auto;
+}
+
+/* tap버튼안의 img */
+.tapbuttonImg {
+	width: 80%;
+	height: 70%;
 	margin: auto;
 }
 
@@ -178,36 +186,36 @@
 						<div style="padding-left:30px; padding-Top:20px">
 								<div class="tab">
 									<center>어설트 라이플</center>
-										<button class="tablinks" onmouseover="openTab(event, 'item1')"><img src="images/vk-47.png" alt="weaponSample1" > <p>R-301 카빈</p></button> <!-- 이런식으로 넣기 -->
-										<button class="tablinks" onmouseover="openTab(event, 'item2')"><img src="http://www.apex-legends.co.kr/images/weapon/Hemlok.jpg" alt="weaponSample2" > <p>헴록 버스트 AR</p></button>
-										<button class="tablinks" onmouseover="openTab(event, 'item3')"><img src="http://www.apex-legends.co.kr/images/weapon/Flatline.jpg" alt="weaponSample3" > <p>VK-47 플랫라인</p></button>
-										<button class="tablinks" onmouseover="openTab(event, 'item4')"><img src="http://www.apex-legends.co.kr/images/weapon/havoc.jpg" alt="weaponSample4" > <p>HAVOC 라이플</p></button>
+										<button class="tablinks" onmouseover="openTab(event, 'item1')"><img class="tapbuttonImg" src="images/vk-47.png" alt="weaponSample1"> <p>R-301 카빈</p></button> <!-- 이런식으로 넣기 -->
+										<button class="tablinks" onmouseover="openTab(event, 'item2')"><img class="tapbuttonImg" src="images/vk-47.png" alt="weaponSample2" > <p>헴록 버스트 AR</p></button>
+										<button class="tablinks" onmouseover="openTab(event, 'item3')"><img class="tapbuttonImg" src="images/vk-47.png" alt="weaponSample3" > <p>VK-47 플랫라인</p></button>
+										<button class="tablinks" onmouseover="openTab(event, 'item4')"><img class="tapbuttonImg" src="images/vk-47.png" alt="weaponSample4" > <p>HAVOC 라이플</p></button>
 
 										<center>경기관총</center>
-										<button class="tablinks" onmouseover="openTab(event, 'item5')"><img src="http://www.apex-legends.co.kr/images/weapon/Spitfire.jpg" alt="weaponSample5" > <p>M600 스핏파이어</p></button>
-										<button class="tablinks" onmouseover="openTab(event, 'item6')"><img src="http://www.apex-legends.co.kr/images/weapon/Devotion.jpg" alt="weaponSample6" > <p>디보션 LMG</p></button>
+										<button class="tablinks" onmouseover="openTab(event, 'item5')"><img class="tapbuttonImg" src="images/vk-47.png" alt="weaponSample5" > <p>M600 스핏파이어</p></button>
+										<button class="tablinks" onmouseover="openTab(event, 'item6')"><img class="tapbuttonImg" src="images/vk-47.png" alt="weaponSample6" > <p>디보션 LMG</p></button>
 
 										<center>피스톨</center>
-										<button class="tablinks" onmouseover="openTab(event, 'item7')"><img src="http://www.apex-legends.co.kr/images/weapon/RE-45.jpg" alt="weaponSample7" > <p>RE-45 자동</p></button>
-										<button class="tablinks" onmouseover="openTab(event, 'item8')"><img src="http://www.apex-legends.co.kr/images/weapon/P2020.jpg" alt="weaponSample8" > <p>P2020</p></button>
-										<button class="tablinks" onmouseover="openTab(event, 'item9')"><img src="http://www.apex-legends.co.kr/images/weapon/Wingman.jpg" alt="weaponSample9" > <p>윙맨</p></button>
+										<button class="tablinks" onmouseover="openTab(event, 'item7')"><img class="tapbuttonImg" src="images/vk-47.png" alt="weaponSample7" > <p>RE-45 자동</p></button>
+										<button class="tablinks" onmouseover="openTab(event, 'item8')"><img class="tapbuttonImg" src="images/vk-47.png" alt="weaponSample8" > <p>P2020</p></button>
+										<button class="tablinks" onmouseover="openTab(event, 'item9')"><img class="tapbuttonImg" src="images/vk-47.png" alt="weaponSample9" > <p>윙맨</p></button>
 
 										<center>샷건</center>
-										<button class="tablinks" onmouseover="openTab(event, 'item10')"><img src="http://www.apex-legends.co.kr/images/weapon/Mozambique.jpg" alt="weaponSample10" > <p>모잠비크 샷건</p></button>
-										<button class="tablinks" onmouseover="openTab(event, 'item11')"><img src="http://www.apex-legends.co.kr/images/weapon/Peacekeeper.jpg" alt="weaponSample11" > <p>피스키퍼</p></button>
-										<button class="tablinks" onmouseover="openTab(event, 'item12')"><img src="http://www.apex-legends.co.kr/images/weapon/EVA-8%20Auto.jpg" alt="weaponSample12" > <p>EVA-8 자동</p></button>
-										<button class="tablinks" onmouseover="openTab(event, 'item13')"><img src="http://www.apex-legends.co.kr/images/weapon/Mastiff.jpg" alt="weaponSample12" > <p>마스티프 샷건</p></button>
+										<button class="tablinks" onmouseover="openTab(event, 'item10')"><img class="tapbuttonImg" src="images/vk-47.png" alt="weaponSample10" > <p>모잠비크 샷건</p></button>
+										<button class="tablinks" onmouseover="openTab(event, 'item11')"><img class="tapbuttonImg" src="images/vk-47.png" alt="weaponSample11" > <p>피스키퍼</p></button>
+										<button class="tablinks" onmouseover="openTab(event, 'item12')"><img class="tapbuttonImg" src="images/vk-47.png" alt="weaponSample12" > <p>EVA-8 자동</p></button>
+										<button class="tablinks" onmouseover="openTab(event, 'item13')"><img class="tapbuttonImg" src="images/vk-47.png" alt="weaponSample12" > <p>마스티프 샷건</p></button>
 
 										<center>스나이퍼 라이플</center>
-										<button class="tablinks" onmouseover="openTab(event, 'item14')"><img src="http://www.apex-legends.co.kr/images/weapon/G7%20Scout.jpg" alt="weaponSample12" > <p>G7 스카우트</p></button>
-										<button class="tablinks" onmouseover="openTab(event, 'item15')"><img src="http://www.apex-legends.co.kr/images/weapon/Longbow.jpg" alt="weaponSample12" > <p>롱보우 DMR</p></button>
-										<button class="tablinks" onmouseover="openTab(event, 'item16')"><img src="http://www.apex-legends.co.kr/images/weapon/Triple%20Take.jpg" alt="weaponSample12" > <p>트리플 테이크</p></button>
-										<button class="tablinks" onmouseover="openTab(event, 'item17')"><img src="http://www.apex-legends.co.kr/images/weapon/Kraber.jpg" alt="weaponSample12" > <p>크레이버 .50구경 저격총</p></button>
+										<button class="tablinks" onmouseover="openTab(event, 'item14')"><img class="tapbuttonImg" src="images/vk-47.png" alt="weaponSample12" > <p>G7 스카우트</p></button>
+										<button class="tablinks" onmouseover="openTab(event, 'item15')"><img class="tapbuttonImg" src="images/vk-47.png" alt="weaponSample12" > <p>롱보우 DMR</p></button>
+										<button class="tablinks" onmouseover="openTab(event, 'item16')"><img class="tapbuttonImg" src="images/vk-47.png" alt="weaponSample12" > <p>트리플 테이크</p></button>
+										<button class="tablinks" onmouseover="openTab(event, 'item17')"><img class="tapbuttonImg" src="images/vk-47.png" alt="weaponSample12" > <p>크레이버 .50구경 저격총</p></button>
 
 										<center>기간단총</center>
-										<button class="tablinks" onmouseover="openTab(event, 'item18')"><img src="http://www.apex-legends.co.kr/images/weapon/R-99.jpg" alt="weaponSample12" > <p>R-99 SMG</p></button>
-										<button class="tablinks" onmouseover="openTab(event, 'item19')"><img src="http://www.apex-legends.co.kr/images/weapon/Alternator.jpg" alt="weaponSample12" > <p>얼터네이터 SMG</p></button>
-										<button class="tablinks" onmouseover="openTab(event, 'item20')"><img src="http://www.apex-legends.co.kr/images/weapon/Prowler.jpg" alt="weaponSample12" > <p>프라울러 점사 PDW</p></button>
+										<button class="tablinks" onmouseover="openTab(event, 'item18')"><img class="tapbuttonImg" src="images/vk-47.png" alt="weaponSample12" > <p>R-99 SMG</p></button>
+										<button class="tablinks" onmouseover="openTab(event, 'item19')"><img class="tapbuttonImg" src="images/vk-47.png" alt="weaponSample12" > <p>얼터네이터 SMG</p></button>
+										<button class="tablinks" onmouseover="openTab(event, 'item20')"><img class="tapbuttonImg" src="images/vk-47.png" alt="weaponSample12" > <p>프라울러 점사 PDW</p></button>
 
 									  </div>
 									  <div id="item1" class="tabcontent">

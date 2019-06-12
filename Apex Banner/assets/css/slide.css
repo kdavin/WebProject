@@ -78,7 +78,7 @@ circle {
   transition: .5s;
 }
 .right:hover {
-  background-color: #fff;
+  background-color: rgb(255, 255, 255);
 }
 
 .left {
@@ -89,7 +89,7 @@ circle {
   transition: .5s;
 }
 .left:hover {
-  background-color: #fff;
+  background-color: rgb(255, 255, 255);
 }
 
 .circle1 {

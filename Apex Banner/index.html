@@ -30,6 +30,7 @@
 
 			.container{
 			  padding: 2rem;
+			  z-index: 10;
 
 			}
 			.gallery{
@@ -42,6 +43,7 @@
 			  display: -webkit-flex;
 			  display: -ms-flexbox;
 			  display: flex;
+			  z-index: 10;
 
 
 
@@ -60,6 +62,7 @@
 			  position: relative;
 			  cursor: pointer;
 			  overflow: hidden;
+			  z-index: 10;
 			}
 
 			.gallery-item-image{
@@ -72,11 +75,13 @@
 			  transition: all .5s ease;
 			  bottom:0;
 			  overflow: hidden;
+			  z-index: 10;
 
 			}
 
 			.gallery-item:hover .gallery-item-image{
 			  bottom: 300px;
+			  z-index: 10;
 
 			}
 
@@ -89,6 +94,7 @@
 			  background: rgb(0, 0, 0);
 			  position:absolute;
 			  bottom:0;
+			  z-index: 10;
 			}
 
 			/* TopButton 스타일 */
@@ -109,11 +115,13 @@
 			margin: 35px auto 45px;
 			clear: both;
 			transition: all 0.4s ease;
+			z-index: 90;
 		}
 
 		.diamond:hover {
 			border-bottom-color: #ff1515;
 			top:-20px;
+			z-index: 90;
 		}
 
 		.diamond:after {
@@ -126,6 +134,7 @@
 			border: 30px solid transparent;
 			border-top-color: rgb(252, 99, 99);
 			transition: all 0.1s linear;
+			z-index: 90;
 		}
 
 		.diamond:hover:after {
@@ -137,6 +146,7 @@
 			height: 0;
 			border: 30px solid transparent;
 			border-bottom-color: #b94c4c;
+			z-index: 90;
 		}
 
 		/* 화살표 style */

@@ -26,12 +26,10 @@
 			  padding:0;
 			  box-sizing: border-box;
 			  font-family: 'Open Sans', sans-serif;
-			  z-index: -10;
 			}
 
 			.container{
 			  padding: 2rem;
-			  z-index: -10;
 
 			}
 			.gallery{
@@ -44,7 +42,6 @@
 			  display: -webkit-flex;
 			  display: -ms-flexbox;
 			  display: flex;
-			  z-index: -10;
 
 
 
@@ -63,7 +60,6 @@
 			  position: relative;
 			  cursor: pointer;
 			  overflow: hidden;
-			  z-index: -10;
 			}
 
 			.gallery-item-image{
@@ -76,13 +72,11 @@
 			  transition: all .5s ease;
 			  bottom:0;
 			  overflow: hidden;
-			  z-index: -10;
 
 			}
 
 			.gallery-item:hover .gallery-item-image{
 			  bottom: 300px;
-			  z-index: -10;
 
 			}
 
@@ -106,8 +100,8 @@
 		.diamond {
 			width: 0;
 			height: 0;
-			border: 30px solid transparent;
-			border-bottom-color: rgb(255, 95, 95);
+			border: 15px solid transparent;
+			border-bottom-color: #D4CEAC;
 			position: relative;
 			top: -15px;
 			display: block;
@@ -115,38 +109,34 @@
 			margin: 35px auto 45px;
 			clear: both;
 			transition: all 0.4s ease;
-			z-index: 90;
 		}
 
 		.diamond:hover {
-			border-bottom-color: #ff1515;
+			border-bottom-color: #806868;
 			top:-20px;
-			z-index: 90;
 		}
 
 		.diamond:after {
 			content: '';
 			position: absolute;
-			left: -30px;
-			top: 30px;
+			left: -15px;
+			top: 15px;
 			width: 0;
 			height: 0;
-			border: 30px solid transparent;
-			border-top-color: rgb(252, 99, 99);
+			border: 15px solid transparent;
+			border-top-color: #D4CEAC;
 			transition: all 0.1s linear;
-			z-index: 90;
 		}
 
 		.diamond:hover:after {
 			content: '';
 			position: absolute;
-			left: -30px;
+			left: -15px;
 			top: 0;
 			width: 0;
 			height: 0;
-			border: 30px solid transparent;
-			border-bottom-color: #ff6b6b;
-			z-index: 90;
+			border: 15px solid transparent;
+			border-bottom-color: #806868;
 		}
 
 		/* 화살표 style */
@@ -193,7 +183,7 @@
 					<li><a href="Character/Wraith.php">Character</a></li>
 					<li><a href="itemPage.html">Item</a></li>
 					<li><a href="weaponPage.html">Weapon</a></li>
-					<li><a href="mapPage.html">Map</a></li>
+					<li><a href="mapPage.html"></a>Map</li>
 				</ul>
 			</nav>
 
@@ -215,7 +205,7 @@
 					 </button>
 
 
-					 <div id='slide1' class='slide1 up1' style="font-family:SLANT; color: rgb(160, 52, 52)"><br><br>APEX BANNER</div>
+					 <div id='slide1' class='slide1 up1'></div>
 					 <div id='slide2' class='slide2'></div>
 					 <div id='slide3' class='slide3'></div>
 					 <div id='slide4' class='slide4'></div>
@@ -228,7 +218,7 @@
 				<div class="container">
 					<div class="gallery">
 					  <div class="gallery-item">
-						<div class="gallery-item-image" style="height: 1000px;" onclick="location.href='Character/Bloodhound.php'">
+						<div class="gallery-item-image" style="height: 1000px;">
 						  <img src="images/bloodhound.png "></div>
 						<div class="gallery-item-description">
 						  <h3 style="font-family:SLANT; color: red">BLOODHOUND</h3>
@@ -237,7 +227,7 @@
 					  </div>
 
 					  <div class="gallery-item">
-						<div class="gallery-item-image" style="height: 1000px;" onclick="location.href='Character/Gibraltar.php'">
+						<div class="gallery-item-image" style="height: 1000px;">
 						  <img src="images/gibraltar.png "></div>
 						<div class="gallery-item-description">
 						  <h3 style="font-family:SLANT; color: red">GIBRALTAR</h3>
@@ -245,7 +235,7 @@
 						</div>
 					  </div>
 					  <div class="gallery-item">
-						<div class="gallery-item-image" style="height: 1000px;" onclick="location.href='Character/Lifeline.php'">
+						<div class="gallery-item-image" style="height: 1000px;">
 						  <img src="images/lifeline.png "></div>
 						<div class="gallery-item-description">
 						  <h3 style="font-family:SLANT; color: red">LIFELINE</h3>
@@ -253,7 +243,7 @@
 						</div>
 					  </div>
 					  <div class="gallery-item">
-						<div class="gallery-item-image" style="height: 1000px;" onclick="location.href='Character/Pathfinder.php'">
+						<div class="gallery-item-image" style="height: 1000px;">
 						  <img src="images/pathfinder.png "></div>
 						<div class="gallery-item-description">
 						  <h3 style="font-family:SLANT; color: red">PATHFINDER</h3>
@@ -261,7 +251,7 @@
 						</div>
 					  </div>
 					  <div class="gallery-item">
-						<div class="gallery-item-image" style="height: 1000px;" onclick="location.href='Character/Wraith.php'">
+						<div class="gallery-item-image" style="height: 1000px;">
 						  <img src="images/wraith.png "></div>
 						<div class="gallery-item-description">
 						  <h3 style="font-family:SLANT; color: red">WRAITH</h3>
@@ -269,7 +259,7 @@
 						</div>
 					  </div>
 					  <div class="gallery-item">
-						<div class="gallery-item-image" style="height: 1000px;" onclick="location.href='Character/Bangalore.php'">
+						<div class="gallery-item-image" style="height: 1000px;">
 						  <img src="images/bangalore.png "></div>
 						<div class="gallery-item-description">
 						  <h3 style="font-family:SLANT; color: red">BANGALORE</h3>
@@ -277,7 +267,7 @@
 						</div>
 					  </div>
 					  <div class="gallery-item">
-						<div class="gallery-item-image" style="height: 1000px;" onclick="location.href='Character/Coustic.php'">
+						<div class="gallery-item-image" style="height: 1000px;">
 						  <img src="images/coustic.png "></div>
 						<div class="gallery-item-description">
 						  <h3 style="font-family:SLANT; color: red">COUSTIC</h3>
@@ -285,7 +275,7 @@
 						</div>
 					  </div>
 					  <div class="gallery-item">
-						<div class="gallery-item-image" style="height: 1000px;" onclick="location.href='Character/Mirage.php'">
+						<div class="gallery-item-image" style="height: 1000px;">
 						  <img src="images/mirage.png "></div>
 						<div class="gallery-item-description">
 						  <h3 style="font-family:SLANT; color: red">MIRAGE</h3>
@@ -293,7 +283,7 @@
 						</div>
 					  </div>
 					  <div class="gallery-item">
-						<div class="gallery-item-image" style="height: 1000px;" onclick="location.href='Character/Octain.php'">
+						<div class="gallery-item-image" style="height: 1000px;">
 						  <img src="images/octain.png "></div>
 						<div class="gallery-item-description">
 						  <h3 style="font-family:SLANT; color: red">OCTAIN</h3>
@@ -323,15 +313,15 @@
 							<div class="content">
 									<p style="font-family:SLANT;">CHARACTER</p>
 									<br>
-									<a href="Character/Bloodhound.php">- Bloodhound</a>
-									<a href="Character/Bangalore.php">- Bangalore</a>
-									<a href="Character/Caustic.php">- Caustic</a>
-									<a href="Character/Gibraltar.php">- Gibraltar</a>
-									<a href="Character/Lifeline.php">- Lifeline</a>
-									<a href="Character/Mirage.php">- Mirage</a>
-									<a href="Character/Octain.php">- Octain</a>
-									<a href="Character/Pathfinder.php">- Pathfinder</a>
-									<a href="Character/Wraith.php">- Wraith</a>
+									<p>- Bloodhound</p>
+									<p>- Gibraltar</p>
+									<p>- LifeLine</p>
+									<p>- Pathfinder</p>
+									<p>- Octain</p>
+									<p>- Warith</p>
+									<p>- Bangalore</p>
+									<p>- Coustic</p>
+									<p>- Mirage</p>
 								<div class="author">
 								</div>
 							</div>
@@ -340,7 +330,12 @@
 							<div class="content">
 									<p style="font-family:SLANT;">WEAPON</p>
 									<br>
-									<a href="weaponPage.html">- WeaponPage</a>
+									<p>- Assault Rifles</p>
+									<p>- Light Machine Guns</p>
+									<p>- Pistols</p>
+									<p>- Shotguns</p>
+									<p>- Sniper Rifles</p>
+									<p>- Sub Machine Guns</p>
 								<div class="author">
 								</div>
 							</div>
@@ -349,7 +344,10 @@
 							<div class="content">
 									<p style="font-family:SLANT;">ITEMS</p>
 									<br>
-									<a href="itemPage.html">- ItemPage</a>
+									<p>- Grenade series</p>
+									<p>- Recovery series</p>
+									<p>- Defense series</p>
+									<p>- Fire Attachment</p>
 								<div class="author">
 								</div>
 							</div>
@@ -358,7 +356,7 @@
 							<div class="content">
 									<p style="font-family:SLANT;">MAP</p>
 									<div>
-										<a href="mapPage.html"><img src="images/map.jpg" width="100%" height="100%"></a>
+										<img src="images/Map.png" width="100%" height="100%">
 									</div>
 								<div class="author">
 								</div>
@@ -369,7 +367,9 @@
 			</section>
 
 		<!-- Footer -->
-			
+			<footer id="footer">
+
+			</footer>
 
 		<!-- Top -->
 			<div class="top">

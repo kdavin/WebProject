@@ -20,7 +20,7 @@
       <!--top메뉴 포함-->
       <div>
          <?php
-          include '../menu.php' 
+          include 'menu.php' 
          ?>
       </div>
 
@@ -64,8 +64,23 @@
                                                  </ul>
                            </div>
                            
-                           <div class="menu_tab00 mTs" id="panels" >
-                            </div>
+                           <div class="menu_tab00 mTs" id="panels"  >
+                              <br/>
+                              <div style='text-weight:900;'>
+                              공허의 목소리(Voices from the Void)
+                              </div>   
+                           <br/>
+                              "위험이 다가올 때 목소리가 들립니다.
+                           <br/>
+                           (아무래도 이 목소리는 당신 편인 것 같습니다.)"
+                           
+                           <br>
+                           <div style='font-weight: normal; color:black;'>
+
+<br>
+적이 레이스를 조준할 때, 근처에 데드 박스가 있을 때, 근처에 함정(지금은 코스틱의 독가스 함정 뿐)이 설치되어 있을 때 등 위협적인 것을 공허의 목소리가 경고해 준다. 이 패시브가 발동됐을 때, H키를 눌러 팀원에게 그 사실을 경고해 줄 수 있다. 참고로 공허의 목소리가 조준을 경고해 줄 때에, 조준한 무기가 저격총이라면 저격수라고 알려 준다.
+</div>
+</div>
                             <div class="menu_tab01 mTs" id="panels" style="display: none;">
                             1
                             </div>
@@ -81,7 +96,24 @@
                        <iframe width="100%" height="600px" src="https://www.youtube.com/embed/bglAJajZFx4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         <hr />
                           <div class="story" >
-                           스토리 설명
+                          <div class="story_image">
+                          <img  src="../images/Story/wraith_story.jpg"/>
+                       </div>
+<br/>
+Wraith is a whirlwind fighter, able to execute swift and deadly attacks and manipulate spacetime by opening rifts in the fabric of reality — but she has no idea how she got that way. Years ago, she woke up in an IMC Detention Facility for the Mentally Ill with no memory of her life before. She also began hearing a distant voice whispering in her mind that would keep her awake for days on end. Despite nearly driving her insane, once she started to listen and trust it, the voice helped her harness her newfound power of void manipulation and escape the facility.
+<br/>
+<br/>
+
+레이스는 신속하고 치명적인 공격으로 적들을 처형하고 현실 구조의 균열을 열어서 시공간을 조작하는 난투가다. 그녀가 어떻게 그런 능력을 얻었는지는 몰라도 말이다. 몇 년 전에, 그녀는 IMC 정신계 III 구금시설에서 깨어났다. 그녀는 동시에 멀리서 들리는 속삭이는 목소리를 듣기 시작했고, 이 목소리는 그녀를 며칠이나 잠 못 이루게 했다. 목소리는 그녀를 거의 미치게 만들 뻔한 대신에, 일단 그녀가 목소리를 듣고, 믿기 시작하자 그녀가 이 새로 알게 된 공허를 조작하는 힘을 이용하고, 시설에서 탈출하는 것을 도와줬다.
+<br/>
+<br/>
+
+Determined to uncover her true identity, Wraith began a quest to find out more about the experiments. Many of the old research facilities, however, are buried beneath heavily guarded arenas used for the Apex Games. Now Wraith has joined the competition, and with every match she gets closer to the truth.
+<br/>
+<br/>
+그녀의 진짜 자아를 찾기 위해서, 레이스는 실험에 대해 더 알아내기 위한 여정을 시작했다. 하지만 많은 폐연구 시설들이 에이펙스 게임을 위해 엄격히 지켜지고 있는 경기장들 밑에 묻혀있었다. 이제, 레이스는 에이팩스 경기에 참여했고, 매 경기마다 진실에 가까워지고 있다.
+
+                          <br/>
                           </div><hr />
                </div>
             </div>

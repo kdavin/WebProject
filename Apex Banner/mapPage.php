@@ -1,0 +1,253 @@
+<!DOCTYPE HTML>
+<!--
+	Industrious by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>APEX BANNER</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link href="css/CharacterStyle.css" rel="stylesheet" type="text/css">
+
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<style>
+
+            @font-face{
+				font-family: 'SLANT';
+				src:url("assets/fonts/SLANT.ttf")
+			}
+			@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+			.vertical-menu {
+			width: 200px;
+			height: 150px;
+			overflow-y: auto;
+			}
+
+			.vertical-menu a {
+			background-color: #eee;
+			color: black;
+			display: block;
+			padding: 12px;
+			text-decoration: none;
+			}
+
+			.vertical-menu a:hover {
+			background-color: #ccc;
+			}
+
+			.vertical-menu a.active {
+			background-color: orangered;
+			color: white;
+			}
+
+
+
+			/* Style the tab */
+			.tab {
+				float: left;
+				border: 1px solid #ccc;
+				background-color: #f1f1f1;
+				width: 20%;
+				height: 500px;
+				overflow-y: auto;
+			}
+
+			/* Style the buttons inside the tab */
+			.tab button {
+				display: block;
+				background-color: inherit;
+				color: black;
+				padding: 10px 10px;
+				width: 100%;
+				border: none;
+				outline: none;
+				text-align: left;
+				cursor: pointer;
+				font-size: 17px;
+			}
+
+			/* Change background color of buttons on hover */
+			.tab button:hover {
+				background-color: #ddd;
+			}
+
+			/* Create an active/current "tab button" class */
+			.tab button.active {
+				background-color: #ccc;
+			}
+
+			/* Style the tab content */
+			.tabcontent {
+				float: left;
+				padding: 0px 12px;
+				border: 1px solid #ccc;
+				width: 70%;
+				border-left: none;
+				height: 500px;
+				display: none;
+			}
+
+			/* Clear floats after the tab */
+			.clearfix::after {
+				content: "";
+				clear: both;
+				display: table;
+			}
+
+			.content-map{
+				position: relative;
+			}
+			
+			.map{
+				position: absolute;
+				top: 0%;
+				left: 0%;
+			}
+
+			#img1{
+				position: absolute;
+				top: 0%;
+				left: 0%;
+				display: none;
+			}
+			#img2{
+				position: absolute;
+				top: 0%;
+				left: 0%;
+				display: none;
+			}
+			#img3{
+				position: absolute;
+				top: 0%;
+				left: 0%;
+				display: none;
+			}
+
+		</style>
+		<script type="text/javascript">
+			window.onload = function() {
+				var btn1 = document.getElementById('btn1');
+				var btn2 = document.getElementById('btn2');
+				var btn3 = document.getElementById('btn3');
+
+				var img1 = document.getElementById('img1');
+				var img2 = document.getElementById('img2');
+				var img3 = document.getElementById('img3');
+
+				var click1 = false;
+				var click2 = false;
+				var click3 = false;
+
+				btn1.onclick = function(){
+					if(click1){
+						img1.style.display = 'none';
+						click1 = false;
+					} else {
+						img1.style.display = 'block';
+						click1 = true;
+					}
+				}
+
+				btn2.onclick = function(){
+					if(click2){
+						img2.style.display = 'none';
+						click2 = false;
+					} else {
+						img2.style.display = 'block';
+						click2 = true;
+					}
+				}
+
+				btn3.onclick = function(){
+					if(click3){
+						img3.style.display = 'none';
+						click3 = false;
+					} else {
+						img3.style.display = 'block';
+						click3 = true;
+					}
+				}
+			}
+		</script>
+
+	</head>
+	<body class="is-preload">
+		
+	<?php
+          include 'menu.php' 
+         ?>
+
+		<!-- Heading -->
+		<div id="heading" >
+			<h1 style="font-family:SLANT;">Map Page</h1>
+		</div>
+
+		<!-- Main -->
+			<section id="main" class="wrapper">
+				<div class="inner">
+					<div class="content">
+						<button id="btn1">루팅지역</button>
+						<button id="btn2">비컨</button>
+						<button id="btn3">이동풍선</button>
+
+						<div class="content-map">
+							<img src="images/백그라운드.jpg" widht="70%" height="70%">
+
+							<div class="map">
+								<img src="images/map.jpg" width="100%" height="100%">
+							</div>
+							<div id="img1">
+								<img src="images/루팅지역.png" width="100%" height="100%">
+							</div>
+							<div id="img2">
+								<img src="images/비컨.png" width="100%" height="100%">
+							</div>
+							<div id="img3">
+								<img src="images/이동풍선.png" width="100%" height="100%">
+							</div>
+						</div>
+							
+							<div class="clearfix"></div>
+							
+							<script>
+							function openCity(evt, cityName) {
+							  var i, tabcontent, tablinks;
+							  tabcontent = document.getElementsByClassName("tabcontent");
+							  for (i = 0; i < tabcontent.length; i++) {
+								tabcontent[i].style.display = "none";
+							  }
+							  tablinks = document.getElementsByClassName("tablinks");
+							  for (i = 0; i < tablinks.length; i++) {
+								tablinks[i].className = tablinks[i].className.replace(" active", "");
+							  }
+							  document.getElementById(cityName).style.display = "block";
+							  evt.currentTarget.className += " active";
+							}
+							</script>
+							<br >
+						</div>
+					</div>
+				</div>
+			</section>
+
+		<!-- Footer -->
+			
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="js/js.js"></script>
+
+
+	</body>
+</html>

@@ -11,8 +11,8 @@
       <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
       <meta name="description" content="" />
       <meta name="keywords" content="" />
-      <link rel="stylesheet" href="assets/css/main.css" />
-      <link href="css/CharacterStyle.css" rel="stylesheet" type="text/css">
+      <link rel="stylesheet" href="../assets/css/main.css" />
+      <link href="../css/CharacterStyle.css" rel="stylesheet" type="text/css">
       <style>
           
          </style>
@@ -20,11 +20,12 @@
  <!--홈버튼 메뉴 호버-->
  <div id="myNav" class="overlay">
     <div class="overlay-content">
-       <a href="index.html">Main</a>
-       <a href="character.php">Character</a>
-       <a href="itemPage.html">Item</a>
-       <a href="weaponPage.html">Weapon</a>
-       <a href="mapPage.html">Map</a>
+
+       <a href="../index.php">Main</a>
+       <a href="Wraith.php">Character</a>
+       <a href="../itemPage.php">Item</a>
+       <a href="../weaponPage.php">Weapon</a>
+       <a href="../mapPage.php">Map</a>
     </div>
   </div>
  <!-- Header -->

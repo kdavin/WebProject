@@ -20,7 +20,7 @@
       <!--홈버튼 메뉴 호버-->
       <div>
          <?php
-          require '../menu.php' 
+          require 'menu.php' 
          ?>
       </div>
       <!-- Header -->
@@ -72,7 +72,6 @@
                            </div>
                            
                            <div class="menu_tab00 mTs" id="panels" >
-                              <iframe width="560" height="315" src="https://www.youtube.com/embed/bglAJajZFx4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             </div>
                             <div class="menu_tab01 mTs" id="panels" style="display: none;">
                             1
@@ -85,6 +84,8 @@
                             </div>
                                                  
                        </div>
+                       <hr />
+                       <iframe width="100%" height="600px" src="https://www.youtube.com/embed/JyJhFYNob30" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                        <hr />
                           <div class="story" >
                            스토리 설명

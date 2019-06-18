@@ -20,7 +20,7 @@
       <!--top메뉴 포함-->
       <div>
          <?php
-          require '../menu.php' 
+          require 'menu.php' 
          ?>
       </div>
 

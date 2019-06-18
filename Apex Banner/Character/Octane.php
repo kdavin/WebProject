@@ -20,7 +20,7 @@
       <!--top메뉴 포함-->
       <div>
          <?php
-          include '../menu.php' 
+          include 'menu.php' 
          ?>
       </div>
 

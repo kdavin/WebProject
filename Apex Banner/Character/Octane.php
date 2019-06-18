@@ -81,7 +81,25 @@
                        <iframe width="100%" height="600px" src="https://www.youtube.com/embed/bglAJajZFx4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         <hr />
                           <div class="story" >
-                           스토리 설명
+                          <div class="story_image">
+                          <img  src="../images/Story/Octane_story.jpg"/>
+                       </div>
+                       <br/>
+                       One day, Octavio Silva was bored. In fact, he was bored most days. Heir to the preoccupied CEOs of Silva Pharmaceuticals and wanting for nothing in life, he entertained himself by performing death-defying stunts and posting holovids of them for his fans to gawk over. So, this day, he decided to set the course record for a nearby Gauntlet by launching himself across the finish line – using a grenade.
+<br/>
+<br/>
+
+어느 날, 옥타비오 실바는 싫증을 느꼈습니다. 사실 이 싫증은 갑작스러운 것이 아니었습니다. 실바 제약회사 CEO의 후계자로 부족함 없이 자란 그는, 위험천만한 스턴트에 몸을 던지고 홀로그램 영상을 제작해 팬들에게 인기를 끌었습니다. 그리고 이날 그는 결승선을 뛰어넘기 위해 새로운 방법을 생각해 냈으니, 그것은 바로 수류탄을 사용하는 것이었습니다.
+
+<br/>
+<br/>
+
+As he lay in triage hours later, the doctors informed him that the damage done to his legs meant his daredevil days were over. That didn’t sit well with Octavio, who turned to an old friend for help: Ajay Che, who he guilted into forging an order to replace his legs with bionic ones. Suddenly able to repair his limbs at a moment’s notice, Octavio decided petty online stunts weren’t enough: the ultimate adrenaline rush, the Apex Games, was calling. Now, he’s going to become an Apex Champion doing the most incredible, death-defying moves anyone’s ever seen. Maybe in the arena, he won’t be so bored.
+<br/>
+<br/>
+병상에 누워 있던 그에게, 의사들은 다리가 너무 심하게 망가져 더 이상 뛸 수 없을 것이라고 선고를 내렸습니다. 그 말을 받아들일 수 없었던 옥타비오는 오랜 친구인 에이제이 체에게 도움을 청해, 자신의 다리를 대신할 새로운 다리를 만들어달라고 부탁했습니다. 곧바로 다리를 고치게 된 옥타비오는 이제 온라인 스턴트가 시시하게 느껴졌습니다. 극한의 아드레날린을 치솟게 해준 Apex 게임이 그를 부르고 있었기 때문입니다. 이제 그는 누구도 보지 못한 현란한 움직임으로, Apex의 챔피언 자리를 노리고 있습니다. 어쩌면 아레나는 그를 즐겁게 만들어 줄지도 모릅니다.
+
+                          <br/>
                           </div><hr />
                </div>
             </div>

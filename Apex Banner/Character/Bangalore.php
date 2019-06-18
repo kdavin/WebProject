@@ -88,7 +88,24 @@
                        <iframe width="100%" height="600px" src="https://www.youtube.com/embed/JyJhFYNob30" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                        <hr />
                           <div class="story" >
-                           스토리 설명
+                          <div class="story_image">
+                          <img  src="../images/Story/Bangalore_story.jpg"/>
+                       </div>
+                       <br/>
+                       Born into a military family where she, her parents, and her four older brothers all served in the IMC Armed Forces, Bangalore has been an exceptional soldier since she was young. She was top of her class at the IMC Military Academy and the only cadet who could take apart a Peacekeeper, equip it with a Precision Choke hop-up, and put it back together in under twenty seconds – blindfolded.
+<br/>
+<br/>
+
+부모와 네 형제 전부 IMC 군대에서 복무했던 군인 가정에서 태어난 방갈로르는 어릴 적 부터 특출난 군인이었다. 그녀는 IMC 사관학교의 학급 내에서 최고였으며, 정밀 초크 홉업을 장착한 피스키퍼를 20초 내로 분해했다가 재조립할 수 있는 유일한 생도였다 - 눈을 가린 채로.
+<br/>
+<br/>
+
+Three years ago, Anita and her brother Jackson were ordered to retrieve a mercenary fleet from the Outlands to aid in the IMC’s fight against the Militia. However, their unit lost contact with IMC HQ and were ambushed on arrival. The squad scattered, but Jackson stayed behind to give his sister time to escape. Alone and with no way home, Anita put her training, extensive weapon knowledge, and competitive spirit to work by joining the Apex Games. Now, she fights to raise money for passage back to the IMC home base, where she hopes to reunite with what remains of her family. 
+<br/>
+<br/>
+3년 전, 아니타와 그녀의 형제 잭슨은 민병대에 대항하는 IMC의 전투에 도움을 주기 위해 아웃랜드에서 용병 함대를 복귀시키라는 명령을 받았다. 그러나, 그들의 부대는 IMC 본부와의 연락이 두절되었고 도착하자마자 매복 공격을 받았다. 그들의 분대는 뿔뿔이 흩어졌지만, 잭슨은 누이가 탈출할 시간을 벌기 위해 그 뒤에 남았다. 집에 갈 방법 없이 외톨이가 된 아니타는 에이펙스 게임에 합류하여 일하며 광범위한 무기 지식과 경쟁심으로 자신을 훈련에 임하게 했다. 지금, 그녀는 IMC 본부로 복귀할 수 있는 돈을 모으기 위해 싸우며, 그곳에서 그녀는 남은 가족들과 재회하기를 원한다.
+
+                          <br/>
                           </div><hr />
                </div>
             </div>

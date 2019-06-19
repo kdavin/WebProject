@@ -52,15 +52,16 @@
 
                              <img class="character" src="../images/character/tall/wraith-tall.png"/>
                              <div class="regend">
-                                                        <h2> 방갈로르 Bangalore </h2>
+                                                        <br /><h2> 레이스 Wraith </h2><br /><br /><br />
                              <div>
                                <p class="regendBold">
-                             칭호 : 프로페셔널 병사(Professional Soldier)<br />
-                             본명 : 아니타 윌리엄스 (Anita Williams)<br />
-                             나이 : 35세<br /><br />
+                             칭호 : 다차원 결투사 (Interdimensional Skirmisher)<br />
+                             본명 : 삭제됨 (Redacted)<br />
+                             나이 : 삭제됨 (Redacted)<br /><br />
                              </p>
-                             "방갈로르는 IMC의 무기 전문가였습니다. 그녀는 이제 Apex 게임에서 집으로 돌아가는 방법을 찾기 위해 싸웁니다.d"<br /><br />
-                             "Name the weapon--I'll still beat you. (아무 무기나 가져와 봐. 그래도 내가 널 이길테니.)"<br />
+                             레이스는 시공간을 조종하여 차원 균열을 만들며 싸우는 매서운 전사입니다. 그녀는 잃어버린 과거의 진실을 알아내기 위해 Apex 게임에 참가했습니다.<br /><br />
+                             “There’s a thin line between life and death. You’ll find me there.” <br />
+                             "삶과 죽음은 종이 한 장 차이지. 그곳에서 날 만나게 될 거야."<br />
                              </div>
                              </div>
 

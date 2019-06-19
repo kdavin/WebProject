@@ -52,15 +52,16 @@
 
                              <img class="character" src="../images/character/tall/Bloodhound-tall.png"/>
                              <div class="regend">
-                                                        <h2> 방갈로르 Bangalore </h2>
+                                                        <br /><h2> 블러드하운드 Bloodhound </h2><br /><br /><br />
                              <div>
                                <p class="regendBold">
-                             칭호 : 프로페셔널 병사(Professional Soldier)<br />
-                             본명 : 아니타 윌리엄스 (Anita Williams)<br />
-                             나이 : 35세<br /><br />
+                             칭호 : 테크놀러지 추적자 (Technological Tracker)<br />
+                             본명 : 불명 (Unknown)<br />
+                             나이 : 불명 (Unknown)<br /><br />
                              </p>
-                             "방갈로르는 IMC의 무기 전문가였습니다. 그녀는 이제 Apex 게임에서 집으로 돌아가는 방법을 찾기 위해 싸웁니다.d"<br /><br />
-                             "Name the weapon--I'll still beat you. (아무 무기나 가져와 봐. 그래도 내가 널 이길테니.)"<br />
+                             블러드하운드는 프론티어 사상 최고의 사냥꾼들 중 하나이지만, 그의 정체는 베일에 감춰져 있습니다.<br /><br />
+                             “I am the hunter the Gods have sent.” <br />
+                             난 신들께서 보낸 사냥꾼이다.<br />
                              </div>
                              </div>
 

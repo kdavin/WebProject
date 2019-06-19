@@ -52,15 +52,16 @@
 
                              <img class="character" src="../images/character/tall/Pathfinder-tall.png"/>
                              <div class="regend">
-                                                        <h2> 방갈로르 Bangalore </h2>
+                                                      <br /><h2> 방갈로르 Bangalore </h2><br /><br /><br />
                              <div>
                                <p class="regendBold">
-                             칭호 : 프로페셔널 병사(Professional Soldier)<br />
-                             본명 : 아니타 윌리엄스 (Anita Williams)<br />
-                             나이 : 35세<br /><br />
+                             칭호 : 전방 정찰 요원 (Forward Scout)<br />
+                             본명 : 마빈 (MRVN)<br />
+                             나이 : 불명 (Unknown)<br /><br />
                              </p>
-                             "방갈로르는 IMC의 무기 전문가였습니다. 그녀는 이제 Apex 게임에서 집으로 돌아가는 방법을 찾기 위해 싸웁니다.d"<br /><br />
-                             "Name the weapon--I'll still beat you. (아무 무기나 가져와 봐. 그래도 내가 널 이길테니.)"<br />
+                             패스파인더는 버려진 실험실에서 30년 전에 부팅되었습니다. 누가, 왜 자신을 만들었는지는 알지 못합니다. 그는 Apex 게임에 참가함으로써 자신을 만든 사람을 찾고자 합니다.<br /><br />
+                             “Losing isn't fun. That's why I don't do it.” <br />
+                             "지는 건 재미없어. 그래서 내가 안 지는 거야."<br />
                              </div>
                              </div>
 

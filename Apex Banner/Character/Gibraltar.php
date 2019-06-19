@@ -52,15 +52,16 @@
 
                              <img class="character" src="../images/character/tall/Gibraltar-tall.png"/>
                              <div class="regend">
-                                                        <h2> 방갈로르 Bangalore </h2>
+                                                        <br /><h2> 지브롤터 Gibraltar </h2><br /><br /><br />
                              <div>
                                <p class="regendBold">
-                             칭호 : 프로페셔널 병사(Professional Soldier)<br />
-                             본명 : 아니타 윌리엄스 (Anita Williams)<br />
-                             나이 : 35세<br /><br />
+                             칭호 : 철통 요새 (Shielded Fortress)<br />
+                             본명 : 마코아 지브롤터 (Makoa Gibraltar)<br />
+                             나이 : 30세<br /><br />
                              </p>
-                             "방갈로르는 IMC의 무기 전문가였습니다. 그녀는 이제 Apex 게임에서 집으로 돌아가는 방법을 찾기 위해 싸웁니다.d"<br /><br />
-                             "Name the weapon--I'll still beat you. (아무 무기나 가져와 봐. 그래도 내가 널 이길테니.)"<br />
+                             지브롤터는 타인을 돕는 데 삶을 바친 점잖은 거한입니다. 그의 친구들은 돈과 영광을 얻기 위해 Apex 게임에 참가했지만, 그는 친구들의 안전을 지키기 위해 참가했습니다.<br /><br />
+                             “Try to move me; it'll be fun.” <br />
+                             "날 움직여봐. 재밌을거야."<br />
                              </div>
                              </div>
 

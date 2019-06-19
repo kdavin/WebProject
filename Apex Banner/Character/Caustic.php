@@ -52,15 +52,16 @@
 
                              <img class="character" src="../images/character/tall/Caustic-tall.png"/>
                              <div class="regend">
-                                                        <h2> 방갈로르 Bangalore </h2>
+                                                        <br /><h2> 코스틱 Caustic </h2><br /><br /><br />
                              <div>
                                <p class="regendBold">
-                             칭호 : 프로페셔널 병사(Professional Soldier)<br />
-                             본명 : 아니타 윌리엄스 (Anita Williams)<br />
-                             나이 : 35세<br /><br />
+                             칭호 : 독극물 트래퍼 (Toxic Trapper)<br />
+                             본명 : 알렉산더 녹스 (Alexander Nox)<br />
+                             나이 : 48세<br /><br />
                              </p>
-                             "방갈로르는 IMC의 무기 전문가였습니다. 그녀는 이제 Apex 게임에서 집으로 돌아가는 방법을 찾기 위해 싸웁니다.d"<br /><br />
-                             "Name the weapon--I'll still beat you. (아무 무기나 가져와 봐. 그래도 내가 널 이길테니.)"<br />
+                             코스틱은 한때 미래가 밝으며 이상주의적인 과학자였다고 합니다. 그러나 그는 연구를 거듭하며 어두운 길로 빠져들었고, 지금은 새로운 실험체 집단을 찾아내었습니다.<br /><br />
+                             “I don't concern myself with the ambitions of insects.” <br />
+                             "벌레들의 야망에 시간을 허비할 순 없지."<br />
                              </div>
                              </div>
 

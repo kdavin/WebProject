@@ -52,15 +52,16 @@
 
                              <img class="character" src="../images/character/tall/Lifeline-tall.png"/>
                              <div class="regend">
-                                                        <h2> 방갈로르 Bangalore </h2>
+                                                        <br /><h2> 라이프라인 Lifeline </h2><br /><br /><br />
                              <div>
                                <p class="regendBold">
-                             칭호 : 프로페셔널 병사(Professional Soldier)<br />
-                             본명 : 아니타 윌리엄스 (Anita Williams)<br />
-                             나이 : 35세<br /><br />
+                             칭호 : 전투 의무병 (Combat Medic)<br />
+                             본명 : 에이제이 체 (Ajay Che)<br />
+                             나이 : 24세<br /><br />
                              </p>
-                             "방갈로르는 IMC의 무기 전문가였습니다. 그녀는 이제 Apex 게임에서 집으로 돌아가는 방법을 찾기 위해 싸웁니다.d"<br /><br />
-                             "Name the weapon--I'll still beat you. (아무 무기나 가져와 봐. 그래도 내가 널 이길테니.)"<br />
+                             라이프라인은 어려움에 빠진 이들을 돕는 데 삶을 바쳤습니다. 그녀는 상금을 프론티어 군단에 보태기 위해 Apex 게임에 참가했습니다.<br /><br />
+                             “Never quit. That's how you win.” <br />
+                             "포기하지 마. 그래야 이겨."<br />
                              </div>
                              </div>
 

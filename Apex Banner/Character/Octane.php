@@ -52,15 +52,16 @@
 
                              <img class="character" src="../images/character/tall/octane-tall.png"/>
                              <div class="regend">
-                                                        <h2> 방갈로르 Bangalore </h2>
+                                                        <br /><h2> 옥테인 Octane </h2><br /><br /><br />
                              <div>
                                <p class="regendBold">
-                             칭호 : 프로페셔널 병사(Professional Soldier)<br />
-                             본명 : 아니타 윌리엄스 (Anita Williams)<br />
-                             나이 : 35세<br /><br />
+                             칭호 : 발 빠른 돌격가 (High-Speed Daredevil) / 아드레날린 중독자 (The Adrenaline Junkie)<br />
+                             본명 : 옥타비오 실바 (Octavio Silva)<br />
+                             나이 : 24세<br /><br />
                              </p>
-                             "방갈로르는 IMC의 무기 전문가였습니다. 그녀는 이제 Apex 게임에서 집으로 돌아가는 방법을 찾기 위해 싸웁니다.d"<br /><br />
-                             "Name the weapon--I'll still beat you. (아무 무기나 가져와 봐. 그래도 내가 널 이길테니.)"<br />
+                             신기록을 세운 스피드런 건틀렛을 가지고, 옥테인은 훨씬 더 큰 야망을 품고 Apex 게임에 뛰어들었습니다.<br /><br />
+                             “Whoa . . . what a rush!”<br />
+                             "우와... 장난 아니야!"<br />
                              </div>
                              </div>
 

@@ -52,15 +52,18 @@
 
                              <img class="character" src="../images/character/tall/mirage-tall.png" />
                              <div class="regend">
-                                                        <h2> 방갈로르 Bangalore </h2>
+                                                        <br /><h2> 미라지 Mirage </h2><br /><br /><br />
                              <div>
                                <p class="regendBold">
-                             칭호 : 프로페셔널 병사(Professional Soldier)<br />
-                             본명 : 아니타 윌리엄스 (Anita Williams)<br />
-                             나이 : 35세<br /><br />
+                             칭호 : 홀로그래픽 트릭스터 (Holographic Trickster)<br />
+                             본명 : 엘리엇 위트 (Elliott Witt)<br />
+                             나이 : 30세<br /><br />
                              </p>
-                             "방갈로르는 IMC의 무기 전문가였습니다. 그녀는 이제 Apex 게임에서 집으로 돌아가는 방법을 찾기 위해 싸웁니다.d"<br /><br />
-                             "Name the weapon--I'll still beat you. (아무 무기나 가져와 봐. 그래도 내가 널 이길테니.)"<br />
+                             미라지는 홀로그램 장치 개발에 삶을 바쳤습니다. 이제 그는 Apex 게임의 생명이 되어, 적들을 농락하고 관중들을 즐겁게 합니다.<br /><br />
+                             “I don't take myself too seriously. I don't take myself anywhere. I need to get out more.”<br />
+                             "난 스스로를 진지하게 여기지 않아. 난 어디에도 가지 않지. 나는 좀 더 나아가야 해."<br />
+                             "Now you see me? Now you dont. Now you see me? Boom. You're dead."<br />
+                             "내가 보여? 아닐걸. 보인다고? 빵. 너 죽었어."<br />
                              </div>
                              </div>
 

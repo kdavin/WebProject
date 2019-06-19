@@ -264,7 +264,7 @@ button,
   -ms-transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
   transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
   border: 0;
-  border-radius: 4px;
+ 
   cursor: pointer;
   display: inline-block;
   font-weight: 600;
@@ -2429,7 +2429,7 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 6; }
+  z-index: 52; }
   #header > .logo {
     color: #ffffff;
     font-size: 2rem;

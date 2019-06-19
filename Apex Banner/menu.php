@@ -14,22 +14,24 @@
       <link rel="stylesheet" href="assets/css/main.css" />
       <link href="css/CharacterStyle.css" rel="stylesheet" type="text/css">
       <style>
-          
+          .none{
+             display:inline;
+          }
          </style>
    </head>
  <!--홈버튼 메뉴 호버-->
  <div id="myNav" class="overlay">
     <div class="overlay-content">
-       <a href="index.php">Main</a>
-       <a href="Character/Wraith.php">Character</a>
-       <a href="itemPage.php">Item</a>
-       <a href="weaponPage.php">Weapon</a>
-       <a href="mapPage.php">Map</a>
+       <a class="none" href="index.php">Main</a>
+       <a class="none" href="Character/Wraith.php">Character</a>
+       <a class="none" href="itemPage.php">Item</a>
+       <a class="none" href="weaponPage.php">Weapon</a>
+       <a class="none" href="mapPage.php">Map</a>
     </div>
   </div>
  <!-- Header -->
     <header id="header">
-       <a id="p1" class="logo" href="index.html" style="font-family:SLANT; color: rgb(224, 45, 0); margin: auto;">APEX BANNER</a>
+       <a id="p1" class="logo" href="index.php" style="font-family:SLANT; color: rgb(224, 45, 0); margin: auto;">APEX BANNER</a>
        <!--<nav>
           <a href="#menu">Menu</a>
        </nav>-->

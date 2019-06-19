@@ -13,14 +13,14 @@
       <meta name="keywords" content="" />
       <link rel="stylesheet" href="../assets/css/main.css" />
       <link href="../css/CharacterStyle.css" rel="stylesheet" type="text/css">
-      
+
    </head>
-   
+
    <body class="is-preload">
       <!--top메뉴 포함-->
       <div>
          <?php
-          include 'menu.php' 
+          include 'menu.php'
          ?>
       </div>
 
@@ -34,27 +34,40 @@
             </ul>
          </nav>-->
 
-      <!-- Heading --> 
-   
-         
+      <!-- Heading -->
+
+
 
       <!-- Main -->
       <?php
-          include '../Regends.php' 
+          include 'Regends.php'
          ?>
          <section id="main" class="wrapper">
-               
+
             <div class="inner">
                <div class="content">
-                  
-    <!--캐릭터 설명-->              
+
+    <!--캐릭터 설명-->
                        <div>
-                          
+
                              <img class="character" src="../images/character/tall/wraith-tall.png"/>
-                           
+                             <div class="regend">
+                                                        <br /><h2> 레이스 Wraith </h2><br /><br /><br />
+                             <div>
+                               <p class="regendBold">
+                             칭호 : 다차원 결투사 (Interdimensional Skirmisher)<br />
+                             본명 : 삭제됨 (Redacted)<br />
+                             나이 : 삭제됨 (Redacted)<br /><br />
+                             </p>
+                             레이스는 시공간을 조종하여 차원 균열을 만들며 싸우는 매서운 전사입니다. 그녀는 잃어버린 과거의 진실을 알아내기 위해 Apex 게임에 참가했습니다.<br /><br />
+                             “There’s a thin line between life and death. You’ll find me there.” <br />
+                             "삶과 죽음은 종이 한 장 차이지. 그곳에서 날 만나게 될 거야."<br />
+                             </div>
+                             </div>
+
                        </div>
                        <hr />
-  <!--스킬메뉴탭-->                     
+  <!--스킬메뉴탭-->
                        <div class="skill">
                         <div class="menu_tab">
                            <ul>
@@ -63,34 +76,62 @@
                               <li><a href="#;" onclick="tab_menu(2);"><img src="../images/Wraith_skill03.png" width="200"height="100"></a></li>
                                                  </ul>
                            </div>
-                           
+
                            <div class="menu_tab00 mTs" id="panels"  >
                               <br/>
                               <div style='text-weight:900;'>
                               공허의 목소리(Voices from the Void)
-                              </div>   
+                              </div>
                            <br/>
                               "위험이 다가올 때 목소리가 들립니다.
                            <br/>
                            (아무래도 이 목소리는 당신 편인 것 같습니다.)"
-                           
+
                            <br>
                            <div style='font-weight: normal; color:black;'>
 
 <br>
 적이 레이스를 조준할 때, 근처에 데드 박스가 있을 때, 근처에 함정(지금은 코스틱의 독가스 함정 뿐)이 설치되어 있을 때 등 위협적인 것을 공허의 목소리가 경고해 준다. 이 패시브가 발동됐을 때, H키를 눌러 팀원에게 그 사실을 경고해 줄 수 있다. 참고로 공허의 목소리가 조준을 경고해 줄 때에, 조준한 무기가 저격총이라면 저격수라고 알려 준다.
+<br/>
 </div>
 </div>
                             <div class="menu_tab01 mTs" id="panels" style="display: none;">
-                            1
+                            <br/>
+                              <div style='text-weight:900;'>
+                              공허 속으로 (Into the Void)
+                              </div>
+                           <br/>
+                           "안전한 '공허'에 들어가 모든 대미지를 피하고 빠르게 이동합니다."
+
+
+                           <br>
+                           <div style='font-weight: normal; color:black;'>
+
+<br>
+능력 사용전 선딜이 존재하니 위험하다 싶으면 빠르게 사용하자. 능력 사용 후에도 무기를 꺼내기까지 다소 후딜이 존재한다. 전체적으로 전투용 능력이라기보단 생존용 능력. 궁극기 도중에도 쓸 수 있기 때문에, 궁극기와의 연계가 매우 좋다.
+<br/>
+적군 레이스가 공허로 들어갈 때 자신 또한 이 기술을 사용하면 공허 속에서 상대 레이스를 볼 수 있다. 물론 공격은 할 수 없고 상대나 자신중에 한명이라도 공허에서 나오면 공허에서 보이지 않게된다.
+<br/>
+</div>
                             </div>
                             <div class="menu_tab02 mTs" id="panels" style="display: none;">
-                            2
+                            <br/>
+                              <div style='text-weight:900;'>
+                              차원 균열 (Dimensional Rift)
+                              </div>
+                           <br/>
+                              "60초 동안 2개의 지점을 포탈로 연결합니다."
+
+                           <br>
+                           <div style='font-weight: normal; color:black;'>
+
+<br>
+활용시 중요한 점으로는, 궁극기를 켠 상태에서는 전술 스킬을 사용할 수 있지만, 전술 스킬을 사용하는 도중에는 포털을 탈 수 없다는 것이다. 특히 궁극기 사용 도중 전술 스킬을 활용하면 이동속도가 더 빨라진다.
+적도 포탈을 사용할 수 있긴 하지만 적이 포탈을 탔을 때 선공권은 레이스 쪽에 있으므로 쉽게 접근하지 못한다.<br/>
+</div>
                             </div>
-                            <div class="menu_tab03 mTs" id="panels" style="display: none;">
-                            3
-                            </div>
-                                                 
+
+
                        </div>
                        <hr />
                        <iframe width="100%" height="600px" src="https://www.youtube.com/embed/bglAJajZFx4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -121,7 +162,7 @@ Determined to uncover her true identity, Wraith began a quest to find out more a
 
       <!-- Footer -->
       <?php
-          require '../footer.php' 
+          require '../footer.php'
          ?>
 
       <!-- Scripts -->
@@ -132,7 +173,8 @@ Determined to uncover her true identity, Wraith began a quest to find out more a
          <script src="../assets/js/main.js"></script>
          <script src="http://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
          <script src="../js/js.js"></script>
+         <script src="../js/regends.js"></script>
 
-  
+
    </body>
 </html>

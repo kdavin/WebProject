@@ -173,7 +173,7 @@
 		<!-- Header -->
 		<div>
          <?php
-          require 'menu.php' 
+          require 'menu.php'
          ?>
       </div>
 
@@ -257,7 +257,7 @@
 						</div>
 					  </div>
 					  <div class="gallery-item">
-						<div class="gallery-item-image" style="height: 1000px;" onclick="location.href='Character/Coustic.php'">
+						<div class="gallery-item-image" style="height: 1000px;" onclick="location.href='Character/Caustic.php'">
 						  <img src="images/coustic.png "></div>
 						<div class="gallery-item-description">
 						  <h3 style="font-family:SLANT; color: red">COUSTIC</h3>
@@ -273,7 +273,7 @@
 						</div>
 					  </div>
 					  <div class="gallery-item">
-						<div class="gallery-item-image" style="height: 1000px;" onclick="location.href='Character/Octain.php'">
+						<div class="gallery-item-image" style="height: 1000px;" onclick="location.href='Character/Octane.php'">
 						  <img src="images/octain.png "></div>
 						<div class="gallery-item-description">
 						  <h3 style="font-family:SLANT; color: red">OCTAIN</h3>

@@ -30,7 +30,7 @@
   </div>
  <!-- Header -->
     <header id="header">
-       <a id="p1" class="logo" href="../index.html" style="font-family:SLANT; color: rgb(224, 45, 0); margin: auto;">APEX BANNER</a>
+       <a id="p1" class="logo" href="../index.php" style="font-family:SLANT; color: rgb(224, 45, 0); margin: auto;">APEX BANNER</a>
        <!--<nav>
           <a href="#menu">Menu</a>
        </nav>-->

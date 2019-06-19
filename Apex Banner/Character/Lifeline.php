@@ -40,7 +40,7 @@
 
       <!-- Main -->
       <?php
-          include '../Regends.php' 
+          include 'Regends.php' 
          ?>
          <section id="main" class="wrapper">
                
@@ -65,16 +65,51 @@
                            </div>
                            
                            <div class="menu_tab00 mTs" id="panels" >
+                           <br/>
+                              <div style='text-weight:900;'>
+                              전투 의무병 (Combat Medic)
+                              </div>   
+                           <br/>
+                              "실드 방벽의 보호를 받으며 빨리 팀원을 회생시킵니다.<br>
+치유 아이템을 25% 빨리 사용합니다."
+                           
+                           <br>
+                           <div style='font-weight: normal; color:black;'>
+
+<br>
+아군 회생시 라이프라인이 바라보고있는 방향으로 90°를 보호하는 실드를 전개한다. 이 실드는 데미지를 받아도 파괴되지 않기 때문에 다른 레전드에 비해 더욱 빠르고 안전하게 아군을 되살릴 수 있다. 방갈로르의 연막이나 코스틱의 가스 사이에서 실드를 전개하는 경우 제법 잘 보이기 때문에 적과 교전중에는 주의해서 소생할 필요가 있다.
+</div>
                             </div>
                             <div class="menu_tab01 mTs" id="panels" style="display: none;">
-                            1
-                            </div>
+                            <br/>
+                              <div style='text-weight:900;'>
+                              D.O.C 치유 드론 (D.O.C. Heal Drone)
+                              </div>   
+                           <br/>
+                              "드론이 자동으로 주위의 대상을 치료합니다."
+                           
+                           <br>
+                           <div style='font-weight: normal; color:black;'>
+
+<br>
+드론을 내보내 근처의 대상을 치료한다. 3명까지 치료 가능하며 치유량은 높지만 치유 속도가 느리기 때문에 하나 깔고 계속 버티는 건 불가능에 가깝다. 하지만 라이프라인의 특성상 다 죽어가는 아군을 살릴 일도 많고. 애초에 들고다니는 회복 아이템에 한계가 있는 게임 특성상 쿨타임마다 사용가능한 공짜 힐의 가치는 매우 높다. 특히 이 게임은 가방이 꽤나 중요한 요소중에 하나이기 때문에 이 스킬로 인해 구급품을 다른 레전드들보다 덜 챙겨 공간을 만들 수 있다.
+</div>
+</div>
                             <div class="menu_tab02 mTs" id="panels" style="display: none;">
-                            2
+                            <br/>
+                              <div style='text-weight:900;'>
+                              케어 패키지 (Care Package)
+                              </div>   
+                           <br/>
+                              "고성능 장비로 가득 찬 드롭 포드를 소환합니다."
+                           
+                           <br>
+                           <div style='font-weight: normal; color:black;'>
+
+<br>
+하늘에서 케어 패키지를 불러온다. 일반 케어 패키지와 비교하면 낙하 속도가 훨씬 빠르고 미니맵에 표시되지도 않으며 라이프라인의 것은 하늘색 컬러링에 적십자 표시가 붙어있다. 3개의 아이템이 들어 있으며 모든 플레이어가 사용할 수 있다. 3개의 슬롯에 각각 나오는 아이템은 1슬롯 레벨 3 (에픽장비류, 2슬롯 회복 아이템, 3슬롯 무기 부착물로 고정되어 있고 무기는 나오지 않는다. 한때 간간히 레벨4 (전설) 장비류가 나오기도 했지만 패치 이후로 나오지 않게 되었다. 케어 패키지의 크기도 크고, 미니맵에 보이지 않을 뿐이지 일반적인 케어 패키지처럼 푸른 기둥이 발생하며 착륙할 때 검은 연기로 된 궤적을 남김과 동시에 화면이 크게 떨리기 때문에 적들의 어그로를 끌기 좋으므로 주의해서 사용하여야 한다.</div>
                             </div>
-                            <div class="menu_tab03 mTs" id="panels" style="display: none;">
-                            3
-                            </div>
+                            
                                                  
                        </div>
                        <hr />

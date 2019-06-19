@@ -40,7 +40,7 @@
 
       <!-- Main -->
       <?php
-          include '../Regends.php' 
+          include 'Regends.php' 
          ?>
          <section id="main" class="wrapper">
                
@@ -65,16 +65,50 @@
                            </div>
                            
                            <div class="menu_tab00 mTs" id="panels" >
+                           <br/>
+                              <div style='text-weight:900;'>
+                              추적기 (Tracker)
+                              </div>   
+                           <br/>
+                              "적의 단서를 찾아냅니다."
+                           
+                           <br>
+                           <div style='font-weight: normal; color:black;'>
+
+<br>
+1분 이내의 적들의 흔적을 초단위로 시야에 띄워주는 형태의 패시브이다. 레인보우 식스 시즈의 자칼의 특수능력의 상위호환급 능력이라고 보면 될듯. 다만 그 간격이 궁극기 만큼 촘촘하지는 않고, 1분이 지나면 흔적이 사라지기 때문에 전투중에 도주한 적을 쫓아갈 때를 제외하고는 적을 "추적"하기는 힘들다. 물론 새로운 지역에 진입할 때 이곳에 누군가가 있었는지 정도를 유추하기에는 충분하다. 흔적에도 핑을 찍어 아군에게 알릴 수 있기 때문에 핑 기능을 활용하면 좋다. 캐릭터 자체가 정찰에 특화된만큼 이런 흔적들을 볼때마다 아군에게 핑을 찍어주거나 음성 대화로 말해주면 아군도 이에 맞춰 대응할 수 있기 때문에 아주 좋다.
+</div>
                             </div>
                             <div class="menu_tab01 mTs" id="panels" style="display: none;">
-                            1
+                            <br/>
+                              <div style='text-weight:900;'>
+                              신의 눈 (Eye of the Allfather)
+                              </div>   
+                           <br/>
+                              "앞쪽에 있는 모든 구조물에서 잠시 동안 적, 트랩, 단서를 드러냅니다."
+                           
+                           <br>
+                           <div style='font-weight: normal; color:black;'>
+
+<br>
+대신 범위가 전방만 보여줄만큼 좁은 편이라 딱 집 하나 정도의 거리밖에 커버하지 못하고, 스캔할 때 주황색 이펙트가 적에게도 보이니 괜히 적을 탐색할 목적으로 썼다가 적에게도 나의 존재를 광고하는 셈이 된다. 아닌 게 아니라 내가 스캔하는 범위는 코딱지만한 것에 반해, 주황색 구가 퍼져나가는 이펙트는 멀리서도 잘 보이니 오히려 어그로를 거하게 끌게 된다.
+</div>
                             </div>
                             <div class="menu_tab02 mTs" id="panels" style="display: none;">
-                            2
+                            <br/>
+                              <div style='text-weight:900;'>
+                              사냥의 야수 (Beast of the Hunt)
+                              </div>   
+                           <br/>
+                              "궁극의 사냥꾼으로 변신합니다.식은 흔적을 확인하고 빠르게 움직입니다."
+                           
+                           <br>
+                           <div style='font-weight: normal; color:black;'>
+
+<br>
+사용 시 약간의 스킬 사용시간 이후 화면이 흑백으로 변하고 이동 속도가 빨라지며 시야에 보이는 적들을 빨간 색으로 표시해준다. 적의 이동경로 또한 빨간 발자국으로 표시해주며 모든 흔적을 확인할 수 있게 된다. 코스틱의 가스나 방갈로르의 연막 안에서도 궁을 켜면 시야 방해 없이 볼 수 있어서 아군으로 조합하면 궁합이 좋고, 적으로 만나더라도 상대하기 편하다. 그다지 의미는 없지만 지속 시간 중에도 얼티밋 스킬 충전기를 사용할 수 있다. 주의해야 할 점은 시전 시 약간의 딜레이가 존재하는데, 이 동안 아무 행동도 불가능한 무방비 상태라는 것. 거기다 궁극기를 사용할 시 우렁찬 포효를 내지르기에 적들에게 들키기에도 딱 좋다. </div>
                             </div>
-                            <div class="menu_tab03 mTs" id="panels" style="display: none;">
-                            3
-                            </div>
+                            
                                                  
                        </div>
                        <hr />

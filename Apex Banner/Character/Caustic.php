@@ -40,7 +40,7 @@
 
       <!-- Main -->
       <?php
-          include '../Regends.php' 
+          include 'Regends.php' 
          ?>
          <section id="main" class="wrapper">
                
@@ -65,16 +65,50 @@
                            </div>
                            
                            <div class="menu_tab00 mTs" id="panels" >
+                           <br/>
+                              <div style='text-weight:900;'>
+                              녹스 비전 (Nox Vision)
+                              </div>   
+                           <br/>
+                              "가스 속을 이동하는 적들을 강조 표시합니다."
+                           
+                           <br>
+                           <div style='font-weight: normal; color:black;'>
+
+<br>
+녹스 가스 안에 적들이 초록색 실루엣으로 표시된다. 상대편 코스틱의 가스여도 표시가 된다. 다만 적이 가스로 대미지를 입어도 벽 너머에 있다면 실루엣이 표시되진 않는다. 가스에서 나와도 잠시동안은 표시가 되기 때문에 조건부지만 성능은 괜찮은 편.</div>
                             </div>
                             <div class="menu_tab01 mTs" id="panels" style="display: none;">
-                            1
+                            <br/>
+                              <div style='text-weight:900;'>
+                              녹스 가스 트랩 (Nox Gas Trap)
+                              </div>   
+                           <br/>
+                              "총에 맞거나 적이 건드리면 치명적인 녹스 가스를 방출하는 용기를 최대 6개 설치합니다."
+                           
+                           <br>
+                           <div style='font-weight: normal; color:black;'>
+
+<br>
+지뢰를 배치할 때에는 되도록 문 바로 옆이나 엄폐물 뒤, 혹은 정말 예상치 못한 곳 등 적의 사격이 닿지 않거나 쉽게 발견하기 어려운 위치에 설치해야 한다. 대놓고 마당이나 복도 한복판에 박아두면 특유의 생김새 때문에 멀리서도 잘 보인다. 그냥 몸체를 쏘면 터지지만 지뢰 아래쪽 검은 링 부분을 사격하여 안전하게 제거할수 있기 때문에 적에게 바로 보이는 자리가 아니면서도 적의 진입을 차단하거나 알려줄 수 있는 자리를 잘 선정해서 배치해야 한다. 또한 본인이 쏴서 터트릴 수 있는 점을 이용해 적이 트랩을 처리하지 못하게 미리미리 터트리거나 아군을 구할 때 연막처럼 이용할 수도 있다.</div>
                             </div>
                             <div class="menu_tab02 mTs" id="panels" style="display: none;">
-                            2
+                            <br/>
+                              <div style='text-weight:900;'>
+                              녹스 가스 수류탄 (Nox Gas Grenade)
+                              </div>   
+                           <br/>
+                              "넓은 지역을 녹스 가스로 뒤덮습니다."
+                           
+                           <br>
+                           <div style='font-weight: normal; color:black;'>
+
+<br>
+사용하면 녹스 가스 수류탄을 장착한다. 녹스 가스 수류탄을 장착하게 되면 궤적이 표시가 되고 마우스 왼쪽 버튼을 누르면 던질 수 있다. 엄청나게 넓은 범위는 아니지만 벙커 버스터 큰 방 하나 정도는 전부 뒤엎을 수 있을 정도에 범위를 가지고 있다. 
+<br>
+피해량과 슬로우는 녹스 가스 트랩과 똑같다. 하지만 트랩이라는 수동성 때문에 능동적인 활용이 불가능했던 전술 스킬에 비해 범위도 넓고 수류탄이라 유동적으로 사용이 가능한 것이 장점이다. 넓은 범위를 녹스 가스로 덮기 때문에 연막이나 접근 방지용으로도 사용 가능하고, 대놓고 적에게 던져 압도적인 우위를 가져가는 것도 가능하다.</div>
                             </div>
-                            <div class="menu_tab03 mTs" id="panels" style="display: none;">
-                            3
-                            </div>
+                            
                                                  
                        </div>
                        <hr />

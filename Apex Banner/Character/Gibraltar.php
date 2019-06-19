@@ -40,7 +40,7 @@
 
       <!-- Main -->
       <?php
-          include '../Regends.php' 
+          include 'Regends.php' 
          ?>
          <section id="main" class="wrapper">
                
@@ -65,16 +65,51 @@
                            </div>
                            
                            <div class="menu_tab00 mTs" id="panels" >
+                           <br/>
+                              <div style='text-weight:900;'>
+                              건 실드 (Gun Shield)
+                              </div>   
+                           <br/>
+                              "조준으로 적의 사격을 막는 실드를 전개합니다."
+                           
+                           <br>
+                           <div style='font-weight: normal; color:black;'>
+
+<br>
+조준하면 지브롤터의 팔에서 실드가 생긴다. 실드는 몸은 가려주지만 다리나 머리는 가려주지 않으며[3], 일정 이상 피해를 받을 경우 파괴되고 재충전까지 쿨타임이 돈다. 앉은 상태에서는 다리도 가려주며 조준 상태에서 H키를 눌러 키거나 끌 수 있다. 타이탄폴2의 리전의 건실드 스킬이 사람 사이즈로 줄어들었다고 이해하면 쉽다. 하지만 암실드가 켜져있는 채로 조준을 하고있는 지브롤터는 멀리에서도 주황색으로 암실드가 켜진게 보이니 교전중이 아니라면 끄고 있는게 조금이나마 도움이 된다. 쉴드량은 대략 50정도로 추정이였으나 1.1.1 패치로 75로 상향되었다.
+</div>
                             </div>
                             <div class="menu_tab01 mTs" id="panels" style="display: none;">
-                            1
+                            <br/>
+                              <div style='text-weight:900;'>
+                              보호의 돔 (Dome of Protection)
+                              </div>   
+                           <br/>
+                              "돔 실드를 투하하여 15초 동안 공격을 차단합니다."
+                           
+                           <br>
+                           <div style='font-weight: normal; color:black;'>
+
+<br>
+공격을 완벽히 차단하는 돔형 방벽을 설치한다. 피아와 방향을 구분하지 않고 모든 총격을 차단하기 때문에 방벽 안과 밖을 15초동안 완전히 분리하는 스킬이라고 생각하고 활용해야 한다. 총격은 물론이고 같은 지브롤터의 방어 포격까지 완벽하게 차단한다. 심지어 수류탄도 부딪쳐서 굴러 떨어지는 등 벽에 가까운 판정. 하지만 방벽이 유달리 튀는 편이라서 이쪽에 관심없던 다른 분대의 어그로를 끄는 편인데다가 이미 근접전 상황에 처했다면 역으로 적이 방벽을 오가며 농락할 수도 있다는 문제점이 있다.
+</div>
                             </div>
                             <div class="menu_tab02 mTs" id="panels" style="display: none;">
-                            2
+                            <br/>
+                              <div style='text-weight:900;'>
+                              방어 포격 (Defensive Bombardment)
+                              </div>   
+                           <br/>
+                              "연막 표시 위치에 집중 박격포 포격을 요청합니다."
+                           
+                           <br>
+                           <div style='font-weight: normal; color:black;'>
+
+<br>
+지정한 위치에 포격을 실행한다. 개개 포탄이 떨어질 위치가 미리 표시되기는 하지만 폭발까지의 딜레이가 매우 짧고 밀집도도 높으며 대미지도 강하기 때문에 범위 내에 있으면 거의 확실히 죽는다. 다만 적이 건물 안에 있다면 대미지를 전혀 받지 않으며 범위가 비교적 좁은 편이기 때문에 적이 피할 곳이 있는 상황이라면 큰 효과를 발휘하기 어렵다.
+</div>
                             </div>
-                            <div class="menu_tab03 mTs" id="panels" style="display: none;">
-                            3
-                            </div>
+                            
                                                  
                        </div>
                        <hr />

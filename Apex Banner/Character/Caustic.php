@@ -13,14 +13,14 @@
       <meta name="keywords" content="" />
       <link rel="stylesheet" href="../assets/css/main.css" />
       <link href="../css/CharacterStyle.css" rel="stylesheet" type="text/css">
-      
+
    </head>
-   
+
    <body class="is-preload">
       <!--top메뉴 포함-->
       <div>
          <?php
-          include 'menu.php' 
+          include 'menu.php'
          ?>
       </div>
 
@@ -34,27 +34,39 @@
             </ul>
          </nav>-->
 
-      <!-- Heading --> 
-   
-         
+      <!-- Heading -->
+
+
 
       <!-- Main -->
       <?php
-          include 'Regends.php' 
+          include 'Regends.php'
          ?>
          <section id="main" class="wrapper">
-               
+
             <div class="inner">
                <div class="content">
-                  
-    <!--캐릭터 설명-->              
+
+    <!--캐릭터 설명-->
                        <div>
-                          
+
                              <img class="character" src="../images/character/tall/Caustic-tall.png"/>
-                           
+                             <div class="regend">
+                                                        <h2> 방갈로르 Bangalore </h2>
+                             <div>
+                               <p class="regendBold">
+                             칭호 : 프로페셔널 병사(Professional Soldier)<br />
+                             본명 : 아니타 윌리엄스 (Anita Williams)<br />
+                             나이 : 35세<br /><br />
+                             </p>
+                             "방갈로르는 IMC의 무기 전문가였습니다. 그녀는 이제 Apex 게임에서 집으로 돌아가는 방법을 찾기 위해 싸웁니다.d"<br /><br />
+                             "Name the weapon--I'll still beat you. (아무 무기나 가져와 봐. 그래도 내가 널 이길테니.)"<br />
+                             </div>
+                             </div>
+
                        </div>
                        <hr />
-  <!--스킬메뉴탭-->                     
+  <!--스킬메뉴탭-->
                        <div class="skill">
                         <div class="menu_tab">
                            <ul>
@@ -63,15 +75,15 @@
                               <li><a href="#;" onclick="tab_menu(2);"><img src="../images/Skill/Caustic/Caustic_skill03.png" width="200"height="100"></a></li>
                                                  </ul>
                            </div>
-                           
+
                            <div class="menu_tab00 mTs" id="panels" >
                            <br/>
                               <div style='text-weight:900;'>
                               녹스 비전 (Nox Vision)
-                              </div>   
+                              </div>
                            <br/>
                               "가스 속을 이동하는 적들을 강조 표시합니다."
-                           
+
                            <br>
                            <div style='font-weight: normal; color:black;'>
 
@@ -82,10 +94,10 @@
                             <br/>
                               <div style='text-weight:900;'>
                               녹스 가스 트랩 (Nox Gas Trap)
-                              </div>   
+                              </div>
                            <br/>
                               "총에 맞거나 적이 건드리면 치명적인 녹스 가스를 방출하는 용기를 최대 6개 설치합니다."
-                           
+
                            <br>
                            <div style='font-weight: normal; color:black;'>
 
@@ -96,20 +108,20 @@
                             <br/>
                               <div style='text-weight:900;'>
                               녹스 가스 수류탄 (Nox Gas Grenade)
-                              </div>   
+                              </div>
                            <br/>
                               "넓은 지역을 녹스 가스로 뒤덮습니다."
-                           
+
                            <br>
                            <div style='font-weight: normal; color:black;'>
 
 <br>
-사용하면 녹스 가스 수류탄을 장착한다. 녹스 가스 수류탄을 장착하게 되면 궤적이 표시가 되고 마우스 왼쪽 버튼을 누르면 던질 수 있다. 엄청나게 넓은 범위는 아니지만 벙커 버스터 큰 방 하나 정도는 전부 뒤엎을 수 있을 정도에 범위를 가지고 있다. 
+사용하면 녹스 가스 수류탄을 장착한다. 녹스 가스 수류탄을 장착하게 되면 궤적이 표시가 되고 마우스 왼쪽 버튼을 누르면 던질 수 있다. 엄청나게 넓은 범위는 아니지만 벙커 버스터 큰 방 하나 정도는 전부 뒤엎을 수 있을 정도에 범위를 가지고 있다.
 <br>
 피해량과 슬로우는 녹스 가스 트랩과 똑같다. 하지만 트랩이라는 수동성 때문에 능동적인 활용이 불가능했던 전술 스킬에 비해 범위도 넓고 수류탄이라 유동적으로 사용이 가능한 것이 장점이다. 넓은 범위를 녹스 가스로 덮기 때문에 연막이나 접근 방지용으로도 사용 가능하고, 대놓고 적에게 던져 압도적인 우위를 가져가는 것도 가능하다.</div>
                             </div>
-                            
-                                                 
+
+
                        </div>
                        <hr />
                        <iframe width="100%" height="600px" src="https://www.youtube.com/embed/dSz8Dnj1pdI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -119,7 +131,7 @@
                           <img  src="../images/Story/Story_Caustic.jpg"/>
                        </div>
                        <br/>
-                       Before there was Caustic, a scientist named Alexander Nox worked at Humbert Labs, the Frontier’s leading manufacturer of pesticide gases. With a glut of pesticides needed to protect the growing Frontier colonies’ crops, Humbert Labs was constantly on the hunt for better and stronger formulas. Nox was one of their brightest scientists and worked day and night developing new gases. But to make sure they worked, he needed to test them on more than just inert tissue: he needed something living. 
+                       Before there was Caustic, a scientist named Alexander Nox worked at Humbert Labs, the Frontier’s leading manufacturer of pesticide gases. With a glut of pesticides needed to protect the growing Frontier colonies’ crops, Humbert Labs was constantly on the hunt for better and stronger formulas. Nox was one of their brightest scientists and worked day and night developing new gases. But to make sure they worked, he needed to test them on more than just inert tissue: he needed something living.
 <br/>
 <br/>
 
@@ -140,7 +152,7 @@ As he toiled in secret, Nox began to see the beauty in his creations and their a
 
       <!-- Footer -->
       <?php
-          require '../footer.php' 
+          require '../footer.php'
          ?>
 
       <!-- Scripts -->
@@ -152,6 +164,6 @@ As he toiled in secret, Nox began to see the beauty in his creations and their a
          <script src="http://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
          <script src="../js/js.js"></script>
 
-  
+
    </body>
 </html>

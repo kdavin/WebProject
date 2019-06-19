@@ -13,14 +13,14 @@
       <meta name="keywords" content="" />
       <link rel="stylesheet" href="../assets/css/main.css" />
       <link href="../css/CharacterStyle.css" rel="stylesheet" type="text/css">
-      
+
    </head>
-   
+
    <body class="is-preload">
       <!--top메뉴 포함-->
       <div>
          <?php
-          include 'menu.php' 
+          include 'menu.php'
          ?>
       </div>
 
@@ -34,27 +34,39 @@
             </ul>
          </nav>-->
 
-      <!-- Heading --> 
-   
-         
+      <!-- Heading -->
+
+
 
       <!-- Main -->
       <?php
-          include 'Regends.php' 
+          include 'Regends.php'
          ?>
          <section id="main" class="wrapper">
-               
+
             <div class="inner">
                <div class="content">
-                  
-    <!--캐릭터 설명-->              
+
+    <!--캐릭터 설명-->
                        <div>
-                          
+
                              <img class="character" src="../images/character/tall/octane-tall.png"/>
-                           
+                             <div class="regend">
+                                                        <h2> 방갈로르 Bangalore </h2>
+                             <div>
+                               <p class="regendBold">
+                             칭호 : 프로페셔널 병사(Professional Soldier)<br />
+                             본명 : 아니타 윌리엄스 (Anita Williams)<br />
+                             나이 : 35세<br /><br />
+                             </p>
+                             "방갈로르는 IMC의 무기 전문가였습니다. 그녀는 이제 Apex 게임에서 집으로 돌아가는 방법을 찾기 위해 싸웁니다.d"<br /><br />
+                             "Name the weapon--I'll still beat you. (아무 무기나 가져와 봐. 그래도 내가 널 이길테니.)"<br />
+                             </div>
+                             </div>
+
                        </div>
                        <hr />
-  <!--스킬메뉴탭-->                     
+  <!--스킬메뉴탭-->
   <div class="skill">
                         <div class="menu_tab">
                            <ul>
@@ -63,15 +75,15 @@
                               <li><a href="#;" onclick="tab_menu(2);"><img src="../images/Skill/Pathfinder/Pathfinder_skill03.png" width="200"height="100"></a></li>
                                                  </ul>
                            </div>
-                           
+
                            <div class="menu_tab00 mTs" id="panels" >
                            <br/>
                               <div style='text-weight:900;'>
                               빠른 치료 (Swift Mend)
-                              </div>   
+                              </div>
                            <br/>
                               "대미지를 받지 않을 때 2초당 1의 체력을 회복합니다."
-                           
+
                            <br>
                            <div style='font-weight: normal; color:black;'>
 
@@ -82,12 +94,12 @@
                             <br/>
                               <div style='text-weight:900;'>
                               자극제 (Stim)
-                              </div>   
+                              </div>
                            <br/>
                               "사용 시, 생명력이 소모되며 6초 동안 이동 속도가 30% 증가합니다.
 <br>
 활성화 중에는 감속 효과를 더 적게 받습니다."
-                           
+
                            <br>
                            <div style='font-weight: normal; color:black;'>
 
@@ -98,18 +110,18 @@
                             <br/>
                               <div style='text-weight:900;'>
                               런치 패드 (Launch Pad)
-                              </div>   
+                              </div>
                            <br/>
                               "사용자를 공중으로 쏘아 올리는 설치형 점프 패드입니다."
-                           
+
                            <br>
                            <div style='font-weight: normal; color:black;'>
 
 <br>
 문자 그대로 점프 패드. 위에 올라서면 기본 점프보다 훨씬 높이 올라갈 수 있다. 설치된 패드는 적이든 아군이든 아무나 활용할 수 있다. 수류탄이나 방갈로르의 연막탄 등 투척장비가 패드에 닿으면 그것 역시 튀어오른다. 기본적으로 패스파인더의 그래플링 훅처럼 높은 지형을 선점하는데 활용하기 좋다. 패드로 점프 중에는 행동에 어떤 제약도 없고 이동속도도 그래플링 훅보다 빠르기 때문에 더 안전한 편.[4]또한 설치 역시 거의 딜레이가 없기 때문에 전투 중에 사용해서 갑작스레 상대의 위를 점하거나 상대를 튕겨내는 등 의외의 상황을 만들어 볼 수도 있다.</div>
                             </div>
-                           
-                                                 
+
+
                        </div>
                        <hr />
                        <iframe width="100%" height="600px" src="https://www.youtube.com/embed/aOdTqvcEaZ8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -141,7 +153,7 @@ As he lay in triage hours later, the doctors informed him that the damage done t
 
       <!-- Footer -->
       <?php
-          require '../footer.php' 
+          require '../footer.php'
          ?>
 
       <!-- Scripts -->
@@ -153,6 +165,6 @@ As he lay in triage hours later, the doctors informed him that the damage done t
          <script src="http://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
          <script src="../js/js.js"></script>
 
-  
+
    </body>
 </html>

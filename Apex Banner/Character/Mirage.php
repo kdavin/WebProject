@@ -13,14 +13,14 @@
       <meta name="keywords" content="" />
       <link rel="stylesheet" href="../assets/css/main.css" />
       <link href="../css/CharacterStyle.css" rel="stylesheet" type="text/css">
-      
+
    </head>
-   
+
    <body class="is-preload">
       <!--top메뉴 포함-->
       <div>
          <?php
-          require 'menu.php' 
+          require 'menu.php'
          ?>
       </div>
 
@@ -34,28 +34,40 @@
             </ul>
          </nav>-->
 
-      <!-- Heading --> 
-   
-         
+      <!-- Heading -->
+
+
 
       <!-- Main -->
       <?php
-          require 'Regends.php' 
+          require 'Regends.php'
          ?>
          <section id="main" class="wrapper">
-               
+
             <div class="inner">
                <div class="content">
-                  
-    <!--캐릭터 설명-->              
+
+    <!--캐릭터 설명-->
                        <div>
-                          
+
                              <img class="character" src="../images/character/tall/mirage-tall.png" />
-                           
-                           
+                             <div class="regend">
+                                                        <h2> 방갈로르 Bangalore </h2>
+                             <div>
+                               <p class="regendBold">
+                             칭호 : 프로페셔널 병사(Professional Soldier)<br />
+                             본명 : 아니타 윌리엄스 (Anita Williams)<br />
+                             나이 : 35세<br /><br />
+                             </p>
+                             "방갈로르는 IMC의 무기 전문가였습니다. 그녀는 이제 Apex 게임에서 집으로 돌아가는 방법을 찾기 위해 싸웁니다.d"<br /><br />
+                             "Name the weapon--I'll still beat you. (아무 무기나 가져와 봐. 그래도 내가 널 이길테니.)"<br />
+                             </div>
+                             </div>
+
+
                        </div>
                        <hr />
-  <!--스킬메뉴탭-->                     
+  <!--스킬메뉴탭-->
                        <div class="skill">
                         <div class="menu_tab">
                            <ul>
@@ -64,15 +76,15 @@
                               <li><a href="#;" onclick="tab_menu(2);"><img src="../images/Skill/Mirage/Mirage_skill03.png" width="200"height="100"></a></li>
                                                  </ul>
                            </div>
-                           
+
                            <div class="menu_tab00 mTs" id="panels" >
                            <br/>
                               <div style='text-weight:900;'>
                               앙코르! (Encore!)
-                              </div>   
+                              </div>
                            <br/>
                               "쓰러지면 자동으로 미끼를 던지고 5초 동안 은폐합니다."
-                           
+
                            <br>
                            <div style='font-weight: normal; color:black;'>
 
@@ -84,10 +96,10 @@
                             <br/>
                               <div style='text-weight:900;'>
                               사이크 아웃 (Psyche Out)
-                              </div>   
+                              </div>
                            <br/>
                               "홀로그램 미끼를 보내 적을 혼란시킵니다."
-                           
+
                            <br>
                            <div style='font-weight: normal; color:black;'>
 
@@ -98,18 +110,18 @@
                             <br/>
                               <div style='text-weight:900;'>
                               소멸 (Vanishing Act)
-                              </div>   
+                              </div>
                            <br/>
                               "미라지가 미끼들을 뿌려 적의 눈을 속이고 자신은 은폐합니다."
-                           
+
                            <br>
                            <div style='font-weight: normal; color:black;'>
 
 <br>
 매우 많은 수의 미끼를 뿌리고 미라지는 은폐한다. 보통은 미끼는 그 자리에 서 있으나, 발판이 없는 공중에서 생성할시 미끼가 땅에 도달하게 되면 달린다. 은폐 중에는 무기나 아이템 사용, 아니, 사실상 뛰고 점프하는 짓 말고는 아무 것도 할 수 없는데, 그 대신 발소리가 들리지 않으며 은폐 상태에서는 코스틱의 함정 옆을 지나더라도 함정이 발동하지 않고, 눈먼 총알에 대미지를 입는다고 해도 은폐가 풀리지는 않는다.</div>
                             </div>
-                            
-                                                 
+
+
                        </div>
                        <hr />
 <<<<<<< Updated upstream
@@ -144,7 +156,7 @@ While working as a bartender to make ends meet, Mirage heard amazing stories fro
 
       <!-- Footer -->
       <?php
-          require '../footer.php' 
+          require '../footer.php'
          ?>
 
       <!-- Scripts -->
@@ -155,6 +167,6 @@ While working as a bartender to make ends meet, Mirage heard amazing stories fro
          <script src="../assets/js/main.js"></script>
          <script src="http://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
          <script src="../js/js.js"></script>
-  
+
    </body>
 </html>

@@ -13,14 +13,14 @@
       <meta name="keywords" content="" />
       <link rel="stylesheet" href="../assets/css/main.css" />
       <link href="../css/CharacterStyle.css" rel="stylesheet" type="text/css">
-      
+
    </head>
-   
+
    <body class="is-preload">
       <!--top메뉴 포함-->
       <div>
          <?php
-          include 'menu.php' 
+          include 'menu.php'
          ?>
       </div>
 
@@ -34,27 +34,39 @@
             </ul>
          </nav>-->
 
-      <!-- Heading --> 
-   
-         
+      <!-- Heading -->
+
+
 
       <!-- Main -->
       <?php
-          include 'Regends.php' 
+          include 'Regends.php'
          ?>
          <section id="main" class="wrapper">
-               
+
             <div class="inner">
                <div class="content">
-                  
-    <!--캐릭터 설명-->              
+
+    <!--캐릭터 설명-->
                        <div>
-                          
+
                              <img class="character" src="../images/character/tall/wraith-tall.png"/>
-                           
+                             <div class="regend">
+                                                        <h2> 방갈로르 Bangalore </h2>
+                             <div>
+                               <p class="regendBold">
+                             칭호 : 프로페셔널 병사(Professional Soldier)<br />
+                             본명 : 아니타 윌리엄스 (Anita Williams)<br />
+                             나이 : 35세<br /><br />
+                             </p>
+                             "방갈로르는 IMC의 무기 전문가였습니다. 그녀는 이제 Apex 게임에서 집으로 돌아가는 방법을 찾기 위해 싸웁니다.d"<br /><br />
+                             "Name the weapon--I'll still beat you. (아무 무기나 가져와 봐. 그래도 내가 널 이길테니.)"<br />
+                             </div>
+                             </div>
+
                        </div>
                        <hr />
-  <!--스킬메뉴탭-->                     
+  <!--스킬메뉴탭-->
                        <div class="skill">
                         <div class="menu_tab">
                            <ul>
@@ -63,17 +75,17 @@
                               <li><a href="#;" onclick="tab_menu(2);"><img src="../images/Wraith_skill03.png" width="200"height="100"></a></li>
                                                  </ul>
                            </div>
-                           
+
                            <div class="menu_tab00 mTs" id="panels"  >
                               <br/>
                               <div style='text-weight:900;'>
                               공허의 목소리(Voices from the Void)
-                              </div>   
+                              </div>
                            <br/>
                               "위험이 다가올 때 목소리가 들립니다.
                            <br/>
                            (아무래도 이 목소리는 당신 편인 것 같습니다.)"
-                           
+
                            <br>
                            <div style='font-weight: normal; color:black;'>
 
@@ -86,11 +98,11 @@
                             <br/>
                               <div style='text-weight:900;'>
                               공허 속으로 (Into the Void)
-                              </div>   
+                              </div>
                            <br/>
                            "안전한 '공허'에 들어가 모든 대미지를 피하고 빠르게 이동합니다."
-                           
-                           
+
+
                            <br>
                            <div style='font-weight: normal; color:black;'>
 
@@ -105,10 +117,10 @@
                             <br/>
                               <div style='text-weight:900;'>
                               차원 균열 (Dimensional Rift)
-                              </div>   
+                              </div>
                            <br/>
                               "60초 동안 2개의 지점을 포탈로 연결합니다."
-                           
+
                            <br>
                            <div style='font-weight: normal; color:black;'>
 
@@ -117,8 +129,8 @@
 적도 포탈을 사용할 수 있긴 하지만 적이 포탈을 탔을 때 선공권은 레이스 쪽에 있으므로 쉽게 접근하지 못한다.<br/>
 </div>
                             </div>
-                           
-                                                 
+
+
                        </div>
                        <hr />
                        <iframe width="100%" height="600px" src="https://www.youtube.com/embed/bglAJajZFx4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -149,7 +161,7 @@ Determined to uncover her true identity, Wraith began a quest to find out more a
 
       <!-- Footer -->
       <?php
-          require '../footer.php' 
+          require '../footer.php'
          ?>
 
       <!-- Scripts -->
@@ -161,6 +173,6 @@ Determined to uncover her true identity, Wraith began a quest to find out more a
          <script src="http://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
          <script src="../js/js.js"></script>
 
-  
+
    </body>
 </html>

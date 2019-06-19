@@ -13,14 +13,14 @@
       <meta name="keywords" content="" />
       <link rel="stylesheet" href="../assets/css/main.css" />
       <link href="../css/CharacterStyle.css" rel="stylesheet" type="text/css">
-      
+
    </head>
-   
+
    <body class="is-preload">
       <!--top메뉴 포함-->
       <div>
          <?php
-          include 'menu.php' 
+          include 'menu.php'
          ?>
       </div>
 
@@ -34,27 +34,39 @@
             </ul>
          </nav>-->
 
-      <!-- Heading --> 
-   
-         
+      <!-- Heading -->
+
+
 
       <!-- Main -->
       <?php
-          include 'Regends.php' 
+          include 'Regends.php'
          ?>
          <section id="main" class="wrapper">
-               
+
             <div class="inner">
                <div class="content">
-                  
-    <!--캐릭터 설명-->              
+
+    <!--캐릭터 설명-->
                        <div>
-                          
+
                              <img class="character" src="../images/character/tall/Gibraltar-tall.png"/>
-                           
+                             <div class="regend">
+                                                        <h2> 방갈로르 Bangalore </h2>
+                             <div>
+                               <p class="regendBold">
+                             칭호 : 프로페셔널 병사(Professional Soldier)<br />
+                             본명 : 아니타 윌리엄스 (Anita Williams)<br />
+                             나이 : 35세<br /><br />
+                             </p>
+                             "방갈로르는 IMC의 무기 전문가였습니다. 그녀는 이제 Apex 게임에서 집으로 돌아가는 방법을 찾기 위해 싸웁니다.d"<br /><br />
+                             "Name the weapon--I'll still beat you. (아무 무기나 가져와 봐. 그래도 내가 널 이길테니.)"<br />
+                             </div>
+                             </div>
+
                        </div>
                        <hr />
-  <!--스킬메뉴탭-->                     
+  <!--스킬메뉴탭-->
                        <div class="skill">
                         <div class="menu_tab">
                            <ul>
@@ -63,15 +75,15 @@
                               <li><a href="#;" onclick="tab_menu(2);"><img src="../images/Skill/Gibraltar/Gibraltar_skill03.png" width="200"height="100"></a></li>
                                                  </ul>
                            </div>
-                           
+
                            <div class="menu_tab00 mTs" id="panels" >
                            <br/>
                               <div style='text-weight:900;'>
                               건 실드 (Gun Shield)
-                              </div>   
+                              </div>
                            <br/>
                               "조준으로 적의 사격을 막는 실드를 전개합니다."
-                           
+
                            <br>
                            <div style='font-weight: normal; color:black;'>
 
@@ -83,10 +95,10 @@
                             <br/>
                               <div style='text-weight:900;'>
                               보호의 돔 (Dome of Protection)
-                              </div>   
+                              </div>
                            <br/>
                               "돔 실드를 투하하여 15초 동안 공격을 차단합니다."
-                           
+
                            <br>
                            <div style='font-weight: normal; color:black;'>
 
@@ -98,10 +110,10 @@
                             <br/>
                               <div style='text-weight:900;'>
                               방어 포격 (Defensive Bombardment)
-                              </div>   
+                              </div>
                            <br/>
                               "연막 표시 위치에 집중 박격포 포격을 요청합니다."
-                           
+
                            <br>
                            <div style='font-weight: normal; color:black;'>
 
@@ -109,8 +121,8 @@
 지정한 위치에 포격을 실행한다. 개개 포탄이 떨어질 위치가 미리 표시되기는 하지만 폭발까지의 딜레이가 매우 짧고 밀집도도 높으며 대미지도 강하기 때문에 범위 내에 있으면 거의 확실히 죽는다. 다만 적이 건물 안에 있다면 대미지를 전혀 받지 않으며 범위가 비교적 좁은 편이기 때문에 적이 피할 곳이 있는 상황이라면 큰 효과를 발휘하기 어렵다.
 </div>
                             </div>
-                            
-                                                 
+
+
                        </div>
                        <hr />
                        <iframe width="100%" height="600px" src="https://www.youtube.com/embed/ccDyztf9FjU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -141,7 +153,7 @@ The Apex Games didn’t change that, but they changed what it meant. Many of Gib
 
       <!-- Footer -->
       <?php
-          require '../footer.php' 
+          require '../footer.php'
          ?>
 
       <!-- Scripts -->
@@ -153,6 +165,6 @@ The Apex Games didn’t change that, but they changed what it meant. Many of Gib
          <script src="http://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
          <script src="../js/js.js"></script>
 
-  
+
    </body>
 </html>

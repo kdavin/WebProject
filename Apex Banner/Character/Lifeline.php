@@ -13,14 +13,14 @@
       <meta name="keywords" content="" />
       <link rel="stylesheet" href="../assets/css/main.css" />
       <link href="../css/CharacterStyle.css" rel="stylesheet" type="text/css">
-      
+
    </head>
-   
+
    <body class="is-preload">
       <!--top메뉴 포함-->
       <div>
          <?php
-          include 'menu.php' 
+          include 'menu.php'
          ?>
       </div>
 
@@ -34,27 +34,39 @@
             </ul>
          </nav>-->
 
-      <!-- Heading --> 
-   
-         
+      <!-- Heading -->
+
+
 
       <!-- Main -->
       <?php
-          include 'Regends.php' 
+          include 'Regends.php'
          ?>
          <section id="main" class="wrapper">
-               
+
             <div class="inner">
                <div class="content">
-                  
-    <!--캐릭터 설명-->              
+
+    <!--캐릭터 설명-->
                        <div>
-                          
+
                              <img class="character" src="../images/character/tall/Lifeline-tall.png"/>
-                           
+                             <div class="regend">
+                                                        <h2> 방갈로르 Bangalore </h2>
+                             <div>
+                               <p class="regendBold">
+                             칭호 : 프로페셔널 병사(Professional Soldier)<br />
+                             본명 : 아니타 윌리엄스 (Anita Williams)<br />
+                             나이 : 35세<br /><br />
+                             </p>
+                             "방갈로르는 IMC의 무기 전문가였습니다. 그녀는 이제 Apex 게임에서 집으로 돌아가는 방법을 찾기 위해 싸웁니다.d"<br /><br />
+                             "Name the weapon--I'll still beat you. (아무 무기나 가져와 봐. 그래도 내가 널 이길테니.)"<br />
+                             </div>
+                             </div>
+
                        </div>
                        <hr />
-  <!--스킬메뉴탭-->                     
+  <!--스킬메뉴탭-->
                        <div class="skill">
                         <div class="menu_tab">
                            <ul>
@@ -63,16 +75,16 @@
                               <li><a href="#;" onclick="tab_menu(2);"><img src="../images/Skill/Lifeline/Lifeline_skill03.png" width="200"height="100"></a></li>
                                                  </ul>
                            </div>
-                           
+
                            <div class="menu_tab00 mTs" id="panels" >
                            <br/>
                               <div style='text-weight:900;'>
                               전투 의무병 (Combat Medic)
-                              </div>   
+                              </div>
                            <br/>
                               "실드 방벽의 보호를 받으며 빨리 팀원을 회생시킵니다.<br>
 치유 아이템을 25% 빨리 사용합니다."
-                           
+
                            <br>
                            <div style='font-weight: normal; color:black;'>
 
@@ -84,10 +96,10 @@
                             <br/>
                               <div style='text-weight:900;'>
                               D.O.C 치유 드론 (D.O.C. Heal Drone)
-                              </div>   
+                              </div>
                            <br/>
                               "드론이 자동으로 주위의 대상을 치료합니다."
-                           
+
                            <br>
                            <div style='font-weight: normal; color:black;'>
 
@@ -99,18 +111,18 @@
                             <br/>
                               <div style='text-weight:900;'>
                               케어 패키지 (Care Package)
-                              </div>   
+                              </div>
                            <br/>
                               "고성능 장비로 가득 찬 드롭 포드를 소환합니다."
-                           
+
                            <br>
                            <div style='font-weight: normal; color:black;'>
 
 <br>
 하늘에서 케어 패키지를 불러온다. 일반 케어 패키지와 비교하면 낙하 속도가 훨씬 빠르고 미니맵에 표시되지도 않으며 라이프라인의 것은 하늘색 컬러링에 적십자 표시가 붙어있다. 3개의 아이템이 들어 있으며 모든 플레이어가 사용할 수 있다. 3개의 슬롯에 각각 나오는 아이템은 1슬롯 레벨 3 (에픽장비류, 2슬롯 회복 아이템, 3슬롯 무기 부착물로 고정되어 있고 무기는 나오지 않는다. 한때 간간히 레벨4 (전설) 장비류가 나오기도 했지만 패치 이후로 나오지 않게 되었다. 케어 패키지의 크기도 크고, 미니맵에 보이지 않을 뿐이지 일반적인 케어 패키지처럼 푸른 기둥이 발생하며 착륙할 때 검은 연기로 된 궤적을 남김과 동시에 화면이 크게 떨리기 때문에 적들의 어그로를 끌기 좋으므로 주의해서 사용하여야 한다.</div>
                             </div>
-                            
-                                                 
+
+
                        </div>
                        <hr />
                        <iframe width="100%" height="600px" src="https://www.youtube.com/embed/nxXFfe5X5qo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -141,7 +153,7 @@ Since no one in the Games is innocent — they all know what they signed up for 
 
       <!-- Footer -->
       <?php
-          require '../footer.php' 
+          require '../footer.php'
          ?>
 
       <!-- Scripts -->
@@ -153,6 +165,6 @@ Since no one in the Games is innocent — they all know what they signed up for 
          <script src="http://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
          <script src="../js/js.js"></script>
 
-  
+
    </body>
 </html>

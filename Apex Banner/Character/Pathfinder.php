@@ -13,14 +13,14 @@
       <meta name="keywords" content="" />
       <link rel="stylesheet" href="../assets/css/main.css" />
       <link href="../css/CharacterStyle.css" rel="stylesheet" type="text/css">
-      
+
    </head>
-   
+
    <body class="is-preload">
       <!--top메뉴 포함-->
       <div>
          <?php
-          include 'menu.php' 
+          include 'menu.php'
          ?>
       </div>
 
@@ -34,27 +34,39 @@
             </ul>
          </nav>-->
 
-      <!-- Heading --> 
-   
-         
+      <!-- Heading -->
+
+
 
       <!-- Main -->
       <?php
-          include 'Regends.php' 
+          include 'Regends.php'
          ?>
          <section id="main" class="wrapper">
-               
+
             <div class="inner">
                <div class="content">
-                  
-    <!--캐릭터 설명-->              
+
+    <!--캐릭터 설명-->
                        <div>
-                          
+
                              <img class="character" src="../images/character/tall/Pathfinder-tall.png"/>
-                           
+                             <div class="regend">
+                                                        <h2> 방갈로르 Bangalore </h2>
+                             <div>
+                               <p class="regendBold">
+                             칭호 : 프로페셔널 병사(Professional Soldier)<br />
+                             본명 : 아니타 윌리엄스 (Anita Williams)<br />
+                             나이 : 35세<br /><br />
+                             </p>
+                             "방갈로르는 IMC의 무기 전문가였습니다. 그녀는 이제 Apex 게임에서 집으로 돌아가는 방법을 찾기 위해 싸웁니다.d"<br /><br />
+                             "Name the weapon--I'll still beat you. (아무 무기나 가져와 봐. 그래도 내가 널 이길테니.)"<br />
+                             </div>
+                             </div>
+
                        </div>
                        <hr />
-  <!--스킬메뉴탭-->                     
+  <!--스킬메뉴탭-->
                        <div class="skill">
                         <div class="menu_tab">
                            <ul>
@@ -63,15 +75,15 @@
                               <li><a href="#;" onclick="tab_menu(2);"><img src="../images/Skill/Pathfinder/Pathfinder_skill03.png" width="200"height="100"></a></li>
                                                  </ul>
                            </div>
-                           
+
                            <div class="menu_tab00 mTs" id="panels" >
                            <br/>
                               <div style='text-weight:900;'>
                               내부 정보 (Insider Knowledge)
-                              </div>   
+                              </div>
                            <br/>
                               "조사 비컨을 스캔해 링의 다음 위치를 보여줍니다."
-                           
+
                            <br>
                            <div style='font-weight: normal; color:black;'>
 
@@ -83,10 +95,10 @@
                             <br/>
                               <div style='text-weight:900;'>
                               그래플링 훅 (Grappling Hook)
-                              </div>   
+                              </div>
                            <br/>
                               "접근하기 힘든 곳을 그래플로 빠르게 이동합니다."
-                           
+
                            <br>
                            <div style='font-weight: normal; color:black;'>
 
@@ -98,18 +110,18 @@
                             <br/>
                               <div style='text-weight:900;'>
                               집라인 건 (Zipline Gun)
-                              </div>   
+                              </div>
                            <br/>
                               "모두가 사용할 수 있는 집라인을 만듭니다."
-                           
+
                            <br>
                            <div style='font-weight: normal; color:black;'>
 
 <br>
-플레이어 모두 사용 가능한 영구적인 집라인을 건설한다. 거리가 꽤나 길어 높은 절벽, 혹은 집과 집 사이를 연결하거나 심지어 공중에 고정된 데스 박스에까지 아무런 문제 없이 집라인을 건설해 돌아다닐 수 있다. 또한 팀플레이시 라인을 사용해 팀 전체를 고지로 이동시켜 좋은 자리를 만들어 내는 것이 패스파인더의 주목적이라고 할 정도로 집라인은 엄청난 유틸성을 지니고 있다. 
+플레이어 모두 사용 가능한 영구적인 집라인을 건설한다. 거리가 꽤나 길어 높은 절벽, 혹은 집과 집 사이를 연결하거나 심지어 공중에 고정된 데스 박스에까지 아무런 문제 없이 집라인을 건설해 돌아다닐 수 있다. 또한 팀플레이시 라인을 사용해 팀 전체를 고지로 이동시켜 좋은 자리를 만들어 내는 것이 패스파인더의 주목적이라고 할 정도로 집라인은 엄청난 유틸성을 지니고 있다.
                             </div>
-                           
-                                                 
+
+
                        </div>
                        </div>
                        <hr />
@@ -142,7 +154,7 @@ Pathfinder has learned much in his travels since then (like how to make a mean E
 
       <!-- Footer -->
       <?php
-          require '../footer.php' 
+          require '../footer.php'
          ?>
 
       <!-- Scripts -->
@@ -154,6 +166,6 @@ Pathfinder has learned much in his travels since then (like how to make a mean E
          <script src="http://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
          <script src="../js/js.js"></script>
 
-  
+
    </body>
 </html>

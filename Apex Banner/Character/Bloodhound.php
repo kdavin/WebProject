@@ -13,14 +13,14 @@
       <meta name="keywords" content="" />
       <link rel="stylesheet" href="../assets/css/main.css" />
       <link href="../css/CharacterStyle.css" rel="stylesheet" type="text/css">
-      
+
    </head>
-   
+
    <body class="is-preload">
       <!--top메뉴 포함-->
       <div>
          <?php
-          include 'menu.php' 
+          include 'menu.php'
          ?>
       </div>
 
@@ -34,27 +34,39 @@
             </ul>
          </nav>-->
 
-      <!-- Heading --> 
-   
-         
+      <!-- Heading -->
+
+
 
       <!-- Main -->
       <?php
-          include 'Regends.php' 
+          include 'Regends.php'
          ?>
          <section id="main" class="wrapper">
-               
+
             <div class="inner">
                <div class="content">
-                  
-    <!--캐릭터 설명-->              
+
+    <!--캐릭터 설명-->
                        <div>
-                          
+
                              <img class="character" src="../images/character/tall/Bloodhound-tall.png"/>
-                           
+                             <div class="regend">
+                                                        <h2> 방갈로르 Bangalore </h2>
+                             <div>
+                               <p class="regendBold">
+                             칭호 : 프로페셔널 병사(Professional Soldier)<br />
+                             본명 : 아니타 윌리엄스 (Anita Williams)<br />
+                             나이 : 35세<br /><br />
+                             </p>
+                             "방갈로르는 IMC의 무기 전문가였습니다. 그녀는 이제 Apex 게임에서 집으로 돌아가는 방법을 찾기 위해 싸웁니다.d"<br /><br />
+                             "Name the weapon--I'll still beat you. (아무 무기나 가져와 봐. 그래도 내가 널 이길테니.)"<br />
+                             </div>
+                             </div>
+
                        </div>
                        <hr />
-  <!--스킬메뉴탭-->                     
+  <!--스킬메뉴탭-->
                        <div class="skill">
                         <div class="menu_tab">
                            <ul>
@@ -63,15 +75,15 @@
                               <li><a href="#;" onclick="tab_menu(2);"><img src="../images/Skill/Bloodhound/Bloodhound_skill03.png" width="200"height="100"></a></li>
                                                  </ul>
                            </div>
-                           
+
                            <div class="menu_tab00 mTs" id="panels" >
                            <br/>
                               <div style='text-weight:900;'>
                               추적기 (Tracker)
-                              </div>   
+                              </div>
                            <br/>
                               "적의 단서를 찾아냅니다."
-                           
+
                            <br>
                            <div style='font-weight: normal; color:black;'>
 
@@ -83,10 +95,10 @@
                             <br/>
                               <div style='text-weight:900;'>
                               신의 눈 (Eye of the Allfather)
-                              </div>   
+                              </div>
                            <br/>
                               "앞쪽에 있는 모든 구조물에서 잠시 동안 적, 트랩, 단서를 드러냅니다."
-                           
+
                            <br>
                            <div style='font-weight: normal; color:black;'>
 
@@ -98,18 +110,18 @@
                             <br/>
                               <div style='text-weight:900;'>
                               사냥의 야수 (Beast of the Hunt)
-                              </div>   
+                              </div>
                            <br/>
                               "궁극의 사냥꾼으로 변신합니다.식은 흔적을 확인하고 빠르게 움직입니다."
-                           
+
                            <br>
                            <div style='font-weight: normal; color:black;'>
 
 <br>
 사용 시 약간의 스킬 사용시간 이후 화면이 흑백으로 변하고 이동 속도가 빨라지며 시야에 보이는 적들을 빨간 색으로 표시해준다. 적의 이동경로 또한 빨간 발자국으로 표시해주며 모든 흔적을 확인할 수 있게 된다. 코스틱의 가스나 방갈로르의 연막 안에서도 궁을 켜면 시야 방해 없이 볼 수 있어서 아군으로 조합하면 궁합이 좋고, 적으로 만나더라도 상대하기 편하다. 그다지 의미는 없지만 지속 시간 중에도 얼티밋 스킬 충전기를 사용할 수 있다. 주의해야 할 점은 시전 시 약간의 딜레이가 존재하는데, 이 동안 아무 행동도 불가능한 무방비 상태라는 것. 거기다 궁극기를 사용할 시 우렁찬 포효를 내지르기에 적들에게 들키기에도 딱 좋다. </div>
                             </div>
-                            
-                                                 
+
+
                        </div>
                        <hr />
                        <iframe width="100%" height="600px" src="https://www.youtube.com/embed/euWTbVdRGv0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -140,7 +152,7 @@ All anyone truly knows is that Bloodhound is a force to be reckoned with in the 
 
       <!-- Footer -->
       <?php
-          require '../footer.php' 
+          require '../footer.php'
          ?>
 
       <!-- Scripts -->
@@ -152,6 +164,6 @@ All anyone truly knows is that Bloodhound is a force to be reckoned with in the 
          <script src="http://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
          <script src="../js/js.js"></script>
 
-  
+
    </body>
 </html>

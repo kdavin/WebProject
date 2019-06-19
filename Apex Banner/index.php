@@ -320,7 +320,7 @@
 							<div class="content">
 									<p style="font-family:SLANT;">WEAPON</p>
 									<br>
-									<a href="weaponPage.html">- WeaponPage</a>
+									<a href="weaponPage.php">- WeaponPage</a>
 								<div class="author">
 								</div>
 							</div>
@@ -329,7 +329,7 @@
 							<div class="content">
 									<p style="font-family:SLANT;">ITEMS</p>
 									<br>
-									<a href="itemPage.html">- ItemPage</a>
+									<a href="itemPage.php">- ItemPage</a>
 								<div class="author">
 								</div>
 							</div>
@@ -338,7 +338,7 @@
 							<div class="content">
 									<p style="font-family:SLANT;">MAP</p>
 									<div>
-										<a href="mapPage.html"><img src="images/map.jpg" width="100%" height="100%"></a>
+										<a href="mapPage.php"><img src="images/map.jpg" width="100%" height="100%"></a>
 									</div>
 								<div class="author">
 								</div>

@@ -58,9 +58,9 @@
                        <div class="skill">
                         <div class="menu_tab">
                            <ul>
-                              <li class="fst active"><a href="#;" onclick="tab_menu(0);"><img src="../images/Gibraltar_skill01.png" width="200"height="100"></a></li>
-                              <li><a href="#;" onclick="tab_menu(1);"><img src="../images/Gibraltar_skill02.png" width="200"height="100"></a></li>
-                              <li><a href="#;" onclick="tab_menu(2);"><img src="../images/Gibraltar_skill03.png" width="200"height="100"></a></li>
+                              <li class="fst active"><a href="#;" onclick="tab_menu(0);"><img src="../images/Skill/Gibraltar/Gibraltar_skill01.png" width="200"height="100"></a></li>
+                              <li><a href="#;" onclick="tab_menu(1);"><img src="../images/Skill/Gibraltar/Gibraltar_skill02.png" width="200"height="100"></a></li>
+                              <li><a href="#;" onclick="tab_menu(2);"><img src="../images/Skill/Gibraltar/Gibraltar_skill03.png" width="200"height="100"></a></li>
                                                  </ul>
                            </div>
                            

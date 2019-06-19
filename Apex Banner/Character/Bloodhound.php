@@ -58,9 +58,9 @@
                        <div class="skill">
                         <div class="menu_tab">
                            <ul>
-                              <li class="fst active"><a href="#;" onclick="tab_menu(0);"><img src="../images/Wraith_skill01.png" width="200"height="100"></a></li>
-                              <li><a href="#;" onclick="tab_menu(1);"><img src="../images/Wraith_skill02.png" width="200"height="100"></a></li>
-                              <li><a href="#;" onclick="tab_menu(2);"><img src="../images/Wraith_skill03.png" width="200"height="100"></a></li>
+                              <li class="fst active"><a href="#;" onclick="tab_menu(0);"><img src="../images/Bloodhound_skill01.png" width="200"height="100"></a></li>
+                              <li><a href="#;" onclick="tab_menu(1);"><img src="../images/Bloodhound_skill02.png" width="200"height="100"></a></li>
+                              <li><a href="#;" onclick="tab_menu(2);"><img src="../images/Bloodhound_skill03.png" width="200"height="100"></a></li>
                                                  </ul>
                            </div>
                            
@@ -82,7 +82,7 @@
                         <hr />
                           <div class="story" >
                           <div class="story_image">
-                          <img  src="../images/Story/Bloodhound_story.jpg"/>
+                          <img  src="../images/Story/Story_Bloodhound.jpg"/>
                        </div>
                        <br/>
                        Bloodhound is known across the Outlands as one of the greatest game hunters the Frontier has ever seen – and that’s about all anyone knows. Their identity is a mystery wrapped in layers of rumors: they are fabulously wealthy, a bloodthirsty murderer, a Goliath whisperer, a former slave, half bat, and a dozen other things depending on who’s doing the whispering.

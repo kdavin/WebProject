@@ -58,9 +58,9 @@
                        <div class="skill">
                         <div class="menu_tab">
                            <ul>
-                              <li class="fst active"><a href="#;" onclick="tab_menu(0);"><img src="../images/Wraith_skill01.png" width="200"height="100"></a></li>
-                              <li><a href="#;" onclick="tab_menu(1);"><img src="../images/Wraith_skill02.png" width="200"height="100"></a></li>
-                              <li><a href="#;" onclick="tab_menu(2);"><img src="../images/Wraith_skill03.png" width="200"height="100"></a></li>
+                              <li class="fst active"><a href="#;" onclick="tab_menu(0);"><img src="../images/Lifeline_skill01.png" width="200"height="100"></a></li>
+                              <li><a href="#;" onclick="tab_menu(1);"><img src="../images/Lifeline_skill02.png" width="200"height="100"></a></li>
+                              <li><a href="#;" onclick="tab_menu(2);"><img src="../images/Lifeline_skill03.png" width="200"height="100"></a></li>
                                                  </ul>
                            </div>
                            
@@ -82,7 +82,7 @@
                         <hr />
                           <div class="story" >
                           <div class="story_image">
-                          <img  src="../images/Story/Lifeline_story.jpg"/>
+                          <img  src="../images/Story/Story_Lifeline.jpg"/>
                        </div>
                        <br/>
                        Ajay Che, aka Lifeline, isn’t someone you would expect to find in the Apex Games. Once the child of wealthy war profiteers, she left home when she learned of the damage her family had caused and enlisted in the Frontier Corps, a humanitarian organization that aids Frontier communities in need. She’s since devoted her life to helping others and joined the Apex Games to fund the Frontier Corps with her winnings.

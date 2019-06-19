@@ -59,9 +59,9 @@
                        <div class="skill">
                         <div class="menu_tab">
                            <ul>
-                              <li class="fst active"><a href="#;" onclick="tab_menu(0);"><img src="../images/Wraith_skill01.png" width="200"height="100"></a></li>
-                              <li><a href="#;" onclick="tab_menu(1);"><img src="../images/Wraith_skill02.png" width="200"height="100"></a></li>
-                              <li><a href="#;" onclick="tab_menu(2);"><img src="../images/Wraith_skill03.png" width="200"height="100"></a></li>
+                              <li class="fst active"><a href="#;" onclick="tab_menu(0);"><img src="../images/Mirage_skill01.png" width="200"height="100"></a></li>
+                              <li><a href="#;" onclick="tab_menu(1);"><img src="../images/Mirage_skill02.png" width="200"height="100"></a></li>
+                              <li><a href="#;" onclick="tab_menu(2);"><img src="../images/Mirage_skill03.png" width="200"height="100"></a></li>
                                                  </ul>
                            </div>
                            
@@ -82,7 +82,7 @@
                        <hr />
                           <div class="story" >
                           <div class="story_image">
-                          <img  src="../images/Story/Mirage_story.jpg"/>
+                          <img  src="../images/Story/Story_Mirage.jpg"/>
                        </div>
                        <br/>
                        Mirage is the kind of guy who likes to stand out. The youngest of four brothers, he perfected the art of fooling around to get attention. The one thing he took seriously was Holo-Pilot technology: introduced to the illusion-creating tech by his engineer mother, he poured over the mechanisms and learned all he could about them. Even when his brothers went MIA during the Frontier War, Mirage and his mother continued to develop holo devices, and the work brought them closer.

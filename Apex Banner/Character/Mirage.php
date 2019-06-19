@@ -66,7 +66,7 @@
                            </div>
                            
                            <div class="menu_tab00 mTs" id="panels" >
-                              <iframe width="560" height="315" src="https://youtu.be/embed/gPHlrmyM8v4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                              
                             </div>
                             <div class="menu_tab01 mTs" id="panels" style="display: none;">
                             1
@@ -80,6 +80,8 @@
                                                  
                        </div>
                        <hr />
+                       <iframe width="100%" height="600px" src="https://youtu.be/gPHlrmyM8v4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <hr />
                           <div class="story" >
                           <div class="story_image">
                           <img  src="../images/Story/Story_Mirage.jpg"/>

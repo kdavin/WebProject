@@ -164,6 +164,7 @@ Since no one in the Games is innocent — they all know what they signed up for 
          <script src="../assets/js/main.js"></script>
          <script src="http://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
          <script src="../js/js.js"></script>
+         <script src="../js/regends.js"></script>
 
 
    </body>

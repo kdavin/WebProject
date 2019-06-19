@@ -164,6 +164,7 @@ As he lay in triage hours later, the doctors informed him that the damage done t
          <script src="../assets/js/main.js"></script>
          <script src="http://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
          <script src="../js/js.js"></script>
+         <script src="../js/regends.js"></script>
 
 
    </body>

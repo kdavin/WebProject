@@ -14,17 +14,19 @@
       <link rel="stylesheet" href="assets/css/main.css" />
       <link href="css/CharacterStyle.css" rel="stylesheet" type="text/css">
       <style>
-          
+          .none{
+             display:inline;
+          }
          </style>
    </head>
  <!--홈버튼 메뉴 호버-->
  <div id="myNav" class="overlay">
     <div class="overlay-content">
-       <a href="index.php">Main</a>
-       <a href="Character/Wraith.php">Character</a>
-       <a href="itemPage.php">Item</a>
-       <a href="weaponPage.php">Weapon</a>
-       <a href="mapPage.php">Map</a>
+       <a class="none" href="index.php">Main</a>
+       <a class="none" href="Character/Wraith.php">Character</a>
+       <a class="none" href="itemPage.php">Item</a>
+       <a class="none" href="weaponPage.php">Weapon</a>
+       <a class="none" href="mapPage.php">Map</a>
     </div>
   </div>
  <!-- Header -->
